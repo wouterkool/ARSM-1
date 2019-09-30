@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow.examples.tutorials.mnist import input_data
 import os
-import cPickle
+import pickle
 
 
 slim=tf.contrib.slim
@@ -127,11 +127,11 @@ total_valid_batch = int(mnist.validation.num_examples / batch_size)
 display_step = total_batch
 
 #%%
-def get_loss(sess,data,total_batch):
+def get_loss(sess,data,total_batch, fix_bug=False):
     cost_eval = []                  
     for j in range(total_batch):
         xs, _ = data.next_batch(batch_size)  
-        cost_eval.append(sess.run(neg_elbo0,{x:xs}))
+        cost_eval.append(sess.run(neg_elbo0,{x:xs} if not fix_bug else {x0:xs}))
     return np.mean(cost_eval)
 
 if __name__ == "__main__": 
@@ -160,12 +160,17 @@ if __name__ == "__main__":
         
         if epoch%1 == 0:
             COUNT.append(step); COST.append(np.mean(record)); TIME.append(time.time()-start)
-            COST_VALID.append(get_loss(sess,valid_data,total_valid_batch))
+            valid_cost = get_loss(sess,valid_data,total_valid_batch)
+            valid_cost_fix_bug = get_loss(sess, valid_data, total_valid_batch, fix_bug=True)
+            COST_VALID.append(valid_cost)
+            print('valid cost = ', valid_cost, ', valid cost (fix bug) = ', valid_cost_fix_bug)
+
         if epoch%5 == 0:
             epoch_list.append(epoch)
             time_list.append(time.time()-start)
             all_ = [COUNT,COST,TIME,COST_TEST,COST_VALID,epoch_list,time_list,evidence_r]
-            cPickle.dump(all_, open(directory+EXPERIMENT, 'wb'))
+            with open(directory + EXPERIMENT, 'wb') as f:
+                pickle.dump(all_, f)
  
     print(EXPERIMENT)
 
