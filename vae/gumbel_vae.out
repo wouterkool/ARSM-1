@@ -1,0 +1,2006 @@
+Extracting /home/wouter/dev/ARSM-1/vae/MNIST/train-images-idx3-ubyte.gz
+Extracting /home/wouter/dev/ARSM-1/vae/MNIST/train-labels-idx1-ubyte.gz
+Extracting /home/wouter/dev/ARSM-1/vae/MNIST/t10k-images-idx3-ubyte.gz
+Extracting /home/wouter/dev/ARSM-1/vae/MNIST/t10k-labels-idx1-ubyte.gz
+Training starts.... Gumbel-Softmax
+0 cost= 275.50198 with std= 111.24878
+valid cost =  204.14395 , valid cost (fix bug) =  203.94696
+1 cost= 199.63014 with std= 4.606227
+valid cost =  195.81516 , valid cost (fix bug) =  195.07828
+2 cost= 192.85773 with std= 3.663064
+valid cost =  189.86427 , valid cost (fix bug) =  188.63145
+3 cost= 183.65292 with std= 4.331228
+valid cost =  180.50467 , valid cost (fix bug) =  178.27621
+4 cost= 170.71619 with std= 5.4467235
+valid cost =  166.95515 , valid cost (fix bug) =  163.51079
+5 cost= 160.98802 with std= 3.5166216
+valid cost =  161.61273 , valid cost (fix bug) =  157.63585
+6 cost= 156.26608 with std= 3.2473912
+valid cost =  157.73601 , valid cost (fix bug) =  153.41454
+7 cost= 152.3866 with std= 3.2412097
+valid cost =  155.47336 , valid cost (fix bug) =  149.7329
+8 cost= 148.87692 with std= 3.366031
+valid cost =  151.97032 , valid cost (fix bug) =  146.06868
+9 cost= 145.39842 with std= 3.1104393
+valid cost =  149.38858 , valid cost (fix bug) =  143.07138
+10 cost= 142.56273 with std= 3.384526
+valid cost =  146.83902 , valid cost (fix bug) =  140.83276
+11 cost= 140.3541 with std= 2.9795876
+valid cost =  145.4697 , valid cost (fix bug) =  138.45425
+12 cost= 138.43057 with std= 3.0678432
+valid cost =  143.66576 , valid cost (fix bug) =  136.9471
+13 cost= 136.66415 with std= 2.950212
+valid cost =  141.95285 , valid cost (fix bug) =  135.2341
+14 cost= 135.11469 with std= 2.977825
+valid cost =  140.87683 , valid cost (fix bug) =  133.504
+15 cost= 133.6282 with std= 2.8042023
+valid cost =  139.65785 , valid cost (fix bug) =  131.90866
+16 cost= 132.21269 with std= 2.9097745
+valid cost =  138.73003 , valid cost (fix bug) =  130.89993
+17 cost= 131.0049 with std= 2.6051288
+valid cost =  137.848 , valid cost (fix bug) =  129.54202
+18 cost= 129.92516 with std= 2.7090182
+valid cost =  136.86307 , valid cost (fix bug) =  128.36218
+19 cost= 128.81187 with std= 2.844073
+valid cost =  136.33072 , valid cost (fix bug) =  127.39614
+20 cost= 127.93639 with std= 2.6680238
+valid cost =  135.61632 , valid cost (fix bug) =  126.81869
+21 cost= 127.11508 with std= 2.6606915
+valid cost =  134.97556 , valid cost (fix bug) =  126.03431
+22 cost= 126.26071 with std= 2.8168035
+valid cost =  134.1994 , valid cost (fix bug) =  124.6782
+23 cost= 125.416405 with std= 2.6885915
+valid cost =  133.68817 , valid cost (fix bug) =  124.122314
+24 cost= 124.653564 with std= 2.8682935
+valid cost =  133.04366 , valid cost (fix bug) =  123.2719
+25 cost= 123.95268 with std= 2.7793283
+valid cost =  132.4495 , valid cost (fix bug) =  122.579926
+26 cost= 123.1702 with std= 2.563575
+valid cost =  131.94235 , valid cost (fix bug) =  122.20645
+27 cost= 122.569984 with std= 2.5704072
+valid cost =  131.3341 , valid cost (fix bug) =  121.349724
+28 cost= 121.96152 with std= 2.6325538
+valid cost =  131.1614 , valid cost (fix bug) =  120.84581
+29 cost= 121.36094 with std= 2.4836383
+valid cost =  130.80804 , valid cost (fix bug) =  120.380035
+30 cost= 120.71372 with std= 2.4093032
+valid cost =  130.41281 , valid cost (fix bug) =  119.73232
+31 cost= 120.24554 with std= 2.5429761
+valid cost =  129.74222 , valid cost (fix bug) =  119.471085
+32 cost= 119.80429 with std= 2.5343313
+valid cost =  129.62718 , valid cost (fix bug) =  118.79139
+33 cost= 119.33118 with std= 2.540243
+valid cost =  129.14888 , valid cost (fix bug) =  118.633
+34 cost= 118.892624 with std= 2.4065464
+valid cost =  128.62738 , valid cost (fix bug) =  117.80712
+35 cost= 118.456024 with std= 2.647087
+valid cost =  128.81169 , valid cost (fix bug) =  117.39771
+36 cost= 117.989334 with std= 2.4758115
+valid cost =  127.72551 , valid cost (fix bug) =  117.17694
+37 cost= 117.62908 with std= 2.3550954
+valid cost =  127.76643 , valid cost (fix bug) =  116.93989
+38 cost= 117.17213 with std= 2.6033268
+valid cost =  127.6876 , valid cost (fix bug) =  116.454475
+39 cost= 116.889534 with std= 2.3619444
+valid cost =  127.8036 , valid cost (fix bug) =  116.19725
+40 cost= 116.40833 with std= 2.366378
+valid cost =  127.358475 , valid cost (fix bug) =  115.57245
+41 cost= 116.262794 with std= 2.5486012
+valid cost =  126.90094 , valid cost (fix bug) =  115.351074
+42 cost= 115.77924 with std= 2.434317
+valid cost =  126.454475 , valid cost (fix bug) =  115.35485
+43 cost= 115.49395 with std= 2.450363
+valid cost =  127.0677 , valid cost (fix bug) =  114.941925
+44 cost= 115.159615 with std= 2.5836024
+valid cost =  126.138275 , valid cost (fix bug) =  114.5467
+45 cost= 114.870056 with std= 2.3439877
+valid cost =  125.4692 , valid cost (fix bug) =  114.49256
+46 cost= 114.47333 with std= 2.2637153
+valid cost =  125.91837 , valid cost (fix bug) =  113.73322
+47 cost= 114.3034 with std= 2.3775933
+valid cost =  125.40365 , valid cost (fix bug) =  113.6642
+48 cost= 114.00127 with std= 2.516531
+valid cost =  125.0542 , valid cost (fix bug) =  113.51022
+49 cost= 113.68723 with std= 2.2353737
+valid cost =  125.2539 , valid cost (fix bug) =  113.03985
+50 cost= 113.51732 with std= 2.3325021
+valid cost =  125.13355 , valid cost (fix bug) =  112.96194
+51 cost= 113.18626 with std= 2.3641984
+valid cost =  125.05265 , valid cost (fix bug) =  112.8112
+52 cost= 112.89014 with std= 2.2829244
+valid cost =  124.81072 , valid cost (fix bug) =  112.35681
+53 cost= 112.70184 with std= 2.414748
+valid cost =  124.601776 , valid cost (fix bug) =  112.17037
+54 cost= 112.44943 with std= 2.4293723
+valid cost =  123.962166 , valid cost (fix bug) =  112.03781
+55 cost= 112.20909 with std= 2.3340113
+valid cost =  124.228935 , valid cost (fix bug) =  111.47255
+56 cost= 111.94557 with std= 2.444016
+valid cost =  124.0755 , valid cost (fix bug) =  111.81785
+57 cost= 111.7871 with std= 2.4315975
+valid cost =  123.55135 , valid cost (fix bug) =  111.186516
+58 cost= 111.54899 with std= 2.5406876
+valid cost =  123.5497 , valid cost (fix bug) =  110.8146
+59 cost= 111.32762 with std= 2.237766
+valid cost =  123.34324 , valid cost (fix bug) =  110.6381
+60 cost= 111.11354 with std= 2.3425682
+valid cost =  123.476715 , valid cost (fix bug) =  110.60851
+61 cost= 110.980675 with std= 2.3923008
+valid cost =  122.94611 , valid cost (fix bug) =  110.2196
+62 cost= 110.76573 with std= 2.3789809
+valid cost =  123.13235 , valid cost (fix bug) =  110.17428
+63 cost= 110.47399 with std= 2.2486029
+valid cost =  122.81424 , valid cost (fix bug) =  110.25423
+64 cost= 110.316536 with std= 2.2039704
+valid cost =  123.2672 , valid cost (fix bug) =  110.28199
+65 cost= 110.16003 with std= 2.4042342
+valid cost =  122.41536 , valid cost (fix bug) =  109.57305
+66 cost= 109.896194 with std= 2.407054
+valid cost =  122.34185 , valid cost (fix bug) =  109.3683
+67 cost= 109.78099 with std= 2.3042727
+valid cost =  122.86446 , valid cost (fix bug) =  109.175964
+68 cost= 109.50565 with std= 2.1908894
+valid cost =  122.18358 , valid cost (fix bug) =  108.9929
+69 cost= 109.4845 with std= 2.398306
+valid cost =  121.88075 , valid cost (fix bug) =  108.95381
+70 cost= 109.16415 with std= 2.382572
+valid cost =  122.06085 , valid cost (fix bug) =  108.85078
+71 cost= 109.03989 with std= 2.4358833
+valid cost =  121.49255 , valid cost (fix bug) =  108.47186
+72 cost= 108.90381 with std= 2.293431
+valid cost =  121.5708 , valid cost (fix bug) =  108.19633
+73 cost= 108.707184 with std= 2.2451098
+valid cost =  121.65098 , valid cost (fix bug) =  108.39385
+74 cost= 108.50666 with std= 2.2570145
+valid cost =  121.16708 , valid cost (fix bug) =  108.29018
+75 cost= 108.43936 with std= 2.1011353
+valid cost =  121.4781 , valid cost (fix bug) =  108.07916
+76 cost= 108.264145 with std= 2.1265523
+valid cost =  121.370636 , valid cost (fix bug) =  107.859825
+77 cost= 108.21377 with std= 2.253806
+valid cost =  121.4017 , valid cost (fix bug) =  107.8365
+78 cost= 107.99545 with std= 2.1692154
+valid cost =  121.2657 , valid cost (fix bug) =  107.81311
+79 cost= 107.84591 with std= 2.462426
+valid cost =  120.93717 , valid cost (fix bug) =  107.60904
+80 cost= 107.69395 with std= 2.3173187
+valid cost =  121.1625 , valid cost (fix bug) =  107.49957
+81 cost= 107.58526 with std= 2.5192232
+valid cost =  120.78863 , valid cost (fix bug) =  107.175064
+82 cost= 107.32201 with std= 2.3061254
+valid cost =  120.831276 , valid cost (fix bug) =  107.3913
+83 cost= 107.314575 with std= 2.3989236
+valid cost =  120.67593 , valid cost (fix bug) =  107.10953
+84 cost= 107.16588 with std= 2.124748
+valid cost =  121.2016 , valid cost (fix bug) =  106.95245
+85 cost= 107.03926 with std= 2.3271449
+valid cost =  120.22558 , valid cost (fix bug) =  106.605
+86 cost= 106.818634 with std= 2.4515562
+valid cost =  120.91422 , valid cost (fix bug) =  106.78706
+87 cost= 106.78192 with std= 2.4311194
+valid cost =  120.3651 , valid cost (fix bug) =  106.59968
+88 cost= 106.66007 with std= 2.0512009
+valid cost =  120.22135 , valid cost (fix bug) =  106.41605
+89 cost= 106.49494 with std= 2.330827
+valid cost =  120.578674 , valid cost (fix bug) =  106.214165
+90 cost= 106.40003 with std= 2.082559
+valid cost =  120.181335 , valid cost (fix bug) =  106.42728
+91 cost= 106.26568 with std= 2.2865689
+valid cost =  120.0698 , valid cost (fix bug) =  105.888565
+92 cost= 106.13952 with std= 2.2630775
+valid cost =  119.984 , valid cost (fix bug) =  105.974724
+93 cost= 106.05254 with std= 2.2353303
+valid cost =  119.5399 , valid cost (fix bug) =  106.11167
+94 cost= 105.84517 with std= 2.3593235
+valid cost =  120.02085 , valid cost (fix bug) =  105.84387
+95 cost= 105.753456 with std= 2.4031382
+valid cost =  119.8164 , valid cost (fix bug) =  105.6033
+96 cost= 105.68568 with std= 2.259634
+valid cost =  119.83263 , valid cost (fix bug) =  105.48579
+97 cost= 105.59541 with std= 2.1500242
+valid cost =  119.31905 , valid cost (fix bug) =  105.56912
+98 cost= 105.43951 with std= 2.4814477
+valid cost =  119.410225 , valid cost (fix bug) =  105.2549
+99 cost= 105.34992 with std= 2.2862623
+valid cost =  119.7339 , valid cost (fix bug) =  105.10515
+100 cost= 105.254234 with std= 2.3884032
+valid cost =  119.307175 , valid cost (fix bug) =  105.0257
+101 cost= 105.170395 with std= 2.1088178
+valid cost =  119.02839 , valid cost (fix bug) =  104.99667
+102 cost= 105.10087 with std= 2.2967734
+valid cost =  119.29795 , valid cost (fix bug) =  104.94
+103 cost= 104.92554 with std= 2.2158241
+valid cost =  119.13248 , valid cost (fix bug) =  104.870125
+104 cost= 104.88369 with std= 2.1893673
+valid cost =  119.41931 , valid cost (fix bug) =  104.46922
+105 cost= 104.78418 with std= 2.251013
+valid cost =  119.35835 , valid cost (fix bug) =  104.74375
+106 cost= 104.61278 with std= 2.2451642
+valid cost =  119.23723 , valid cost (fix bug) =  104.71507
+107 cost= 104.5331 with std= 2.2611034
+valid cost =  119.228 , valid cost (fix bug) =  104.585785
+108 cost= 104.46663 with std= 2.2679212
+valid cost =  118.83895 , valid cost (fix bug) =  104.52418
+109 cost= 104.355644 with std= 2.279234
+valid cost =  118.6284 , valid cost (fix bug) =  104.52667
+110 cost= 104.274155 with std= 2.3919523
+valid cost =  118.84138 , valid cost (fix bug) =  104.299866
+111 cost= 104.13879 with std= 2.227202
+valid cost =  118.75648 , valid cost (fix bug) =  104.10293
+112 cost= 104.132385 with std= 2.1426182
+valid cost =  118.73994 , valid cost (fix bug) =  104.01284
+113 cost= 104.04158 with std= 2.3468845
+valid cost =  118.94901 , valid cost (fix bug) =  104.357635
+114 cost= 103.95821 with std= 2.1102784
+valid cost =  118.85783 , valid cost (fix bug) =  104.07621
+115 cost= 103.83899 with std= 2.2795308
+valid cost =  118.34379 , valid cost (fix bug) =  103.92828
+116 cost= 103.801346 with std= 2.2727208
+valid cost =  118.84898 , valid cost (fix bug) =  103.82247
+117 cost= 103.72528 with std= 2.299759
+valid cost =  118.32129 , valid cost (fix bug) =  103.73862
+118 cost= 103.58907 with std= 2.2718492
+valid cost =  118.896576 , valid cost (fix bug) =  103.711914
+119 cost= 103.5049 with std= 2.22653
+valid cost =  118.56152 , valid cost (fix bug) =  103.66527
+120 cost= 103.43256 with std= 2.2053542
+valid cost =  118.149124 , valid cost (fix bug) =  103.52029
+121 cost= 103.36759 with std= 2.287773
+valid cost =  118.22239 , valid cost (fix bug) =  103.42971
+122 cost= 103.326965 with std= 2.21045
+valid cost =  118.509315 , valid cost (fix bug) =  102.9511
+123 cost= 103.237526 with std= 2.3463616
+valid cost =  118.13166 , valid cost (fix bug) =  103.40642
+124 cost= 103.15353 with std= 2.1633444
+valid cost =  118.19015 , valid cost (fix bug) =  103.31374
+125 cost= 103.12258 with std= 2.1280534
+valid cost =  117.859276 , valid cost (fix bug) =  103.43212
+126 cost= 103.01858 with std= 2.1185975
+valid cost =  117.9831 , valid cost (fix bug) =  103.15942
+127 cost= 102.88588 with std= 2.2625356
+valid cost =  117.96047 , valid cost (fix bug) =  102.78489
+128 cost= 102.82151 with std= 2.2896695
+valid cost =  118.07531 , valid cost (fix bug) =  103.128845
+129 cost= 102.75939 with std= 2.32532
+valid cost =  118.06732 , valid cost (fix bug) =  103.03291
+130 cost= 102.70934 with std= 2.1527674
+valid cost =  118.1643 , valid cost (fix bug) =  102.8402
+131 cost= 102.57684 with std= 2.304661
+valid cost =  118.240524 , valid cost (fix bug) =  102.79181
+132 cost= 102.641716 with std= 2.1640158
+valid cost =  117.964775 , valid cost (fix bug) =  102.83369
+133 cost= 102.51314 with std= 2.3565743
+valid cost =  117.953125 , valid cost (fix bug) =  102.67268
+134 cost= 102.51169 with std= 2.1190457
+valid cost =  117.63667 , valid cost (fix bug) =  103.07352
+135 cost= 102.417816 with std= 2.3465056
+valid cost =  117.43852 , valid cost (fix bug) =  102.6808
+136 cost= 102.352974 with std= 2.1779177
+valid cost =  117.74775 , valid cost (fix bug) =  102.590805
+137 cost= 102.298294 with std= 2.1121516
+valid cost =  117.549385 , valid cost (fix bug) =  102.85137
+138 cost= 102.2377 with std= 2.0848165
+valid cost =  117.35765 , valid cost (fix bug) =  102.521126
+139 cost= 102.13709 with std= 2.2757401
+valid cost =  117.59161 , valid cost (fix bug) =  102.53573
+140 cost= 102.054634 with std= 2.077288
+valid cost =  117.87063 , valid cost (fix bug) =  102.310814
+141 cost= 101.97919 with std= 2.3332436
+valid cost =  117.638214 , valid cost (fix bug) =  102.55277
+142 cost= 101.93478 with std= 2.1255429
+valid cost =  117.56065 , valid cost (fix bug) =  102.45885
+143 cost= 101.925224 with std= 2.2297947
+valid cost =  117.48921 , valid cost (fix bug) =  102.30021
+144 cost= 101.84071 with std= 2.2068527
+valid cost =  117.511284 , valid cost (fix bug) =  102.23119
+145 cost= 101.851875 with std= 2.144271
+valid cost =  117.23415 , valid cost (fix bug) =  102.04741
+146 cost= 101.761406 with std= 2.1921132
+valid cost =  117.202576 , valid cost (fix bug) =  102.003044
+147 cost= 101.68561 with std= 2.1346865
+valid cost =  117.4583 , valid cost (fix bug) =  101.88551
+148 cost= 101.63429 with std= 2.1551037
+valid cost =  117.36817 , valid cost (fix bug) =  102.13854
+149 cost= 101.625755 with std= 2.328385
+valid cost =  117.284485 , valid cost (fix bug) =  102.30128
+150 cost= 101.49224 with std= 2.443014
+valid cost =  117.45007 , valid cost (fix bug) =  101.69231
+151 cost= 101.4279 with std= 2.065663
+valid cost =  117.56035 , valid cost (fix bug) =  101.7029
+152 cost= 101.4105 with std= 2.1387153
+valid cost =  117.1684 , valid cost (fix bug) =  101.94783
+153 cost= 101.47509 with std= 2.3790355
+valid cost =  117.11378 , valid cost (fix bug) =  101.78771
+154 cost= 101.33723 with std= 2.0100212
+valid cost =  117.32935 , valid cost (fix bug) =  101.70012
+155 cost= 101.24817 with std= 2.1675398
+valid cost =  116.82141 , valid cost (fix bug) =  101.39188
+156 cost= 101.2189 with std= 2.0884995
+valid cost =  117.09412 , valid cost (fix bug) =  101.67495
+157 cost= 101.1676 with std= 2.2358432
+valid cost =  117.4122 , valid cost (fix bug) =  101.53147
+158 cost= 101.088066 with std= 2.1968212
+valid cost =  117.00437 , valid cost (fix bug) =  101.590004
+159 cost= 101.03844 with std= 2.086144
+valid cost =  116.92062 , valid cost (fix bug) =  101.579384
+160 cost= 101.05543 with std= 2.2658765
+valid cost =  116.80332 , valid cost (fix bug) =  101.47852
+161 cost= 100.98024 with std= 2.2382226
+valid cost =  116.991425 , valid cost (fix bug) =  101.460075
+162 cost= 100.97979 with std= 2.0940971
+valid cost =  116.80335 , valid cost (fix bug) =  101.22921
+163 cost= 100.875626 with std= 2.13554
+valid cost =  116.56964 , valid cost (fix bug) =  101.28702
+164 cost= 100.877884 with std= 2.1702461
+valid cost =  116.7784 , valid cost (fix bug) =  101.15309
+165 cost= 100.78021 with std= 2.1810043
+valid cost =  116.90075 , valid cost (fix bug) =  101.30675
+166 cost= 100.69053 with std= 2.2777486
+valid cost =  116.29748 , valid cost (fix bug) =  101.29151
+167 cost= 100.64511 with std= 2.3011947
+valid cost =  116.54043 , valid cost (fix bug) =  101.297295
+168 cost= 100.64224 with std= 2.2645087
+valid cost =  116.96583 , valid cost (fix bug) =  101.28863
+169 cost= 100.54578 with std= 2.2298064
+valid cost =  116.50067 , valid cost (fix bug) =  100.91695
+170 cost= 100.55561 with std= 2.2312372
+valid cost =  116.46783 , valid cost (fix bug) =  101.06996
+171 cost= 100.49977 with std= 2.2137368
+valid cost =  116.32535 , valid cost (fix bug) =  101.065186
+172 cost= 100.47068 with std= 2.280918
+valid cost =  116.69571 , valid cost (fix bug) =  100.89162
+173 cost= 100.407776 with std= 2.3042293
+valid cost =  116.5319 , valid cost (fix bug) =  101.200584
+174 cost= 100.47642 with std= 1.9919828
+valid cost =  116.40132 , valid cost (fix bug) =  100.85711
+175 cost= 100.27645 with std= 1.9864985
+valid cost =  116.728 , valid cost (fix bug) =  100.949486
+176 cost= 100.30149 with std= 2.06977
+valid cost =  116.54907 , valid cost (fix bug) =  100.958984
+177 cost= 100.240906 with std= 2.1330085
+valid cost =  116.68019 , valid cost (fix bug) =  101.14625
+178 cost= 100.21947 with std= 2.1596577
+valid cost =  116.70467 , valid cost (fix bug) =  100.95595
+179 cost= 100.106026 with std= 2.0606809
+valid cost =  116.1453 , valid cost (fix bug) =  100.95579
+180 cost= 100.17891 with std= 2.1381798
+valid cost =  116.40233 , valid cost (fix bug) =  100.80935
+181 cost= 100.13998 with std= 2.0857882
+valid cost =  116.5689 , valid cost (fix bug) =  100.62304
+182 cost= 99.99219 with std= 1.9976815
+valid cost =  116.20767 , valid cost (fix bug) =  100.46024
+183 cost= 99.96963 with std= 2.0825682
+valid cost =  116.25275 , valid cost (fix bug) =  100.73328
+184 cost= 99.990425 with std= 1.9646144
+valid cost =  116.41539 , valid cost (fix bug) =  100.6351
+185 cost= 99.95405 with std= 2.1967826
+valid cost =  116.34532 , valid cost (fix bug) =  100.566605
+186 cost= 99.919235 with std= 2.215131
+valid cost =  116.37659 , valid cost (fix bug) =  100.63536
+187 cost= 99.86365 with std= 2.1073062
+valid cost =  116.136 , valid cost (fix bug) =  100.99552
+188 cost= 99.83094 with std= 2.2870777
+valid cost =  116.05757 , valid cost (fix bug) =  100.65274
+189 cost= 99.7169 with std= 2.0785568
+valid cost =  116.071 , valid cost (fix bug) =  100.58394
+190 cost= 99.77883 with std= 2.1741364
+valid cost =  116.26715 , valid cost (fix bug) =  100.71134
+191 cost= 99.795425 with std= 2.0144732
+valid cost =  116.4164 , valid cost (fix bug) =  100.2521
+192 cost= 99.68842 with std= 2.1290042
+valid cost =  116.23201 , valid cost (fix bug) =  100.47208
+193 cost= 99.64308 with std= 2.2769194
+valid cost =  116.11772 , valid cost (fix bug) =  100.42415
+194 cost= 99.58068 with std= 2.1591759
+valid cost =  115.71213 , valid cost (fix bug) =  100.41532
+195 cost= 99.56384 with std= 2.032527
+valid cost =  115.83435 , valid cost (fix bug) =  100.57092
+196 cost= 99.466 with std= 2.1937563
+valid cost =  116.13812 , valid cost (fix bug) =  100.42886
+197 cost= 99.44825 with std= 2.1288333
+valid cost =  116.26855 , valid cost (fix bug) =  100.17966
+198 cost= 99.5106 with std= 2.0281868
+valid cost =  116.01705 , valid cost (fix bug) =  100.35222
+199 cost= 99.48597 with std= 2.2206106
+valid cost =  115.860176 , valid cost (fix bug) =  100.0748
+200 cost= 99.35737 with std= 2.2071803
+valid cost =  116.053024 , valid cost (fix bug) =  100.114105
+201 cost= 99.312515 with std= 2.2167199
+valid cost =  115.88036 , valid cost (fix bug) =  100.21787
+202 cost= 99.400795 with std= 2.0176964
+valid cost =  115.80277 , valid cost (fix bug) =  100.26775
+203 cost= 99.33075 with std= 2.235156
+valid cost =  115.90807 , valid cost (fix bug) =  100.30007
+204 cost= 99.26125 with std= 2.1611388
+valid cost =  116.0957 , valid cost (fix bug) =  100.1535
+205 cost= 99.22522 with std= 2.349728
+valid cost =  115.91954 , valid cost (fix bug) =  99.978645
+206 cost= 99.14343 with std= 2.0500865
+valid cost =  115.6626 , valid cost (fix bug) =  100.280815
+207 cost= 99.16032 with std= 2.1319997
+valid cost =  115.79492 , valid cost (fix bug) =  99.88011
+208 cost= 99.166084 with std= 2.0543017
+valid cost =  115.838974 , valid cost (fix bug) =  99.836525
+209 cost= 99.06596 with std= 2.123561
+valid cost =  115.76775 , valid cost (fix bug) =  99.79183
+210 cost= 99.00946 with std= 2.1402304
+valid cost =  115.5958 , valid cost (fix bug) =  99.98729
+211 cost= 98.95199 with std= 2.0851326
+valid cost =  115.91332 , valid cost (fix bug) =  99.950226
+212 cost= 99.0123 with std= 2.3990264
+valid cost =  116.15505 , valid cost (fix bug) =  99.97473
+213 cost= 98.90641 with std= 2.214096
+valid cost =  115.99651 , valid cost (fix bug) =  99.619835
+214 cost= 98.90099 with std= 2.231225
+valid cost =  115.53168 , valid cost (fix bug) =  99.80268
+215 cost= 98.880684 with std= 2.1690383
+valid cost =  115.65126 , valid cost (fix bug) =  99.531006
+216 cost= 98.85396 with std= 2.1719043
+valid cost =  115.74961 , valid cost (fix bug) =  99.64804
+217 cost= 98.86294 with std= 2.0835764
+valid cost =  116.004 , valid cost (fix bug) =  99.7573
+218 cost= 98.81663 with std= 2.1196487
+valid cost =  115.54729 , valid cost (fix bug) =  99.86814
+219 cost= 98.748024 with std= 2.1209762
+valid cost =  115.70714 , valid cost (fix bug) =  99.80441
+220 cost= 98.69094 with std= 2.075425
+valid cost =  115.8772 , valid cost (fix bug) =  99.83821
+221 cost= 98.72256 with std= 2.0469713
+valid cost =  115.89185 , valid cost (fix bug) =  99.76935
+222 cost= 98.7377 with std= 2.007832
+valid cost =  115.47973 , valid cost (fix bug) =  99.40268
+223 cost= 98.670906 with std= 2.100013
+valid cost =  115.77271 , valid cost (fix bug) =  99.5726
+224 cost= 98.6193 with std= 2.0855303
+valid cost =  115.67929 , valid cost (fix bug) =  99.7558
+225 cost= 98.63775 with std= 2.049949
+valid cost =  115.703636 , valid cost (fix bug) =  99.54754
+226 cost= 98.59882 with std= 2.1945796
+valid cost =  115.730286 , valid cost (fix bug) =  99.64047
+227 cost= 98.52403 with std= 2.0155137
+valid cost =  115.59655 , valid cost (fix bug) =  99.43165
+228 cost= 98.521416 with std= 2.2866786
+valid cost =  115.34019 , valid cost (fix bug) =  99.45812
+229 cost= 98.50817 with std= 2.0800047
+valid cost =  115.656784 , valid cost (fix bug) =  99.3748
+230 cost= 98.48579 with std= 2.1863139
+valid cost =  115.42796 , valid cost (fix bug) =  99.22551
+231 cost= 98.31746 with std= 2.1406722
+valid cost =  115.6143 , valid cost (fix bug) =  99.637375
+232 cost= 98.36396 with std= 2.3194294
+valid cost =  115.595726 , valid cost (fix bug) =  99.49182
+233 cost= 98.27518 with std= 2.1462495
+valid cost =  115.544426 , valid cost (fix bug) =  99.15568
+234 cost= 98.23728 with std= 2.1272037
+valid cost =  115.33353 , valid cost (fix bug) =  99.49515
+235 cost= 98.35982 with std= 2.122879
+valid cost =  115.332924 , valid cost (fix bug) =  99.44366
+236 cost= 98.21172 with std= 2.106496
+valid cost =  115.614075 , valid cost (fix bug) =  99.15496
+237 cost= 98.290726 with std= 2.3087358
+valid cost =  115.31508 , valid cost (fix bug) =  99.079216
+238 cost= 98.28448 with std= 2.3401818
+valid cost =  115.04061 , valid cost (fix bug) =  99.648735
+239 cost= 98.228836 with std= 2.1703324
+valid cost =  115.21789 , valid cost (fix bug) =  99.28383
+240 cost= 98.11949 with std= 2.2058406
+valid cost =  115.220116 , valid cost (fix bug) =  99.45653
+241 cost= 98.110756 with std= 2.2361712
+valid cost =  115.43188 , valid cost (fix bug) =  99.0529
+242 cost= 98.05016 with std= 2.2041051
+valid cost =  115.50078 , valid cost (fix bug) =  99.131325
+243 cost= 98.01711 with std= 2.2472942
+valid cost =  115.53659 , valid cost (fix bug) =  99.17218
+244 cost= 98.142555 with std= 2.0900674
+valid cost =  115.2824 , valid cost (fix bug) =  98.98325
+245 cost= 97.996605 with std= 2.0543456
+valid cost =  115.21775 , valid cost (fix bug) =  99.11429
+246 cost= 98.04032 with std= 2.0443056
+valid cost =  115.73346 , valid cost (fix bug) =  99.17584
+247 cost= 97.98088 with std= 2.1231575
+valid cost =  115.11155 , valid cost (fix bug) =  99.31479
+248 cost= 98.012505 with std= 2.1083586
+valid cost =  115.14354 , valid cost (fix bug) =  99.10041
+249 cost= 97.96737 with std= 1.9986867
+valid cost =  115.60201 , valid cost (fix bug) =  99.015335
+250 cost= 97.89757 with std= 2.148453
+valid cost =  115.39687 , valid cost (fix bug) =  99.22398
+251 cost= 97.947784 with std= 2.1454039
+valid cost =  115.16825 , valid cost (fix bug) =  98.86425
+252 cost= 97.948326 with std= 2.176965
+valid cost =  115.21687 , valid cost (fix bug) =  99.18419
+253 cost= 97.84031 with std= 1.9125352
+valid cost =  115.05775 , valid cost (fix bug) =  98.90426
+254 cost= 97.76335 with std= 2.027552
+valid cost =  115.3731 , valid cost (fix bug) =  98.94793
+255 cost= 97.809654 with std= 2.0754273
+valid cost =  115.447464 , valid cost (fix bug) =  99.01886
+256 cost= 97.7752 with std= 2.0275962
+valid cost =  115.39188 , valid cost (fix bug) =  99.10473
+257 cost= 97.73762 with std= 2.073961
+valid cost =  115.40929 , valid cost (fix bug) =  99.01866
+258 cost= 97.70809 with std= 2.049377
+valid cost =  115.083435 , valid cost (fix bug) =  98.68774
+259 cost= 97.67329 with std= 2.0418506
+valid cost =  115.0848 , valid cost (fix bug) =  98.80095
+260 cost= 97.666145 with std= 2.2593763
+valid cost =  114.80715 , valid cost (fix bug) =  98.61955
+261 cost= 97.61636 with std= 2.3001757
+valid cost =  115.23505 , valid cost (fix bug) =  98.90743
+262 cost= 97.59527 with std= 2.1474302
+valid cost =  114.87766 , valid cost (fix bug) =  98.738174
+263 cost= 97.55653 with std= 2.2207198
+valid cost =  115.2688 , valid cost (fix bug) =  98.924835
+264 cost= 97.55265 with std= 2.1716611
+valid cost =  115.10155 , valid cost (fix bug) =  98.91099
+265 cost= 97.53913 with std= 2.0268018
+valid cost =  114.91596 , valid cost (fix bug) =  98.49846
+266 cost= 97.516815 with std= 2.079061
+valid cost =  114.86756 , valid cost (fix bug) =  98.896835
+267 cost= 97.54932 with std= 2.1841764
+valid cost =  114.839325 , valid cost (fix bug) =  98.51516
+268 cost= 97.54407 with std= 2.0503857
+valid cost =  115.219574 , valid cost (fix bug) =  98.82392
+269 cost= 97.46276 with std= 2.2145324
+valid cost =  114.923775 , valid cost (fix bug) =  98.645485
+270 cost= 97.364494 with std= 2.0422547
+valid cost =  114.892525 , valid cost (fix bug) =  98.5378
+271 cost= 97.43822 with std= 2.098053
+valid cost =  115.01893 , valid cost (fix bug) =  98.64413
+272 cost= 97.43018 with std= 2.0729911
+valid cost =  114.87709 , valid cost (fix bug) =  98.62425
+273 cost= 97.431526 with std= 2.3076718
+valid cost =  114.84097 , valid cost (fix bug) =  98.84132
+274 cost= 97.41612 with std= 2.0370777
+valid cost =  114.9745 , valid cost (fix bug) =  98.21705
+275 cost= 97.33867 with std= 1.9948764
+valid cost =  115.09035 , valid cost (fix bug) =  98.43738
+276 cost= 97.34458 with std= 2.1351383
+valid cost =  114.5186 , valid cost (fix bug) =  98.723
+277 cost= 97.2503 with std= 1.9707838
+valid cost =  115.02739 , valid cost (fix bug) =  98.65879
+278 cost= 97.26208 with std= 2.0773227
+valid cost =  115.055176 , valid cost (fix bug) =  98.48649
+279 cost= 97.24553 with std= 2.2490098
+valid cost =  114.82276 , valid cost (fix bug) =  98.46157
+280 cost= 97.287506 with std= 2.1289062
+valid cost =  114.9849 , valid cost (fix bug) =  98.729935
+281 cost= 97.1227 with std= 2.331628
+valid cost =  115.08794 , valid cost (fix bug) =  98.55561
+282 cost= 97.258934 with std= 2.125963
+valid cost =  115.0404 , valid cost (fix bug) =  98.62287
+283 cost= 97.2348 with std= 2.4762573
+valid cost =  114.98495 , valid cost (fix bug) =  98.5884
+284 cost= 97.0871 with std= 1.9740291
+valid cost =  114.791016 , valid cost (fix bug) =  98.439964
+285 cost= 97.06348 with std= 2.115621
+valid cost =  114.69136 , valid cost (fix bug) =  98.65913
+286 cost= 97.04406 with std= 2.1681838
+valid cost =  115.06896 , valid cost (fix bug) =  98.3659
+287 cost= 97.15831 with std= 2.2018862
+valid cost =  115.06759 , valid cost (fix bug) =  98.59624
+288 cost= 97.00891 with std= 2.1631093
+valid cost =  114.630615 , valid cost (fix bug) =  98.0457
+289 cost= 97.047714 with std= 2.2022257
+valid cost =  114.87457 , valid cost (fix bug) =  98.22699
+290 cost= 97.018135 with std= 2.087977
+valid cost =  114.85033 , valid cost (fix bug) =  98.30953
+291 cost= 96.94341 with std= 2.2953913
+valid cost =  114.67255 , valid cost (fix bug) =  98.216675
+292 cost= 96.95832 with std= 2.129283
+valid cost =  114.4104 , valid cost (fix bug) =  98.1973
+293 cost= 96.956276 with std= 2.1046348
+valid cost =  114.39895 , valid cost (fix bug) =  98.36041
+294 cost= 96.95101 with std= 2.1734695
+valid cost =  114.50019 , valid cost (fix bug) =  98.33461
+295 cost= 96.95369 with std= 2.002911
+valid cost =  114.82828 , valid cost (fix bug) =  98.17516
+296 cost= 96.90532 with std= 2.1269274
+valid cost =  114.743 , valid cost (fix bug) =  98.36765
+297 cost= 96.86176 with std= 2.0833607
+valid cost =  115.11575 , valid cost (fix bug) =  98.38847
+298 cost= 96.916084 with std= 2.0532951
+valid cost =  114.7957 , valid cost (fix bug) =  98.081375
+299 cost= 96.881035 with std= 2.2499208
+valid cost =  114.7853 , valid cost (fix bug) =  98.010735
+300 cost= 96.79749 with std= 2.1321948
+valid cost =  114.5103 , valid cost (fix bug) =  97.98547
+301 cost= 96.737015 with std= 2.0571446
+valid cost =  114.76245 , valid cost (fix bug) =  98.16225
+302 cost= 96.827415 with std= 2.051957
+valid cost =  115.04008 , valid cost (fix bug) =  98.00102
+303 cost= 96.85681 with std= 2.126647
+valid cost =  114.6663 , valid cost (fix bug) =  98.205025
+304 cost= 96.71464 with std= 2.1200123
+valid cost =  114.43793 , valid cost (fix bug) =  98.33715
+305 cost= 96.74159 with std= 1.9565191
+valid cost =  114.9452 , valid cost (fix bug) =  98.4705
+306 cost= 96.71935 with std= 2.118495
+valid cost =  114.54075 , valid cost (fix bug) =  98.22669
+307 cost= 96.75347 with std= 2.043523
+valid cost =  114.7681 , valid cost (fix bug) =  98.2526
+308 cost= 96.6369 with std= 2.1579192
+valid cost =  114.655525 , valid cost (fix bug) =  98.03768
+309 cost= 96.62438 with std= 2.133455
+valid cost =  114.37402 , valid cost (fix bug) =  98.02845
+310 cost= 96.66898 with std= 2.158087
+valid cost =  114.783875 , valid cost (fix bug) =  98.21181
+311 cost= 96.599815 with std= 1.9980247
+valid cost =  114.6188 , valid cost (fix bug) =  98.2261
+312 cost= 96.472206 with std= 2.2906513
+valid cost =  114.48815 , valid cost (fix bug) =  98.19016
+313 cost= 96.62193 with std= 2.023182
+valid cost =  114.307976 , valid cost (fix bug) =  97.918625
+314 cost= 96.5678 with std= 2.0742018
+valid cost =  114.66937 , valid cost (fix bug) =  98.079796
+315 cost= 96.59297 with std= 1.9983478
+valid cost =  114.62805 , valid cost (fix bug) =  97.91905
+316 cost= 96.50798 with std= 2.0312922
+valid cost =  114.288925 , valid cost (fix bug) =  98.23555
+317 cost= 96.50557 with std= 2.0913112
+valid cost =  114.81079 , valid cost (fix bug) =  97.98018
+318 cost= 96.58718 with std= 2.030819
+valid cost =  114.2255 , valid cost (fix bug) =  97.87032
+319 cost= 96.48027 with std= 2.1521673
+valid cost =  114.368965 , valid cost (fix bug) =  98.04102
+320 cost= 96.43305 with std= 2.0561306
+valid cost =  114.467735 , valid cost (fix bug) =  98.0789
+321 cost= 96.54814 with std= 2.0208972
+valid cost =  114.48571 , valid cost (fix bug) =  97.45808
+322 cost= 96.453804 with std= 2.1363199
+valid cost =  114.30855 , valid cost (fix bug) =  97.67235
+323 cost= 96.4723 with std= 2.113905
+valid cost =  114.36399 , valid cost (fix bug) =  98.16899
+324 cost= 96.464645 with std= 2.03481
+valid cost =  114.78554 , valid cost (fix bug) =  98.00858
+325 cost= 96.36426 with std= 2.0957167
+valid cost =  114.73173 , valid cost (fix bug) =  97.79729
+326 cost= 96.35313 with std= 2.1565754
+valid cost =  114.60918 , valid cost (fix bug) =  97.73352
+327 cost= 96.42159 with std= 2.1438768
+valid cost =  114.33765 , valid cost (fix bug) =  97.84859
+328 cost= 96.356705 with std= 2.1998892
+valid cost =  114.49127 , valid cost (fix bug) =  97.983086
+329 cost= 96.28657 with std= 2.0949235
+valid cost =  113.997986 , valid cost (fix bug) =  98.02864
+330 cost= 96.24364 with std= 2.1300032
+valid cost =  114.44073 , valid cost (fix bug) =  97.71358
+331 cost= 96.23578 with std= 2.0046287
+valid cost =  114.280174 , valid cost (fix bug) =  97.86035
+332 cost= 96.33218 with std= 2.0742786
+valid cost =  114.35812 , valid cost (fix bug) =  97.95697
+333 cost= 96.31594 with std= 2.0849392
+valid cost =  114.36085 , valid cost (fix bug) =  97.65765
+334 cost= 96.203964 with std= 2.0836575
+valid cost =  114.61378 , valid cost (fix bug) =  97.72575
+335 cost= 96.26747 with std= 2.1711369
+valid cost =  114.19821 , valid cost (fix bug) =  97.6785
+336 cost= 96.314545 with std= 2.2648175
+valid cost =  114.305214 , valid cost (fix bug) =  97.73966
+337 cost= 96.30697 with std= 2.1586294
+valid cost =  114.36335 , valid cost (fix bug) =  97.7458
+338 cost= 96.14994 with std= 2.219039
+valid cost =  114.41283 , valid cost (fix bug) =  97.4708
+339 cost= 96.07197 with std= 2.2016737
+valid cost =  114.3191 , valid cost (fix bug) =  98.04993
+340 cost= 96.23165 with std= 2.1106215
+valid cost =  114.31297 , valid cost (fix bug) =  97.651634
+341 cost= 96.167816 with std= 2.0842705
+valid cost =  113.80623 , valid cost (fix bug) =  97.60765
+342 cost= 96.19348 with std= 1.9594555
+valid cost =  114.36797 , valid cost (fix bug) =  97.516884
+343 cost= 96.06442 with std= 2.20647
+valid cost =  114.7174 , valid cost (fix bug) =  97.71618
+344 cost= 96.14649 with std= 2.2135093
+valid cost =  114.25274 , valid cost (fix bug) =  97.8713
+345 cost= 96.03794 with std= 1.8774915
+valid cost =  114.55114 , valid cost (fix bug) =  97.700615
+346 cost= 96.11551 with std= 2.0262904
+valid cost =  114.38777 , valid cost (fix bug) =  97.6638
+347 cost= 96.0665 with std= 2.2188525
+valid cost =  114.81957 , valid cost (fix bug) =  97.49608
+348 cost= 96.08582 with std= 2.0807161
+valid cost =  114.11509 , valid cost (fix bug) =  97.588394
+349 cost= 96.02749 with std= 2.054559
+valid cost =  114.6871 , valid cost (fix bug) =  97.606766
+350 cost= 95.97583 with std= 2.0041597
+valid cost =  114.09957 , valid cost (fix bug) =  97.633965
+351 cost= 96.03847 with std= 2.1239424
+valid cost =  114.54206 , valid cost (fix bug) =  97.77238
+352 cost= 95.98164 with std= 2.1495996
+valid cost =  114.293625 , valid cost (fix bug) =  97.70315
+353 cost= 95.97363 with std= 2.1511188
+valid cost =  114.18254 , valid cost (fix bug) =  97.82725
+354 cost= 95.98464 with std= 2.2739847
+valid cost =  114.37682 , valid cost (fix bug) =  97.78177
+355 cost= 95.934395 with std= 2.224475
+valid cost =  114.60099 , valid cost (fix bug) =  97.64873
+356 cost= 95.84331 with std= 2.0200613
+valid cost =  114.38011 , valid cost (fix bug) =  97.50938
+357 cost= 95.89697 with std= 2.1637352
+valid cost =  114.256935 , valid cost (fix bug) =  97.620575
+358 cost= 95.94989 with std= 2.116068
+valid cost =  114.19384 , valid cost (fix bug) =  97.53039
+359 cost= 95.93272 with std= 2.1848228
+valid cost =  114.09434 , valid cost (fix bug) =  97.52205
+360 cost= 95.901024 with std= 2.134208
+valid cost =  114.11535 , valid cost (fix bug) =  97.38385
+361 cost= 95.84203 with std= 2.2254128
+valid cost =  114.17863 , valid cost (fix bug) =  97.57251
+362 cost= 95.81646 with std= 2.1257467
+valid cost =  114.47433 , valid cost (fix bug) =  97.346085
+363 cost= 95.79919 with std= 2.0801358
+valid cost =  114.5301 , valid cost (fix bug) =  97.61475
+364 cost= 95.856094 with std= 2.237331
+valid cost =  114.19749 , valid cost (fix bug) =  97.34024
+365 cost= 95.81857 with std= 1.9705484
+valid cost =  114.30855 , valid cost (fix bug) =  97.275215
+366 cost= 95.78995 with std= 2.2118602
+valid cost =  114.14031 , valid cost (fix bug) =  97.39711
+367 cost= 95.733505 with std= 2.1710076
+valid cost =  113.88152 , valid cost (fix bug) =  97.43226
+368 cost= 95.76144 with std= 2.1182368
+valid cost =  114.23232 , valid cost (fix bug) =  97.61086
+369 cost= 95.773605 with std= 1.9702345
+valid cost =  114.19516 , valid cost (fix bug) =  97.8495
+370 cost= 95.689156 with std= 2.0602016
+valid cost =  114.53064 , valid cost (fix bug) =  97.700424
+371 cost= 95.68165 with std= 1.9942467
+valid cost =  114.2032 , valid cost (fix bug) =  97.76036
+372 cost= 95.8284 with std= 2.1680906
+valid cost =  114.38348 , valid cost (fix bug) =  97.15131
+373 cost= 95.83284 with std= 2.192494
+valid cost =  114.43966 , valid cost (fix bug) =  97.47872
+374 cost= 95.71319 with std= 2.040698
+valid cost =  114.25166 , valid cost (fix bug) =  97.59356
+375 cost= 95.67896 with std= 2.0215714
+valid cost =  114.36855 , valid cost (fix bug) =  97.722275
+376 cost= 95.67092 with std= 1.9348512
+valid cost =  114.24365 , valid cost (fix bug) =  97.47005
+377 cost= 95.673256 with std= 2.2046967
+valid cost =  113.86427 , valid cost (fix bug) =  97.62046
+378 cost= 95.75185 with std= 2.2363806
+valid cost =  114.23187 , valid cost (fix bug) =  97.295715
+379 cost= 95.71396 with std= 2.264965
+valid cost =  114.27575 , valid cost (fix bug) =  97.44633
+380 cost= 95.58055 with std= 2.1124756
+valid cost =  114.25538 , valid cost (fix bug) =  97.41983
+381 cost= 95.65449 with std= 2.0926604
+valid cost =  114.23667 , valid cost (fix bug) =  97.47575
+382 cost= 95.60605 with std= 1.9406712
+valid cost =  113.8463 , valid cost (fix bug) =  97.24773
+383 cost= 95.59738 with std= 2.0699377
+valid cost =  114.131676 , valid cost (fix bug) =  97.31047
+384 cost= 95.57845 with std= 2.045519
+valid cost =  114.39718 , valid cost (fix bug) =  97.21977
+385 cost= 95.512695 with std= 2.0274024
+valid cost =  114.23244 , valid cost (fix bug) =  97.373375
+386 cost= 95.59305 with std= 2.2292798
+valid cost =  114.37721 , valid cost (fix bug) =  97.35361
+387 cost= 95.61431 with std= 2.2439072
+valid cost =  114.3669 , valid cost (fix bug) =  97.273125
+388 cost= 95.51015 with std= 2.1846817
+valid cost =  114.34156 , valid cost (fix bug) =  97.41062
+389 cost= 95.62584 with std= 2.0693898
+valid cost =  114.07672 , valid cost (fix bug) =  97.06066
+390 cost= 95.55683 with std= 2.1174912
+valid cost =  114.378 , valid cost (fix bug) =  97.164734
+391 cost= 95.49356 with std= 2.1714382
+valid cost =  114.03566 , valid cost (fix bug) =  97.14593
+392 cost= 95.518814 with std= 1.892285
+valid cost =  113.87956 , valid cost (fix bug) =  97.18129
+393 cost= 95.40778 with std= 2.0854669
+valid cost =  114.1981 , valid cost (fix bug) =  97.10434
+394 cost= 95.43442 with std= 2.0580122
+valid cost =  114.055176 , valid cost (fix bug) =  97.408615
+395 cost= 95.461136 with std= 2.0848203
+valid cost =  114.18717 , valid cost (fix bug) =  97.49279
+396 cost= 95.439064 with std= 2.1446116
+valid cost =  114.17307 , valid cost (fix bug) =  97.13836
+397 cost= 95.39109 with std= 2.102854
+valid cost =  114.04219 , valid cost (fix bug) =  97.20995
+398 cost= 95.43179 with std= 2.0318174
+valid cost =  114.20835 , valid cost (fix bug) =  97.02897
+399 cost= 95.409256 with std= 2.0950305
+valid cost =  113.85932 , valid cost (fix bug) =  97.31333
+400 cost= 95.39912 with std= 2.1158357
+valid cost =  113.98735 , valid cost (fix bug) =  97.21649
+401 cost= 95.39949 with std= 2.020991
+valid cost =  114.265114 , valid cost (fix bug) =  97.440315
+402 cost= 95.28095 with std= 1.9869583
+valid cost =  113.912025 , valid cost (fix bug) =  97.21511
+403 cost= 95.405235 with std= 1.9240062
+valid cost =  114.06875 , valid cost (fix bug) =  97.078476
+404 cost= 95.358925 with std= 2.3057394
+valid cost =  113.89755 , valid cost (fix bug) =  97.274284
+405 cost= 95.309456 with std= 2.0447602
+valid cost =  113.789024 , valid cost (fix bug) =  97.11129
+406 cost= 95.33852 with std= 2.122992
+valid cost =  114.2157 , valid cost (fix bug) =  96.97621
+407 cost= 95.26628 with std= 2.2215073
+valid cost =  113.777916 , valid cost (fix bug) =  96.95411
+408 cost= 95.22625 with std= 2.0642858
+valid cost =  113.66107 , valid cost (fix bug) =  97.09553
+409 cost= 95.34804 with std= 2.0959375
+valid cost =  114.06953 , valid cost (fix bug) =  97.18258
+410 cost= 95.331276 with std= 2.0022
+valid cost =  114.2911 , valid cost (fix bug) =  97.315704
+411 cost= 95.25598 with std= 2.1513543
+valid cost =  113.97966 , valid cost (fix bug) =  97.28772
+412 cost= 95.28632 with std= 2.169175
+valid cost =  114.22365 , valid cost (fix bug) =  97.2672
+413 cost= 95.25903 with std= 1.994419
+valid cost =  114.00825 , valid cost (fix bug) =  97.10142
+414 cost= 95.2921 with std= 2.0668259
+valid cost =  114.27965 , valid cost (fix bug) =  97.133934
+415 cost= 95.27757 with std= 2.149136
+valid cost =  114.0152 , valid cost (fix bug) =  96.95376
+416 cost= 95.28166 with std= 2.066275
+valid cost =  113.991615 , valid cost (fix bug) =  97.07824
+417 cost= 95.2326 with std= 2.042579
+valid cost =  113.7492 , valid cost (fix bug) =  97.211655
+418 cost= 95.13578 with std= 2.1045578
+valid cost =  114.0328 , valid cost (fix bug) =  96.97142
+419 cost= 95.24727 with std= 2.1056492
+valid cost =  114.138824 , valid cost (fix bug) =  97.1369
+420 cost= 95.11202 with std= 2.009595
+valid cost =  114.26512 , valid cost (fix bug) =  97.14245
+421 cost= 95.161354 with std= 2.0366104
+valid cost =  113.94212 , valid cost (fix bug) =  96.95526
+422 cost= 95.175514 with std= 2.0117066
+valid cost =  113.87948 , valid cost (fix bug) =  97.07324
+423 cost= 95.12426 with std= 2.2330956
+valid cost =  113.81933 , valid cost (fix bug) =  96.7175
+424 cost= 95.232315 with std= 1.911933
+valid cost =  113.84692 , valid cost (fix bug) =  97.19581
+425 cost= 95.10247 with std= 2.027674
+valid cost =  114.053185 , valid cost (fix bug) =  96.97416
+426 cost= 95.12864 with std= 2.1443577
+valid cost =  114.0413 , valid cost (fix bug) =  97.16414
+427 cost= 95.064674 with std= 2.2219167
+valid cost =  114.15779 , valid cost (fix bug) =  97.2103
+428 cost= 95.11272 with std= 2.15093
+valid cost =  114.18501 , valid cost (fix bug) =  97.058945
+429 cost= 95.11583 with std= 2.1100247
+valid cost =  114.07783 , valid cost (fix bug) =  97.12626
+430 cost= 94.99666 with std= 2.0609233
+valid cost =  113.77532 , valid cost (fix bug) =  97.05687
+431 cost= 95.14374 with std= 2.1702955
+valid cost =  113.7831 , valid cost (fix bug) =  97.17221
+432 cost= 95.00361 with std= 2.0254993
+valid cost =  114.17385 , valid cost (fix bug) =  97.0726
+433 cost= 95.06617 with std= 1.960742
+valid cost =  114.2171 , valid cost (fix bug) =  97.00093
+434 cost= 95.106575 with std= 1.9442148
+valid cost =  113.945625 , valid cost (fix bug) =  96.785385
+435 cost= 95.09151 with std= 2.1337066
+valid cost =  113.78542 , valid cost (fix bug) =  97.01761
+436 cost= 95.05654 with std= 2.174809
+valid cost =  113.6041 , valid cost (fix bug) =  97.114265
+437 cost= 95.0709 with std= 2.0924678
+valid cost =  113.75555 , valid cost (fix bug) =  97.08604
+438 cost= 94.97325 with std= 2.236414
+valid cost =  113.92725 , valid cost (fix bug) =  97.1528
+439 cost= 95.022446 with std= 2.058608
+valid cost =  113.97651 , valid cost (fix bug) =  97.108284
+440 cost= 95.02081 with std= 1.9051228
+valid cost =  113.8166 , valid cost (fix bug) =  97.180984
+441 cost= 94.98864 with std= 2.1229835
+valid cost =  113.8028 , valid cost (fix bug) =  96.70041
+442 cost= 95.02883 with std= 1.9961619
+valid cost =  113.80757 , valid cost (fix bug) =  97.011765
+443 cost= 95.01963 with std= 2.2034044
+valid cost =  114.15122 , valid cost (fix bug) =  97.08886
+444 cost= 95.03414 with std= 1.9744563
+valid cost =  113.96673 , valid cost (fix bug) =  97.083
+445 cost= 94.99824 with std= 2.0007038
+valid cost =  113.83243 , valid cost (fix bug) =  96.89071
+446 cost= 95.01132 with std= 2.1399238
+valid cost =  114.06945 , valid cost (fix bug) =  97.395065
+447 cost= 94.942116 with std= 2.0966797
+valid cost =  113.8746 , valid cost (fix bug) =  96.97916
+448 cost= 95.037964 with std= 2.0673223
+valid cost =  113.73453 , valid cost (fix bug) =  97.137215
+449 cost= 94.93208 with std= 2.001544
+valid cost =  114.07391 , valid cost (fix bug) =  96.86109
+450 cost= 94.95634 with std= 2.0198646
+valid cost =  113.887665 , valid cost (fix bug) =  97.0458
+451 cost= 94.93079 with std= 2.0112422
+valid cost =  113.9724 , valid cost (fix bug) =  97.072716
+452 cost= 94.90946 with std= 2.055869
+valid cost =  114.1211 , valid cost (fix bug) =  97.01534
+453 cost= 94.894745 with std= 2.1908937
+valid cost =  113.865425 , valid cost (fix bug) =  96.96466
+454 cost= 94.91884 with std= 2.0430725
+valid cost =  113.93664 , valid cost (fix bug) =  96.89075
+455 cost= 94.87255 with std= 2.1617959
+valid cost =  114.29629 , valid cost (fix bug) =  97.062515
+456 cost= 94.863434 with std= 2.1576722
+valid cost =  114.12073 , valid cost (fix bug) =  97.30108
+457 cost= 94.910416 with std= 2.0448213
+valid cost =  113.7652 , valid cost (fix bug) =  97.15095
+458 cost= 94.8623 with std= 2.0042312
+valid cost =  114.03023 , valid cost (fix bug) =  97.030785
+459 cost= 94.7951 with std= 1.9343823
+valid cost =  114.3475 , valid cost (fix bug) =  97.08737
+460 cost= 94.8616 with std= 2.131312
+valid cost =  114.022026 , valid cost (fix bug) =  96.71942
+461 cost= 94.81739 with std= 2.0485175
+valid cost =  113.84861 , valid cost (fix bug) =  97.00575
+462 cost= 94.87122 with std= 1.9477286
+valid cost =  113.96765 , valid cost (fix bug) =  96.78867
+463 cost= 94.86457 with std= 2.1084807
+valid cost =  113.98974 , valid cost (fix bug) =  96.854576
+464 cost= 94.813354 with std= 2.091256
+valid cost =  113.98775 , valid cost (fix bug) =  96.87808
+465 cost= 94.808 with std= 2.2089214
+valid cost =  114.59065 , valid cost (fix bug) =  97.07854
+466 cost= 94.86437 with std= 2.0742571
+valid cost =  113.95115 , valid cost (fix bug) =  97.06969
+467 cost= 94.833725 with std= 2.1503935
+valid cost =  113.892075 , valid cost (fix bug) =  96.999664
+468 cost= 94.788795 with std= 2.176119
+valid cost =  113.69067 , valid cost (fix bug) =  96.79715
+469 cost= 94.82483 with std= 1.9838042
+valid cost =  113.79665 , valid cost (fix bug) =  97.037315
+470 cost= 94.75808 with std= 1.9717408
+valid cost =  114.067116 , valid cost (fix bug) =  96.85245
+471 cost= 94.831474 with std= 2.0817547
+valid cost =  113.90917 , valid cost (fix bug) =  96.68732
+472 cost= 94.76231 with std= 2.1733456
+valid cost =  114.00199 , valid cost (fix bug) =  96.95718
+473 cost= 94.821625 with std= 2.1129248
+valid cost =  113.96139 , valid cost (fix bug) =  97.05291
+474 cost= 94.60982 with std= 1.9723406
+valid cost =  113.85393 , valid cost (fix bug) =  96.62637
+475 cost= 94.73393 with std= 2.101096
+valid cost =  113.661224 , valid cost (fix bug) =  96.88888
+476 cost= 94.765045 with std= 2.1192577
+valid cost =  113.818 , valid cost (fix bug) =  96.745346
+477 cost= 94.708755 with std= 2.051911
+valid cost =  113.9746 , valid cost (fix bug) =  96.82512
+478 cost= 94.75658 with std= 2.1398382
+valid cost =  113.93775 , valid cost (fix bug) =  96.98901
+479 cost= 94.720215 with std= 1.9334105
+valid cost =  113.77297 , valid cost (fix bug) =  96.879234
+480 cost= 94.670334 with std= 2.1551926
+valid cost =  114.12099 , valid cost (fix bug) =  96.98472
+481 cost= 94.70355 with std= 2.0502527
+valid cost =  114.209816 , valid cost (fix bug) =  97.22823
+482 cost= 94.62 with std= 2.1632404
+valid cost =  114.13409 , valid cost (fix bug) =  96.881874
+483 cost= 94.702644 with std= 1.986088
+valid cost =  114.09461 , valid cost (fix bug) =  96.95199
+484 cost= 94.59506 with std= 2.1734626
+valid cost =  114.3924 , valid cost (fix bug) =  96.81893
+485 cost= 94.700165 with std= 2.1514962
+valid cost =  114.24573 , valid cost (fix bug) =  96.83198
+486 cost= 94.657814 with std= 2.1170683
+valid cost =  114.1427 , valid cost (fix bug) =  96.82424
+487 cost= 94.73277 with std= 2.059513
+valid cost =  113.83958 , valid cost (fix bug) =  97.082825
+488 cost= 94.68895 with std= 2.0449758
+valid cost =  113.96265 , valid cost (fix bug) =  96.81355
+489 cost= 94.61842 with std= 1.9991927
+valid cost =  113.98745 , valid cost (fix bug) =  96.62296
+490 cost= 94.70349 with std= 2.1820118
+valid cost =  114.508575 , valid cost (fix bug) =  96.925865
+491 cost= 94.595795 with std= 2.0771832
+valid cost =  113.751015 , valid cost (fix bug) =  97.04096
+492 cost= 94.576675 with std= 2.115375
+valid cost =  113.8606 , valid cost (fix bug) =  96.70613
+493 cost= 94.62533 with std= 2.0069437
+valid cost =  113.79444 , valid cost (fix bug) =  96.948975
+494 cost= 94.62891 with std= 2.051232
+valid cost =  114.24462 , valid cost (fix bug) =  96.887436
+495 cost= 94.58944 with std= 1.9789139
+valid cost =  113.6582 , valid cost (fix bug) =  96.84468
+496 cost= 94.56148 with std= 2.1770613
+valid cost =  113.88487 , valid cost (fix bug) =  96.97471
+497 cost= 94.60615 with std= 2.0812624
+valid cost =  113.84945 , valid cost (fix bug) =  96.8573
+498 cost= 94.5519 with std= 2.1290228
+valid cost =  113.9089 , valid cost (fix bug) =  96.921425
+499 cost= 94.57296 with std= 2.1796172
+valid cost =  114.338486 , valid cost (fix bug) =  97.05559
+500 cost= 94.59403 with std= 2.1997724
+valid cost =  113.622375 , valid cost (fix bug) =  96.77823
+501 cost= 94.620605 with std= 2.1123428
+valid cost =  113.859924 , valid cost (fix bug) =  96.81965
+502 cost= 94.53616 with std= 2.0806189
+valid cost =  114.1406 , valid cost (fix bug) =  96.7039
+503 cost= 94.58703 with std= 2.126367
+valid cost =  114.1331 , valid cost (fix bug) =  96.7057
+504 cost= 94.53037 with std= 2.111524
+valid cost =  113.80711 , valid cost (fix bug) =  96.72347
+505 cost= 94.50254 with std= 2.1303043
+valid cost =  114.10307 , valid cost (fix bug) =  97.01542
+506 cost= 94.54677 with std= 1.834288
+valid cost =  113.843864 , valid cost (fix bug) =  97.07589
+507 cost= 94.59955 with std= 2.1286712
+valid cost =  114.2584 , valid cost (fix bug) =  96.72208
+508 cost= 94.622955 with std= 1.9920714
+valid cost =  113.723076 , valid cost (fix bug) =  96.916954
+509 cost= 94.54051 with std= 2.1147919
+valid cost =  114.12521 , valid cost (fix bug) =  96.7668
+510 cost= 94.5717 with std= 1.953789
+valid cost =  113.96229 , valid cost (fix bug) =  96.750275
+511 cost= 94.46277 with std= 2.2990742
+valid cost =  113.98705 , valid cost (fix bug) =  96.710785
+512 cost= 94.51818 with std= 1.9693848
+valid cost =  113.73405 , valid cost (fix bug) =  96.934006
+513 cost= 94.549904 with std= 2.0901377
+valid cost =  113.7068 , valid cost (fix bug) =  96.67058
+514 cost= 94.461296 with std= 2.0119402
+valid cost =  113.7812 , valid cost (fix bug) =  96.8611
+515 cost= 94.47794 with std= 2.1520815
+valid cost =  114.33437 , valid cost (fix bug) =  96.59335
+516 cost= 94.540344 with std= 2.1405928
+valid cost =  113.49587 , valid cost (fix bug) =  97.150925
+517 cost= 94.505486 with std= 2.2247338
+valid cost =  113.84865 , valid cost (fix bug) =  96.73625
+518 cost= 94.34754 with std= 2.1177442
+valid cost =  114.0072 , valid cost (fix bug) =  96.93761
+519 cost= 94.56977 with std= 1.97058
+valid cost =  113.73629 , valid cost (fix bug) =  96.85651
+520 cost= 94.45448 with std= 2.1141267
+valid cost =  113.79049 , valid cost (fix bug) =  96.91841
+521 cost= 94.52455 with std= 2.0584822
+valid cost =  113.73365 , valid cost (fix bug) =  96.76537
+522 cost= 94.431915 with std= 2.0366218
+valid cost =  114.143875 , valid cost (fix bug) =  96.74969
+523 cost= 94.52032 with std= 2.179219
+valid cost =  113.70775 , valid cost (fix bug) =  96.62253
+524 cost= 94.41756 with std= 2.0172763
+valid cost =  113.76115 , valid cost (fix bug) =  96.79295
+525 cost= 94.42861 with std= 2.2879565
+valid cost =  113.858765 , valid cost (fix bug) =  96.72455
+526 cost= 94.40375 with std= 2.0711293
+valid cost =  114.05626 , valid cost (fix bug) =  96.81576
+527 cost= 94.5071 with std= 2.1463194
+valid cost =  113.68284 , valid cost (fix bug) =  96.638885
+528 cost= 94.42402 with std= 2.062462
+valid cost =  113.79893 , valid cost (fix bug) =  96.799065
+529 cost= 94.47126 with std= 2.211326
+valid cost =  113.6797 , valid cost (fix bug) =  96.363396
+530 cost= 94.46919 with std= 2.0480976
+valid cost =  113.92718 , valid cost (fix bug) =  96.98166
+531 cost= 94.46456 with std= 2.118037
+valid cost =  114.04503 , valid cost (fix bug) =  96.87104
+532 cost= 94.37139 with std= 1.9652718
+valid cost =  113.9614 , valid cost (fix bug) =  96.66686
+533 cost= 94.420746 with std= 2.1107032
+valid cost =  113.88309 , valid cost (fix bug) =  97.00472
+534 cost= 94.3218 with std= 2.1437776
+valid cost =  114.09775 , valid cost (fix bug) =  96.86629
+535 cost= 94.47863 with std= 2.136731
+valid cost =  114.098724 , valid cost (fix bug) =  96.90145
+536 cost= 94.351036 with std= 2.2111702
+valid cost =  113.736565 , valid cost (fix bug) =  96.923
+537 cost= 94.36672 with std= 2.0066357
+valid cost =  113.9209 , valid cost (fix bug) =  96.81777
+538 cost= 94.4749 with std= 1.9198334
+valid cost =  114.11835 , valid cost (fix bug) =  96.80694
+539 cost= 94.384445 with std= 2.178581
+valid cost =  113.86415 , valid cost (fix bug) =  96.89525
+540 cost= 94.331154 with std= 2.068999
+valid cost =  113.57065 , valid cost (fix bug) =  96.83553
+541 cost= 94.38518 with std= 2.0597842
+valid cost =  113.57797 , valid cost (fix bug) =  97.02757
+542 cost= 94.35439 with std= 1.9300314
+valid cost =  114.31545 , valid cost (fix bug) =  96.70837
+543 cost= 94.296394 with std= 2.0529325
+valid cost =  113.7319 , valid cost (fix bug) =  96.48723
+544 cost= 94.41327 with std= 2.0343385
+valid cost =  113.87435 , valid cost (fix bug) =  96.659584
+545 cost= 94.372475 with std= 2.0460675
+valid cost =  113.989525 , valid cost (fix bug) =  96.68556
+546 cost= 94.39374 with std= 1.9695827
+valid cost =  113.83265 , valid cost (fix bug) =  96.73112
+547 cost= 94.33256 with std= 2.2229998
+valid cost =  113.96268 , valid cost (fix bug) =  96.63746
+548 cost= 94.330536 with std= 2.12475
+valid cost =  114.15026 , valid cost (fix bug) =  96.649734
+549 cost= 94.28564 with std= 1.9338489
+valid cost =  114.01335 , valid cost (fix bug) =  96.73224
+550 cost= 94.324745 with std= 1.9737227
+valid cost =  113.80515 , valid cost (fix bug) =  97.00559
+551 cost= 94.2849 with std= 2.2284014
+valid cost =  113.88085 , valid cost (fix bug) =  96.62278
+552 cost= 94.32146 with std= 1.9997514
+valid cost =  113.7657 , valid cost (fix bug) =  96.504326
+553 cost= 94.29266 with std= 2.2107139
+valid cost =  113.67538 , valid cost (fix bug) =  96.70405
+554 cost= 94.38671 with std= 2.2020495
+valid cost =  113.8833 , valid cost (fix bug) =  96.79881
+555 cost= 94.33544 with std= 2.1597137
+valid cost =  114.45579 , valid cost (fix bug) =  96.74816
+556 cost= 94.32596 with std= 2.0526104
+valid cost =  113.7816 , valid cost (fix bug) =  96.64722
+557 cost= 94.2629 with std= 2.0557065
+valid cost =  114.0124 , valid cost (fix bug) =  96.95724
+558 cost= 94.29602 with std= 1.9622767
+valid cost =  114.12761 , valid cost (fix bug) =  96.97948
+559 cost= 94.32275 with std= 2.1273706
+valid cost =  113.72827 , valid cost (fix bug) =  96.828285
+560 cost= 94.26462 with std= 2.0986485
+valid cost =  114.23109 , valid cost (fix bug) =  96.729164
+561 cost= 94.33131 with std= 2.1143038
+valid cost =  114.07209 , valid cost (fix bug) =  96.730415
+562 cost= 94.2444 with std= 2.1109438
+valid cost =  113.71275 , valid cost (fix bug) =  96.69584
+563 cost= 94.23223 with std= 2.0873516
+valid cost =  113.79105 , valid cost (fix bug) =  96.59965
+564 cost= 94.17199 with std= 1.9135906
+valid cost =  113.56255 , valid cost (fix bug) =  96.59541
+565 cost= 94.29458 with std= 2.0941079
+valid cost =  114.102486 , valid cost (fix bug) =  96.515686
+566 cost= 94.24784 with std= 2.0906754
+valid cost =  113.7607 , valid cost (fix bug) =  96.691925
+567 cost= 94.15073 with std= 1.9747303
+valid cost =  113.89483 , valid cost (fix bug) =  96.648766
+568 cost= 94.302986 with std= 2.1155167
+valid cost =  113.98353 , valid cost (fix bug) =  97.00012
+569 cost= 94.25384 with std= 2.0769885
+valid cost =  113.8606 , valid cost (fix bug) =  96.77294
+570 cost= 94.25425 with std= 2.2367795
+valid cost =  113.994774 , valid cost (fix bug) =  96.443596
+571 cost= 94.21992 with std= 1.8144212
+valid cost =  113.6482 , valid cost (fix bug) =  96.9297
+572 cost= 94.24041 with std= 2.08458
+valid cost =  113.95831 , valid cost (fix bug) =  96.541534
+573 cost= 94.29014 with std= 2.0974917
+valid cost =  113.81074 , valid cost (fix bug) =  96.75738
+574 cost= 94.22729 with std= 2.0855026
+valid cost =  114.158226 , valid cost (fix bug) =  96.495674
+575 cost= 94.18945 with std= 2.0229268
+valid cost =  114.15647 , valid cost (fix bug) =  97.009315
+576 cost= 94.26668 with std= 2.0593696
+valid cost =  113.962975 , valid cost (fix bug) =  96.58284
+577 cost= 94.24801 with std= 2.0862699
+valid cost =  113.78638 , valid cost (fix bug) =  96.75496
+578 cost= 94.21736 with std= 2.0790591
+valid cost =  113.979385 , valid cost (fix bug) =  96.782135
+579 cost= 94.25863 with std= 2.0438323
+valid cost =  114.29392 , valid cost (fix bug) =  96.649284
+580 cost= 94.17562 with std= 2.1471677
+valid cost =  113.906975 , valid cost (fix bug) =  96.8307
+581 cost= 94.22523 with std= 2.0594776
+valid cost =  113.8977 , valid cost (fix bug) =  96.63271
+582 cost= 94.20523 with std= 2.0930393
+valid cost =  113.70369 , valid cost (fix bug) =  96.66191
+583 cost= 94.17189 with std= 2.0174875
+valid cost =  113.8616 , valid cost (fix bug) =  96.69438
+584 cost= 94.14877 with std= 2.0050318
+valid cost =  113.7533 , valid cost (fix bug) =  96.6966
+585 cost= 94.14302 with std= 2.221364
+valid cost =  113.733376 , valid cost (fix bug) =  96.80087
+586 cost= 94.25854 with std= 2.114116
+valid cost =  113.98208 , valid cost (fix bug) =  96.81442
+587 cost= 94.142555 with std= 2.1604967
+valid cost =  113.91365 , valid cost (fix bug) =  96.61745
+588 cost= 94.11292 with std= 2.052064
+valid cost =  113.8586 , valid cost (fix bug) =  96.51905
+589 cost= 94.298546 with std= 2.09192
+valid cost =  113.3874 , valid cost (fix bug) =  96.7126
+590 cost= 94.22605 with std= 1.9885516
+valid cost =  114.01159 , valid cost (fix bug) =  96.71521
+591 cost= 94.14006 with std= 2.1638684
+valid cost =  113.80467 , valid cost (fix bug) =  96.80275
+592 cost= 94.24092 with std= 2.2291257
+valid cost =  114.018135 , valid cost (fix bug) =  97.04805
+593 cost= 94.15944 with std= 2.1772037
+valid cost =  113.9249 , valid cost (fix bug) =  96.5358
+594 cost= 94.191635 with std= 1.9463747
+valid cost =  114.06984 , valid cost (fix bug) =  96.78644
+595 cost= 94.189 with std= 2.03335
+valid cost =  113.95325 , valid cost (fix bug) =  96.553
+596 cost= 94.19816 with std= 2.2525342
+valid cost =  113.97717 , valid cost (fix bug) =  96.731064
+597 cost= 94.135056 with std= 2.2781684
+valid cost =  113.51045 , valid cost (fix bug) =  96.88084
+598 cost= 94.13039 with std= 2.0436716
+valid cost =  114.1247 , valid cost (fix bug) =  96.66261
+599 cost= 94.15188 with std= 2.17944
+valid cost =  113.7788 , valid cost (fix bug) =  96.58139
+600 cost= 94.040855 with std= 2.1391368
+valid cost =  113.88781 , valid cost (fix bug) =  96.74955
+601 cost= 94.16805 with std= 2.068633
+valid cost =  113.696724 , valid cost (fix bug) =  96.95265
+602 cost= 94.09522 with std= 2.099346
+valid cost =  114.04952 , valid cost (fix bug) =  96.69692
+603 cost= 94.1802 with std= 2.1965473
+valid cost =  113.94765 , valid cost (fix bug) =  96.81524
+604 cost= 94.08453 with std= 2.1134243
+valid cost =  113.6572 , valid cost (fix bug) =  96.63985
+605 cost= 94.06119 with std= 2.0930662
+valid cost =  114.007126 , valid cost (fix bug) =  96.96658
+606 cost= 94.186424 with std= 2.1843872
+valid cost =  113.90488 , valid cost (fix bug) =  96.733635
+607 cost= 94.17459 with std= 2.0808692
+valid cost =  113.65191 , valid cost (fix bug) =  96.70088
+608 cost= 94.14736 with std= 2.1361074
+valid cost =  114.469864 , valid cost (fix bug) =  96.85453
+609 cost= 94.11105 with std= 2.0270479
+valid cost =  113.82965 , valid cost (fix bug) =  96.96926
+610 cost= 94.10151 with std= 2.0282197
+valid cost =  113.81144 , valid cost (fix bug) =  97.05126
+611 cost= 94.05967 with std= 2.0958574
+valid cost =  113.90533 , valid cost (fix bug) =  96.58613
+612 cost= 94.09446 with std= 1.9647299
+valid cost =  113.8735 , valid cost (fix bug) =  96.475334
+613 cost= 94.06436 with std= 2.016694
+valid cost =  113.92401 , valid cost (fix bug) =  96.5814
+614 cost= 94.1351 with std= 2.0631318
+valid cost =  113.8899 , valid cost (fix bug) =  97.12519
+615 cost= 94.11719 with std= 1.9837545
+valid cost =  113.72874 , valid cost (fix bug) =  96.46898
+616 cost= 94.186066 with std= 2.0730505
+valid cost =  113.65304 , valid cost (fix bug) =  96.76662
+617 cost= 94.10695 with std= 2.0509129
+valid cost =  113.73884 , valid cost (fix bug) =  96.903114
+618 cost= 93.992355 with std= 2.0980191
+valid cost =  113.819176 , valid cost (fix bug) =  96.680016
+619 cost= 94.07117 with std= 2.0929954
+valid cost =  113.8889 , valid cost (fix bug) =  96.685
+620 cost= 94.11753 with std= 2.0503025
+valid cost =  113.7944 , valid cost (fix bug) =  96.5524
+621 cost= 94.10508 with std= 2.0239534
+valid cost =  114.08774 , valid cost (fix bug) =  96.67163
+622 cost= 94.12561 with std= 2.109438
+valid cost =  113.8086 , valid cost (fix bug) =  96.82686
+623 cost= 94.07906 with std= 2.1375198
+valid cost =  114.36243 , valid cost (fix bug) =  97.078026
+624 cost= 94.08196 with std= 2.1650138
+valid cost =  113.80715 , valid cost (fix bug) =  96.62861
+625 cost= 94.115944 with std= 2.1076481
+valid cost =  113.67355 , valid cost (fix bug) =  96.833824
+626 cost= 94.08227 with std= 2.1529086
+valid cost =  113.8863 , valid cost (fix bug) =  96.905464
+627 cost= 94.06179 with std= 2.1390371
+valid cost =  114.10775 , valid cost (fix bug) =  96.741196
+628 cost= 94.0777 with std= 2.100863
+valid cost =  113.96732 , valid cost (fix bug) =  96.64468
+629 cost= 94.08612 with std= 2.2237937
+valid cost =  113.7117 , valid cost (fix bug) =  97.13373
+630 cost= 94.0102 with std= 2.031273
+valid cost =  114.19975 , valid cost (fix bug) =  97.06392
+631 cost= 94.010635 with std= 2.0631688
+valid cost =  114.06275 , valid cost (fix bug) =  96.86306
+632 cost= 94.04036 with std= 2.157844
+valid cost =  113.80764 , valid cost (fix bug) =  96.86525
+633 cost= 94.13001 with std= 2.133108
+valid cost =  113.86181 , valid cost (fix bug) =  96.51429
+634 cost= 94.062355 with std= 2.0055358
+valid cost =  114.268074 , valid cost (fix bug) =  96.622
+635 cost= 94.05571 with std= 2.1033206
+valid cost =  113.79885 , valid cost (fix bug) =  96.86907
+636 cost= 93.97854 with std= 2.197256
+valid cost =  114.12521 , valid cost (fix bug) =  96.95769
+637 cost= 93.973946 with std= 2.0336118
+valid cost =  114.07458 , valid cost (fix bug) =  96.751656
+638 cost= 94.09344 with std= 2.123505
+valid cost =  114.027824 , valid cost (fix bug) =  96.66479
+639 cost= 94.0758 with std= 2.0433912
+valid cost =  114.3424 , valid cost (fix bug) =  96.92056
+640 cost= 94.06632 with std= 2.1381872
+valid cost =  114.23985 , valid cost (fix bug) =  96.88574
+641 cost= 94.06194 with std= 2.0914602
+valid cost =  114.15852 , valid cost (fix bug) =  97.12298
+642 cost= 94.042854 with std= 2.313675
+valid cost =  114.10085 , valid cost (fix bug) =  96.95939
+643 cost= 94.09238 with std= 2.1120045
+valid cost =  114.1275 , valid cost (fix bug) =  96.971565
+644 cost= 94.040245 with std= 2.057199
+valid cost =  113.7518 , valid cost (fix bug) =  96.82209
+645 cost= 94.079346 with std= 2.171801
+valid cost =  113.929825 , valid cost (fix bug) =  96.93757
+646 cost= 94.05602 with std= 2.0350327
+valid cost =  113.80868 , valid cost (fix bug) =  96.57817
+647 cost= 93.96621 with std= 2.1298943
+valid cost =  113.91982 , valid cost (fix bug) =  96.52961
+648 cost= 94.02215 with std= 2.1368892
+valid cost =  113.83044 , valid cost (fix bug) =  96.89894
+649 cost= 94.047295 with std= 2.141238
+valid cost =  113.72053 , valid cost (fix bug) =  96.780464
+650 cost= 94.02866 with std= 2.1658864
+valid cost =  113.798325 , valid cost (fix bug) =  96.71366
+651 cost= 94.02123 with std= 1.9496465
+valid cost =  113.8463 , valid cost (fix bug) =  96.542534
+652 cost= 94.02406 with std= 2.2156806
+valid cost =  113.863525 , valid cost (fix bug) =  96.591545
+653 cost= 93.969406 with std= 2.089041
+valid cost =  114.18421 , valid cost (fix bug) =  96.81863
+654 cost= 94.01655 with std= 2.0655925
+valid cost =  113.82466 , valid cost (fix bug) =  96.89908
+655 cost= 94.112724 with std= 2.1028414
+valid cost =  113.9116 , valid cost (fix bug) =  96.70555
+656 cost= 93.97022 with std= 2.103096
+valid cost =  114.002235 , valid cost (fix bug) =  96.712364
+657 cost= 94.0093 with std= 1.9458817
+valid cost =  114.23173 , valid cost (fix bug) =  96.68093
+658 cost= 94.05613 with std= 2.2569857
+valid cost =  114.18415 , valid cost (fix bug) =  96.70715
+659 cost= 93.984886 with std= 2.0638485
+valid cost =  113.94647 , valid cost (fix bug) =  96.82019
+660 cost= 94.06159 with std= 1.9703478
+valid cost =  113.8526 , valid cost (fix bug) =  96.87245
+661 cost= 93.96317 with std= 2.0550566
+valid cost =  113.91055 , valid cost (fix bug) =  96.998085
+662 cost= 94.01844 with std= 2.1255434
+valid cost =  114.10145 , valid cost (fix bug) =  96.85417
+663 cost= 94.08098 with std= 1.9675268
+valid cost =  114.2538 , valid cost (fix bug) =  96.99723
+664 cost= 94.004425 with std= 2.1984272
+valid cost =  114.047775 , valid cost (fix bug) =  96.73339
+665 cost= 93.916756 with std= 2.0383115
+valid cost =  113.820175 , valid cost (fix bug) =  96.93365
+666 cost= 93.966324 with std= 2.1426635
+valid cost =  113.74315 , valid cost (fix bug) =  96.77229
+667 cost= 93.96764 with std= 1.9591926
+valid cost =  114.0201 , valid cost (fix bug) =  97.04738
+668 cost= 94.01693 with std= 1.9672647
+valid cost =  114.0272 , valid cost (fix bug) =  97.16924
+669 cost= 93.98939 with std= 2.0473354
+valid cost =  113.888214 , valid cost (fix bug) =  96.96445
+670 cost= 93.99923 with std= 2.049734
+valid cost =  114.18801 , valid cost (fix bug) =  96.821365
+671 cost= 93.98229 with std= 2.0551336
+valid cost =  114.021675 , valid cost (fix bug) =  96.681595
+672 cost= 94.0425 with std= 2.0035965
+valid cost =  113.943436 , valid cost (fix bug) =  96.859215
+673 cost= 93.96664 with std= 2.090689
+valid cost =  113.948074 , valid cost (fix bug) =  96.80322
+674 cost= 94.070526 with std= 1.975659
+valid cost =  114.01255 , valid cost (fix bug) =  96.83971
+675 cost= 93.97234 with std= 2.0893314
+valid cost =  113.840225 , valid cost (fix bug) =  96.815186
+676 cost= 93.98722 with std= 1.9981861
+valid cost =  114.125275 , valid cost (fix bug) =  96.791565
+677 cost= 93.98255 with std= 2.126091
+valid cost =  114.24846 , valid cost (fix bug) =  97.175
+678 cost= 94.0017 with std= 2.073575
+valid cost =  113.94965 , valid cost (fix bug) =  96.93323
+679 cost= 94.02504 with std= 2.0384042
+valid cost =  113.94785 , valid cost (fix bug) =  96.826035
+680 cost= 93.967155 with std= 2.1429985
+valid cost =  114.0353 , valid cost (fix bug) =  96.794304
+681 cost= 93.972946 with std= 2.177302
+valid cost =  114.04535 , valid cost (fix bug) =  96.8439
+682 cost= 93.98236 with std= 2.3189068
+valid cost =  113.9764 , valid cost (fix bug) =  96.99501
+683 cost= 93.94966 with std= 2.0711749
+valid cost =  113.9869 , valid cost (fix bug) =  96.78901
+684 cost= 93.93378 with std= 2.1529942
+valid cost =  113.89503 , valid cost (fix bug) =  96.71288
+685 cost= 93.929405 with std= 2.083451
+valid cost =  113.84453 , valid cost (fix bug) =  96.92834
+686 cost= 94.00719 with std= 2.2179415
+valid cost =  113.98784 , valid cost (fix bug) =  96.85994
+687 cost= 93.95815 with std= 1.976841
+valid cost =  113.79455 , valid cost (fix bug) =  96.93679
+688 cost= 93.928535 with std= 1.9388779
+valid cost =  114.084724 , valid cost (fix bug) =  97.01193
+689 cost= 93.99773 with std= 2.1029024
+valid cost =  113.75259 , valid cost (fix bug) =  96.99354
+690 cost= 93.979576 with std= 2.0460658
+valid cost =  114.02843 , valid cost (fix bug) =  97.02006
+691 cost= 93.93506 with std= 2.188944
+valid cost =  113.9381 , valid cost (fix bug) =  96.8812
+692 cost= 93.9927 with std= 2.097748
+valid cost =  114.0348 , valid cost (fix bug) =  97.18905
+693 cost= 93.96297 with std= 2.30029
+valid cost =  114.01909 , valid cost (fix bug) =  96.79871
+694 cost= 93.97719 with std= 2.1436543
+valid cost =  113.96295 , valid cost (fix bug) =  96.98244
+695 cost= 93.941246 with std= 1.9145916
+valid cost =  114.10507 , valid cost (fix bug) =  96.494026
+696 cost= 93.9584 with std= 2.0358214
+valid cost =  114.0881 , valid cost (fix bug) =  96.7194
+697 cost= 93.980865 with std= 2.1650627
+valid cost =  113.98261 , valid cost (fix bug) =  96.82825
+698 cost= 93.92254 with std= 2.313481
+valid cost =  114.02195 , valid cost (fix bug) =  96.70317
+699 cost= 93.93038 with std= 2.177195
+valid cost =  113.9821 , valid cost (fix bug) =  97.01755
+700 cost= 94.02318 with std= 1.9734119
+valid cost =  114.049515 , valid cost (fix bug) =  96.68133
+701 cost= 93.93674 with std= 2.1788516
+valid cost =  114.23771 , valid cost (fix bug) =  96.73938
+702 cost= 93.88646 with std= 2.0472856
+valid cost =  114.08005 , valid cost (fix bug) =  96.74914
+703 cost= 93.91239 with std= 2.1478565
+valid cost =  114.04151 , valid cost (fix bug) =  96.79644
+704 cost= 93.99491 with std= 1.9964699
+valid cost =  114.11707 , valid cost (fix bug) =  96.54386
+705 cost= 93.95979 with std= 1.8665398
+valid cost =  113.981415 , valid cost (fix bug) =  96.69065
+706 cost= 93.89476 with std= 1.9900588
+valid cost =  113.9339 , valid cost (fix bug) =  97.22495
+707 cost= 94.040085 with std= 2.0360918
+valid cost =  113.9872 , valid cost (fix bug) =  96.72369
+708 cost= 93.96812 with std= 2.1942701
+valid cost =  113.8351 , valid cost (fix bug) =  97.028534
+709 cost= 93.94476 with std= 2.107488
+valid cost =  113.73142 , valid cost (fix bug) =  97.28199
+710 cost= 94.004005 with std= 2.1544702
+valid cost =  114.057816 , valid cost (fix bug) =  96.72131
+711 cost= 93.94085 with std= 2.143562
+valid cost =  114.1619 , valid cost (fix bug) =  96.973206
+712 cost= 93.9192 with std= 2.0300744
+valid cost =  113.8428 , valid cost (fix bug) =  96.799034
+713 cost= 93.930824 with std= 2.0828817
+valid cost =  114.05561 , valid cost (fix bug) =  96.66271
+714 cost= 93.91057 with std= 2.1134238
+valid cost =  114.11859 , valid cost (fix bug) =  96.956314
+715 cost= 93.99754 with std= 2.0119889
+valid cost =  113.98455 , valid cost (fix bug) =  97.02587
+716 cost= 93.90949 with std= 1.9573513
+valid cost =  114.17307 , valid cost (fix bug) =  97.048134
+717 cost= 93.80967 with std= 2.1084075
+valid cost =  114.39247 , valid cost (fix bug) =  96.88724
+718 cost= 93.85761 with std= 2.0244138
+valid cost =  114.183975 , valid cost (fix bug) =  96.86914
+719 cost= 93.90007 with std= 2.0978246
+valid cost =  114.23619 , valid cost (fix bug) =  96.67066
+720 cost= 93.97814 with std= 1.9726926
+valid cost =  114.43186 , valid cost (fix bug) =  97.0338
+721 cost= 93.932526 with std= 2.1104784
+valid cost =  113.862724 , valid cost (fix bug) =  96.95711
+722 cost= 94.00519 with std= 1.9793396
+valid cost =  113.9304 , valid cost (fix bug) =  96.85135
+723 cost= 93.94885 with std= 2.1717424
+valid cost =  114.22715 , valid cost (fix bug) =  97.17466
+724 cost= 93.894585 with std= 2.1355615
+valid cost =  114.15942 , valid cost (fix bug) =  96.80815
+725 cost= 93.98484 with std= 2.0902011
+valid cost =  114.05633 , valid cost (fix bug) =  97.08566
+726 cost= 93.94193 with std= 2.2268999
+valid cost =  114.15267 , valid cost (fix bug) =  97.081345
+727 cost= 93.98275 with std= 2.0543141
+valid cost =  113.90695 , valid cost (fix bug) =  96.9353
+728 cost= 93.89514 with std= 2.0526676
+valid cost =  114.09306 , valid cost (fix bug) =  96.88227
+729 cost= 93.86395 with std= 2.1623657
+valid cost =  113.8 , valid cost (fix bug) =  96.59871
+730 cost= 94.031166 with std= 2.0824132
+valid cost =  114.105316 , valid cost (fix bug) =  97.05394
+731 cost= 93.91977 with std= 2.2162025
+valid cost =  114.20338 , valid cost (fix bug) =  97.24356
+732 cost= 93.8757 with std= 1.951123
+valid cost =  114.095276 , valid cost (fix bug) =  97.0148
+733 cost= 93.93378 with std= 2.063511
+valid cost =  113.94678 , valid cost (fix bug) =  96.967316
+734 cost= 93.89611 with std= 2.0562992
+valid cost =  113.7424 , valid cost (fix bug) =  96.82129
+735 cost= 93.910614 with std= 2.0753603
+valid cost =  114.09939 , valid cost (fix bug) =  96.96846
+736 cost= 93.940765 with std= 1.9871266
+valid cost =  114.21013 , valid cost (fix bug) =  96.720825
+737 cost= 93.955154 with std= 2.0939198
+valid cost =  113.910774 , valid cost (fix bug) =  96.81049
+738 cost= 93.85806 with std= 2.0894535
+valid cost =  114.0481 , valid cost (fix bug) =  96.95907
+739 cost= 93.923904 with std= 1.9628972
+valid cost =  114.24775 , valid cost (fix bug) =  96.97624
+740 cost= 93.93398 with std= 2.0404787
+valid cost =  114.42072 , valid cost (fix bug) =  97.112976
+741 cost= 93.908745 with std= 1.9534525
+valid cost =  114.28554 , valid cost (fix bug) =  96.90188
+742 cost= 93.893005 with std= 1.9600624
+valid cost =  113.99401 , valid cost (fix bug) =  96.93915
+743 cost= 93.946335 with std= 2.0346086
+valid cost =  113.96455 , valid cost (fix bug) =  97.154915
+744 cost= 93.93631 with std= 2.1312366
+valid cost =  113.74888 , valid cost (fix bug) =  96.867676
+745 cost= 93.892975 with std= 2.1542015
+valid cost =  114.37905 , valid cost (fix bug) =  96.87163
+746 cost= 93.82036 with std= 2.1196198
+valid cost =  114.42881 , valid cost (fix bug) =  96.84792
+747 cost= 93.82629 with std= 2.1024344
+valid cost =  114.36535 , valid cost (fix bug) =  97.01914
+748 cost= 93.93308 with std= 2.0284936
+valid cost =  114.25852 , valid cost (fix bug) =  96.938065
+749 cost= 93.84308 with std= 2.054675
+valid cost =  114.06041 , valid cost (fix bug) =  97.2242
+750 cost= 93.918724 with std= 2.1798937
+valid cost =  114.23296 , valid cost (fix bug) =  97.07014
+751 cost= 93.93706 with std= 2.1489909
+valid cost =  113.80598 , valid cost (fix bug) =  96.80449
+752 cost= 93.909935 with std= 1.9437271
+valid cost =  113.86817 , valid cost (fix bug) =  96.7968
+753 cost= 93.864044 with std= 2.012986
+valid cost =  114.04239 , valid cost (fix bug) =  96.80118
+754 cost= 93.86758 with std= 1.9836419
+valid cost =  114.25548 , valid cost (fix bug) =  96.7851
+755 cost= 93.80608 with std= 2.0718794
+valid cost =  114.15905 , valid cost (fix bug) =  96.965164
+756 cost= 93.86159 with std= 2.0301485
+valid cost =  114.015 , valid cost (fix bug) =  96.9897
+757 cost= 93.911896 with std= 2.2301233
+valid cost =  113.948524 , valid cost (fix bug) =  96.97483
+758 cost= 93.9332 with std= 2.0850158
+valid cost =  114.161476 , valid cost (fix bug) =  97.003654
+759 cost= 93.86838 with std= 2.1460981
+valid cost =  114.21448 , valid cost (fix bug) =  97.02176
+760 cost= 93.908325 with std= 2.1866562
+valid cost =  114.08585 , valid cost (fix bug) =  96.92646
+761 cost= 93.87998 with std= 2.2849538
+valid cost =  114.104866 , valid cost (fix bug) =  96.86447
+762 cost= 93.92316 with std= 2.325237
+valid cost =  113.8555 , valid cost (fix bug) =  96.77454
+763 cost= 93.94893 with std= 2.11542
+valid cost =  113.802734 , valid cost (fix bug) =  96.65955
+764 cost= 93.8983 with std= 2.163965
+valid cost =  114.0366 , valid cost (fix bug) =  96.98105
+765 cost= 93.810394 with std= 2.1122181
+valid cost =  114.04897 , valid cost (fix bug) =  96.89589
+766 cost= 93.7868 with std= 2.0639985
+valid cost =  114.077675 , valid cost (fix bug) =  97.03693
+767 cost= 93.88451 with std= 2.0980003
+valid cost =  114.23608 , valid cost (fix bug) =  97.013985
+768 cost= 93.869225 with std= 2.118588
+valid cost =  113.67742 , valid cost (fix bug) =  97.185875
+769 cost= 93.88416 with std= 2.0877361
+valid cost =  114.04274 , valid cost (fix bug) =  96.558716
+770 cost= 93.969444 with std= 2.0746968
+valid cost =  114.346016 , valid cost (fix bug) =  97.09261
+771 cost= 93.86559 with std= 2.156632
+valid cost =  113.969475 , valid cost (fix bug) =  96.90146
+772 cost= 93.77953 with std= 2.2093349
+valid cost =  113.93513 , valid cost (fix bug) =  96.83758
+773 cost= 93.893 with std= 2.1851876
+valid cost =  114.278076 , valid cost (fix bug) =  97.101875
+774 cost= 93.81559 with std= 2.1362126
+valid cost =  114.111 , valid cost (fix bug) =  96.864235
+775 cost= 93.83534 with std= 2.0677264
+valid cost =  114.25756 , valid cost (fix bug) =  97.072334
+776 cost= 93.89134 with std= 2.1719465
+valid cost =  114.1525 , valid cost (fix bug) =  97.08911
+777 cost= 93.894585 with std= 2.0030916
+valid cost =  113.9029 , valid cost (fix bug) =  97.129234
+778 cost= 93.92348 with std= 2.2119255
+valid cost =  114.34236 , valid cost (fix bug) =  96.99374
+779 cost= 93.94132 with std= 1.9695908
+valid cost =  113.94569 , valid cost (fix bug) =  96.86088
+780 cost= 93.769905 with std= 2.1890457
+valid cost =  114.3023 , valid cost (fix bug) =  96.78077
+781 cost= 93.848946 with std= 2.1320071
+valid cost =  114.0974 , valid cost (fix bug) =  97.03308
+782 cost= 93.909996 with std= 1.9876946
+valid cost =  114.30415 , valid cost (fix bug) =  97.11993
+783 cost= 93.80779 with std= 2.0720599
+valid cost =  114.1374 , valid cost (fix bug) =  97.07521
+784 cost= 93.9315 with std= 1.9178329
+valid cost =  114.20959 , valid cost (fix bug) =  96.9718
+785 cost= 93.839035 with std= 2.0934627
+valid cost =  114.2945 , valid cost (fix bug) =  96.942184
+786 cost= 93.79587 with std= 2.2517436
+valid cost =  114.14738 , valid cost (fix bug) =  96.95366
+787 cost= 93.85807 with std= 2.0914385
+valid cost =  114.2274 , valid cost (fix bug) =  97.165535
+788 cost= 93.9699 with std= 2.069674
+valid cost =  114.14065 , valid cost (fix bug) =  96.79686
+789 cost= 93.91017 with std= 2.0495255
+valid cost =  114.31226 , valid cost (fix bug) =  97.24805
+790 cost= 93.82784 with std= 2.0995195
+valid cost =  114.19375 , valid cost (fix bug) =  97.31669
+791 cost= 93.897934 with std= 1.9280977
+valid cost =  114.3847 , valid cost (fix bug) =  97.242
+792 cost= 93.92555 with std= 2.0848243
+valid cost =  114.10675 , valid cost (fix bug) =  97.29332
+793 cost= 93.88676 with std= 2.1301754
+valid cost =  114.132324 , valid cost (fix bug) =  96.654526
+794 cost= 93.81896 with std= 1.9340105
+valid cost =  114.618225 , valid cost (fix bug) =  96.94519
+795 cost= 93.8869 with std= 2.021585
+valid cost =  114.28986 , valid cost (fix bug) =  97.23434
+796 cost= 93.81611 with std= 2.0346525
+valid cost =  113.91007 , valid cost (fix bug) =  97.19344
+797 cost= 93.84058 with std= 2.149756
+valid cost =  114.215836 , valid cost (fix bug) =  96.8336
+798 cost= 93.809166 with std= 2.1143725
+valid cost =  114.033966 , valid cost (fix bug) =  97.28047
+799 cost= 93.88402 with std= 2.0955892
+valid cost =  114.29495 , valid cost (fix bug) =  97.141785
+800 cost= 93.7655 with std= 1.9799939
+valid cost =  114.27428 , valid cost (fix bug) =  96.99986
+801 cost= 93.893524 with std= 2.122479
+valid cost =  114.25818 , valid cost (fix bug) =  97.07783
+802 cost= 93.88963 with std= 2.0368114
+valid cost =  114.09028 , valid cost (fix bug) =  97.15375
+803 cost= 93.80659 with std= 2.2104003
+valid cost =  114.1317 , valid cost (fix bug) =  97.01132
+804 cost= 94.00065 with std= 2.0825908
+valid cost =  113.79288 , valid cost (fix bug) =  97.13132
+805 cost= 93.90637 with std= 2.0283563
+valid cost =  114.111885 , valid cost (fix bug) =  96.97222
+806 cost= 93.852196 with std= 2.062967
+valid cost =  114.12218 , valid cost (fix bug) =  97.04155
+807 cost= 93.83618 with std= 1.9564778
+valid cost =  114.05819 , valid cost (fix bug) =  97.17219
+808 cost= 93.7876 with std= 2.077718
+valid cost =  114.24095 , valid cost (fix bug) =  97.26571
+809 cost= 93.80305 with std= 2.13147
+valid cost =  114.004265 , valid cost (fix bug) =  96.91698
+810 cost= 93.869774 with std= 2.1958702
+valid cost =  114.185074 , valid cost (fix bug) =  97.09233
+811 cost= 93.85726 with std= 2.20401
+valid cost =  114.36159 , valid cost (fix bug) =  96.85075
+812 cost= 93.85456 with std= 2.1859877
+valid cost =  114.53192 , valid cost (fix bug) =  97.27627
+813 cost= 93.942924 with std= 2.0531795
+valid cost =  114.3971 , valid cost (fix bug) =  96.776306
+814 cost= 93.90564 with std= 2.1105824
+valid cost =  114.16895 , valid cost (fix bug) =  97.185295
+815 cost= 93.84814 with std= 2.1056743
+valid cost =  114.02136 , valid cost (fix bug) =  97.25705
+816 cost= 93.80874 with std= 2.120232
+valid cost =  114.41737 , valid cost (fix bug) =  97.18064
+817 cost= 93.87263 with std= 2.1936238
+valid cost =  114.44132 , valid cost (fix bug) =  96.764275
+818 cost= 93.76295 with std= 2.1436522
+valid cost =  114.04285 , valid cost (fix bug) =  97.18004
+819 cost= 93.9183 with std= 1.9591253
+valid cost =  113.796364 , valid cost (fix bug) =  97.196724
+820 cost= 93.89489 with std= 1.9265926
+valid cost =  114.53344 , valid cost (fix bug) =  96.87278
+821 cost= 93.883125 with std= 2.0655382
+valid cost =  114.0312 , valid cost (fix bug) =  96.922424
+822 cost= 93.76249 with std= 2.015182
+valid cost =  114.02559 , valid cost (fix bug) =  97.06859
+823 cost= 93.862434 with std= 2.2274482
+valid cost =  114.48665 , valid cost (fix bug) =  97.08956
+824 cost= 93.87896 with std= 2.224783
+valid cost =  114.44156 , valid cost (fix bug) =  96.96632
+825 cost= 93.88115 with std= 2.2155461
+valid cost =  114.17835 , valid cost (fix bug) =  97.110756
+826 cost= 93.827896 with std= 2.0153246
+valid cost =  114.35149 , valid cost (fix bug) =  97.04964
+827 cost= 93.876945 with std= 2.011732
+valid cost =  113.973625 , valid cost (fix bug) =  97.14725
+828 cost= 93.81123 with std= 2.054033
+valid cost =  114.32519 , valid cost (fix bug) =  97.02322
+829 cost= 93.708046 with std= 2.110291
+valid cost =  114.11511 , valid cost (fix bug) =  97.172165
+830 cost= 93.85402 with std= 2.0831442
+valid cost =  114.21027 , valid cost (fix bug) =  96.82965
+831 cost= 93.915276 with std= 1.9992714
+valid cost =  114.24078 , valid cost (fix bug) =  96.78044
+832 cost= 93.8093 with std= 2.0707328
+valid cost =  114.427765 , valid cost (fix bug) =  96.978264
+833 cost= 93.86066 with std= 2.0723035
+valid cost =  114.07797 , valid cost (fix bug) =  97.17836
+834 cost= 93.7869 with std= 2.1079178
+valid cost =  114.1342 , valid cost (fix bug) =  96.94118
+835 cost= 93.951164 with std= 1.8943266
+valid cost =  114.353226 , valid cost (fix bug) =  97.378876
+836 cost= 93.773895 with std= 2.0404534
+valid cost =  114.29126 , valid cost (fix bug) =  97.22605
+837 cost= 93.85796 with std= 2.1666708
+valid cost =  114.534935 , valid cost (fix bug) =  97.28055
+838 cost= 93.84573 with std= 2.1100936
+valid cost =  114.32922 , valid cost (fix bug) =  97.1031
+839 cost= 93.91711 with std= 2.0026636
+valid cost =  114.26145 , valid cost (fix bug) =  96.914734
+840 cost= 93.864456 with std= 1.9330133
+valid cost =  114.220184 , valid cost (fix bug) =  97.28248
+841 cost= 93.78548 with std= 2.1067834
+valid cost =  114.36869 , valid cost (fix bug) =  96.79629
+842 cost= 93.81196 with std= 1.935604
+valid cost =  114.11672 , valid cost (fix bug) =  96.998024
+843 cost= 93.938194 with std= 2.1483922
+valid cost =  114.215576 , valid cost (fix bug) =  97.34795
+844 cost= 93.768166 with std= 2.0397902
+valid cost =  114.131325 , valid cost (fix bug) =  96.90531
+845 cost= 93.88508 with std= 2.1004875
+valid cost =  114.08965 , valid cost (fix bug) =  97.134636
+846 cost= 93.84364 with std= 2.2902603
+valid cost =  114.53123 , valid cost (fix bug) =  97.15767
+847 cost= 93.86822 with std= 2.0168254
+valid cost =  114.18575 , valid cost (fix bug) =  97.18579
+848 cost= 93.798965 with std= 2.2270324
+valid cost =  114.252525 , valid cost (fix bug) =  97.1181
+849 cost= 93.91212 with std= 1.9474487
+valid cost =  114.3203 , valid cost (fix bug) =  97.14411
+850 cost= 93.88042 with std= 2.1601899
+valid cost =  114.38405 , valid cost (fix bug) =  97.061935
+851 cost= 93.71723 with std= 2.0141165
+valid cost =  114.6406 , valid cost (fix bug) =  97.04785
+852 cost= 93.77098 with std= 2.0443
+valid cost =  114.647224 , valid cost (fix bug) =  97.273476
+853 cost= 93.858406 with std= 2.052392
+valid cost =  113.98285 , valid cost (fix bug) =  97.37417
+854 cost= 93.86968 with std= 2.1244693
+valid cost =  114.25069 , valid cost (fix bug) =  97.12232
+855 cost= 93.81708 with std= 2.2514122
+valid cost =  114.314575 , valid cost (fix bug) =  97.16898
+856 cost= 93.873764 with std= 1.9986634
+valid cost =  114.0721 , valid cost (fix bug) =  97.04476
+857 cost= 93.86397 with std= 1.9938005
+valid cost =  114.377525 , valid cost (fix bug) =  97.14095
+858 cost= 93.821785 with std= 1.955054
+valid cost =  114.318726 , valid cost (fix bug) =  97.17065
+859 cost= 93.86288 with std= 2.1819458
+valid cost =  114.59715 , valid cost (fix bug) =  97.55014
+860 cost= 93.76777 with std= 2.084402
+valid cost =  114.37521 , valid cost (fix bug) =  96.9695
+861 cost= 93.96115 with std= 2.079263
+valid cost =  114.18345 , valid cost (fix bug) =  97.295334
+862 cost= 93.89956 with std= 2.1747875
+valid cost =  114.09062 , valid cost (fix bug) =  97.02306
+863 cost= 93.89107 with std= 2.0048592
+valid cost =  114.63933 , valid cost (fix bug) =  97.21061
+864 cost= 93.881035 with std= 1.8739679
+valid cost =  114.70103 , valid cost (fix bug) =  97.14914
+865 cost= 93.83324 with std= 2.0926378
+valid cost =  114.20467 , valid cost (fix bug) =  96.912384
+866 cost= 93.87073 with std= 1.892675
+valid cost =  114.496765 , valid cost (fix bug) =  97.01895
+867 cost= 93.93871 with std= 1.9671116
+valid cost =  114.06248 , valid cost (fix bug) =  97.11709
+868 cost= 93.80733 with std= 1.8901219
+valid cost =  114.53534 , valid cost (fix bug) =  97.2473
+869 cost= 93.8094 with std= 2.0975816
+valid cost =  114.399826 , valid cost (fix bug) =  97.145935
+870 cost= 93.756134 with std= 2.0432203
+valid cost =  114.2497 , valid cost (fix bug) =  97.00468
+871 cost= 93.872856 with std= 1.9367505
+valid cost =  114.22762 , valid cost (fix bug) =  97.009766
+872 cost= 93.83018 with std= 1.9804281
+valid cost =  114.45694 , valid cost (fix bug) =  97.2228
+873 cost= 93.84281 with std= 2.085491
+valid cost =  114.14534 , valid cost (fix bug) =  97.2814
+874 cost= 93.83538 with std= 2.0015259
+valid cost =  114.18105 , valid cost (fix bug) =  97.183334
+875 cost= 93.798454 with std= 2.110724
+valid cost =  114.16166 , valid cost (fix bug) =  97.21014
+876 cost= 93.83503 with std= 2.01092
+valid cost =  114.0748 , valid cost (fix bug) =  97.07446
+877 cost= 93.85227 with std= 1.9943358
+valid cost =  114.1232 , valid cost (fix bug) =  97.185234
+878 cost= 93.77676 with std= 2.1572073
+valid cost =  114.09974 , valid cost (fix bug) =  97.29382
+879 cost= 93.83124 with std= 2.292008
+valid cost =  114.229034 , valid cost (fix bug) =  97.126144
+880 cost= 93.8958 with std= 2.149149
+valid cost =  114.35556 , valid cost (fix bug) =  97.35564
+881 cost= 93.806206 with std= 2.0134315
+valid cost =  113.9049 , valid cost (fix bug) =  97.48843
+882 cost= 93.8065 with std= 2.0919473
+valid cost =  114.58813 , valid cost (fix bug) =  97.16
+883 cost= 93.856636 with std= 2.021317
+valid cost =  114.32529 , valid cost (fix bug) =  97.10357
+884 cost= 93.806915 with std= 2.2107594
+valid cost =  114.72135 , valid cost (fix bug) =  97.260376
+885 cost= 93.78631 with std= 2.2003934
+valid cost =  113.92031 , valid cost (fix bug) =  97.25151
+886 cost= 93.768486 with std= 2.086333
+valid cost =  114.00834 , valid cost (fix bug) =  97.187935
+887 cost= 93.87579 with std= 2.0830328
+valid cost =  113.825485 , valid cost (fix bug) =  97.4575
+888 cost= 93.8845 with std= 2.0987782
+valid cost =  113.9359 , valid cost (fix bug) =  97.083244
+889 cost= 93.874176 with std= 2.1865332
+valid cost =  114.340225 , valid cost (fix bug) =  97.37318
+890 cost= 93.87144 with std= 2.1418717
+valid cost =  114.53321 , valid cost (fix bug) =  96.84567
+891 cost= 93.85026 with std= 2.0751996
+valid cost =  114.648476 , valid cost (fix bug) =  97.4589
+892 cost= 93.82081 with std= 2.0238295
+valid cost =  114.53424 , valid cost (fix bug) =  97.12189
+893 cost= 93.87442 with std= 2.1071515
+valid cost =  114.39576 , valid cost (fix bug) =  97.22539
+894 cost= 93.76874 with std= 2.0661783
+valid cost =  114.38812 , valid cost (fix bug) =  97.26754
+895 cost= 93.80894 with std= 1.9831392
+valid cost =  114.44044 , valid cost (fix bug) =  97.2857
+896 cost= 93.81352 with std= 2.0065558
+valid cost =  114.63387 , valid cost (fix bug) =  97.43186
+897 cost= 93.87004 with std= 2.0383728
+valid cost =  114.39466 , valid cost (fix bug) =  97.32927
+898 cost= 93.828125 with std= 1.9282588
+valid cost =  114.1496 , valid cost (fix bug) =  97.16021
+899 cost= 93.90527 with std= 1.9574897
+valid cost =  114.04086 , valid cost (fix bug) =  97.32406
+900 cost= 93.875145 with std= 2.124768
+valid cost =  114.42604 , valid cost (fix bug) =  97.263176
+901 cost= 93.804245 with std= 2.0888448
+valid cost =  114.233665 , valid cost (fix bug) =  97.63239
+902 cost= 93.81279 with std= 2.053768
+valid cost =  114.25793 , valid cost (fix bug) =  97.14206
+903 cost= 93.806816 with std= 2.1618514
+valid cost =  114.57525 , valid cost (fix bug) =  96.95705
+904 cost= 93.737686 with std= 1.9316888
+valid cost =  114.1988 , valid cost (fix bug) =  97.21884
+905 cost= 93.84504 with std= 2.0893905
+valid cost =  114.299576 , valid cost (fix bug) =  97.39389
+906 cost= 93.80592 with std= 2.2434063
+valid cost =  113.88262 , valid cost (fix bug) =  97.180176
+907 cost= 93.80292 with std= 1.952876
+valid cost =  114.33257 , valid cost (fix bug) =  97.18333
+908 cost= 93.77459 with std= 2.1380508
+valid cost =  114.65163 , valid cost (fix bug) =  97.13638
+909 cost= 93.89049 with std= 2.0602896
+valid cost =  114.2248 , valid cost (fix bug) =  97.44457
+910 cost= 93.81257 with std= 1.953386
+valid cost =  114.32452 , valid cost (fix bug) =  97.23244
+911 cost= 93.92105 with std= 2.2217896
+valid cost =  114.520485 , valid cost (fix bug) =  97.3707
+912 cost= 93.927376 with std= 2.1047595
+valid cost =  114.229485 , valid cost (fix bug) =  97.29379
+913 cost= 93.753265 with std= 2.0531018
+valid cost =  114.56058 , valid cost (fix bug) =  97.21044
+914 cost= 93.92911 with std= 2.0516334
+valid cost =  114.1828 , valid cost (fix bug) =  97.24778
+915 cost= 93.89737 with std= 2.1086538
+valid cost =  114.380775 , valid cost (fix bug) =  97.278984
+916 cost= 93.84067 with std= 2.0242596
+valid cost =  114.41506 , valid cost (fix bug) =  97.366844
+917 cost= 93.76094 with std= 2.0296354
+valid cost =  114.69353 , valid cost (fix bug) =  97.19742
+918 cost= 93.86375 with std= 2.168906
+valid cost =  114.59391 , valid cost (fix bug) =  97.30989
+919 cost= 93.77787 with std= 2.0584133
+valid cost =  114.41968 , valid cost (fix bug) =  97.51071
+920 cost= 93.79504 with std= 2.0672965
+valid cost =  114.84829 , valid cost (fix bug) =  96.99362
+921 cost= 93.88696 with std= 2.1686006
+valid cost =  114.38201 , valid cost (fix bug) =  97.13695
+922 cost= 93.826935 with std= 2.0207026
+valid cost =  114.39581 , valid cost (fix bug) =  97.30402
+923 cost= 93.75733 with std= 1.9840293
+valid cost =  114.67105 , valid cost (fix bug) =  97.31988
+924 cost= 93.74316 with std= 2.2344136
+valid cost =  114.6622 , valid cost (fix bug) =  97.30772
+925 cost= 93.845184 with std= 2.1317823
+valid cost =  114.568016 , valid cost (fix bug) =  97.19531
+926 cost= 93.91545 with std= 1.8851557
+valid cost =  114.3439 , valid cost (fix bug) =  97.22353
+927 cost= 93.89087 with std= 1.8712274
+valid cost =  115.010635 , valid cost (fix bug) =  97.16477
+928 cost= 93.823616 with std= 2.1098516
+valid cost =  114.21189 , valid cost (fix bug) =  97.3684
+929 cost= 93.842 with std= 2.100136
+valid cost =  114.43885 , valid cost (fix bug) =  97.46583
+930 cost= 93.886536 with std= 2.1640234
+valid cost =  114.30251 , valid cost (fix bug) =  97.30325
+931 cost= 93.83892 with std= 1.9571317
+valid cost =  114.624374 , valid cost (fix bug) =  97.109566
+932 cost= 93.87742 with std= 2.0256975
+valid cost =  114.42979 , valid cost (fix bug) =  97.17272
+933 cost= 93.777374 with std= 1.9833556
+valid cost =  114.39748 , valid cost (fix bug) =  97.287865
+934 cost= 93.84084 with std= 2.1793816
+valid cost =  114.21335 , valid cost (fix bug) =  97.14094
+935 cost= 93.76778 with std= 2.109247
+valid cost =  114.166176 , valid cost (fix bug) =  97.19078
+936 cost= 93.88964 with std= 1.8401636
+valid cost =  114.35986 , valid cost (fix bug) =  97.256546
+937 cost= 93.762596 with std= 2.119044
+valid cost =  114.7098 , valid cost (fix bug) =  97.43081
+938 cost= 93.85524 with std= 2.049551
+valid cost =  114.22074 , valid cost (fix bug) =  97.27808
+939 cost= 93.849304 with std= 2.1330934
+valid cost =  114.71714 , valid cost (fix bug) =  96.88384
+940 cost= 93.78186 with std= 2.0296478
+valid cost =  114.45125 , valid cost (fix bug) =  97.22641
+941 cost= 93.90756 with std= 2.0739677
+valid cost =  114.33053 , valid cost (fix bug) =  97.28455
+942 cost= 93.813354 with std= 2.105226
+valid cost =  114.432625 , valid cost (fix bug) =  97.35575
+943 cost= 93.819984 with std= 2.15634
+valid cost =  114.55937 , valid cost (fix bug) =  97.201775
+944 cost= 93.73069 with std= 2.137663
+valid cost =  114.70978 , valid cost (fix bug) =  97.28972
+945 cost= 93.86642 with std= 2.2208774
+valid cost =  114.4067 , valid cost (fix bug) =  97.33849
+946 cost= 93.82356 with std= 2.1048188
+valid cost =  114.32196 , valid cost (fix bug) =  97.219376
+947 cost= 93.81737 with std= 2.126254
+valid cost =  114.217926 , valid cost (fix bug) =  97.38561
+948 cost= 93.82165 with std= 2.085808
+valid cost =  114.36188 , valid cost (fix bug) =  97.2444
+949 cost= 93.82964 with std= 2.0299711
+valid cost =  114.53654 , valid cost (fix bug) =  97.53727
+950 cost= 93.85178 with std= 2.208712
+valid cost =  114.36789 , valid cost (fix bug) =  97.473
+951 cost= 93.802895 with std= 2.266639
+valid cost =  114.39016 , valid cost (fix bug) =  97.34688
+952 cost= 93.82954 with std= 2.0073159
+valid cost =  114.32143 , valid cost (fix bug) =  97.42417
+953 cost= 93.87621 with std= 1.9614265
+valid cost =  114.263466 , valid cost (fix bug) =  97.24615
+954 cost= 93.8031 with std= 2.061896
+valid cost =  114.42487 , valid cost (fix bug) =  97.385735
+955 cost= 93.91274 with std= 2.0566432
+valid cost =  114.83485 , valid cost (fix bug) =  97.54202
+956 cost= 93.795074 with std= 1.9701841
+valid cost =  114.5206 , valid cost (fix bug) =  97.3754
+957 cost= 93.82657 with std= 2.1088192
+valid cost =  114.12285 , valid cost (fix bug) =  97.15755
+958 cost= 93.83044 with std= 1.9436848
+valid cost =  114.66532 , valid cost (fix bug) =  97.48661
+959 cost= 93.7668 with std= 2.0619152
+valid cost =  114.64534 , valid cost (fix bug) =  97.68748
+960 cost= 93.86246 with std= 2.116298
+valid cost =  114.34197 , valid cost (fix bug) =  97.13577
+961 cost= 93.75962 with std= 2.1476805
+valid cost =  114.374176 , valid cost (fix bug) =  97.26651
+962 cost= 93.84442 with std= 2.111417
+valid cost =  114.596466 , valid cost (fix bug) =  97.78331
+963 cost= 93.90611 with std= 2.0678449
+valid cost =  114.2837 , valid cost (fix bug) =  97.50601
+964 cost= 93.84987 with std= 2.2112603
+valid cost =  114.46707 , valid cost (fix bug) =  97.10079
+965 cost= 93.90592 with std= 2.0691204
+valid cost =  114.33143 , valid cost (fix bug) =  97.33647
+966 cost= 93.84687 with std= 2.2075586
+valid cost =  114.41706 , valid cost (fix bug) =  97.18917
+967 cost= 93.86839 with std= 2.1125927
+valid cost =  114.28194 , valid cost (fix bug) =  97.22587
+968 cost= 93.81305 with std= 2.2209997
+valid cost =  114.543816 , valid cost (fix bug) =  97.24342
+969 cost= 93.85263 with std= 2.1351414
+valid cost =  114.41055 , valid cost (fix bug) =  97.65179
+970 cost= 93.96715 with std= 2.125646
+valid cost =  114.64595 , valid cost (fix bug) =  97.13052
+971 cost= 93.77382 with std= 2.0730696
+valid cost =  114.59301 , valid cost (fix bug) =  97.454865
+972 cost= 93.880806 with std= 2.2670512
+valid cost =  114.59179 , valid cost (fix bug) =  97.36482
+973 cost= 93.85463 with std= 2.1750605
+valid cost =  114.51232 , valid cost (fix bug) =  97.448364
+974 cost= 93.887085 with std= 1.9628958
+valid cost =  114.3354 , valid cost (fix bug) =  97.65235
+975 cost= 93.79592 with std= 2.0766792
+valid cost =  114.44903 , valid cost (fix bug) =  97.15025
+976 cost= 93.89517 with std= 2.138446
+valid cost =  114.51537 , valid cost (fix bug) =  97.371086
+977 cost= 93.85422 with std= 2.0464838
+valid cost =  114.3078 , valid cost (fix bug) =  97.31169
+978 cost= 93.881 with std= 2.1739967
+valid cost =  114.53542 , valid cost (fix bug) =  97.476234
+979 cost= 93.813934 with std= 2.125158
+valid cost =  114.5448 , valid cost (fix bug) =  97.6899
+980 cost= 93.79898 with std= 2.1325028
+valid cost =  114.53009 , valid cost (fix bug) =  97.183624
+981 cost= 93.800735 with std= 2.018735
+valid cost =  114.44526 , valid cost (fix bug) =  97.569115
+982 cost= 93.830696 with std= 2.1900122
+valid cost =  114.52155 , valid cost (fix bug) =  97.232765
+983 cost= 93.7172 with std= 2.0859098
+valid cost =  114.37557 , valid cost (fix bug) =  97.4228
+984 cost= 93.897285 with std= 2.1060615
+valid cost =  114.9179 , valid cost (fix bug) =  97.53742
+985 cost= 93.86892 with std= 2.1913617
+valid cost =  114.56863 , valid cost (fix bug) =  97.61048
+986 cost= 93.843216 with std= 1.9338433
+valid cost =  114.7391 , valid cost (fix bug) =  97.15471
+987 cost= 93.84003 with std= 1.9560981
+valid cost =  114.4933 , valid cost (fix bug) =  97.228424
+988 cost= 93.92028 with std= 1.9476461
+valid cost =  114.404686 , valid cost (fix bug) =  97.28639
+989 cost= 93.835045 with std= 2.0612516
+valid cost =  114.5106 , valid cost (fix bug) =  97.22396
+990 cost= 93.82181 with std= 2.2426496
+valid cost =  114.29946 , valid cost (fix bug) =  97.507
+991 cost= 93.89247 with std= 2.0045238
+valid cost =  114.275826 , valid cost (fix bug) =  97.22136
+992 cost= 93.89778 with std= 2.1595893
+valid cost =  114.03548 , valid cost (fix bug) =  97.31056
+993 cost= 93.83521 with std= 2.1268566
+valid cost =  114.60789 , valid cost (fix bug) =  97.66477
+994 cost= 93.780174 with std= 2.0827901
+valid cost =  114.7015 , valid cost (fix bug) =  97.64837
+995 cost= 93.84694 with std= 2.006311
+valid cost =  114.15521 , valid cost (fix bug) =  97.26051
+996 cost= 93.85344 with std= 2.1248913
+valid cost =  114.34618 , valid cost (fix bug) =  97.36997
+997 cost= 93.87692 with std= 2.132116
+valid cost =  114.35166 , valid cost (fix bug) =  97.319275
+998 cost= 93.787 with std= 2.20808
+valid cost =  114.672134 , valid cost (fix bug) =  97.49383
+999 cost= 93.87127 with std= 2.2428122
+valid cost =  114.3339 , valid cost (fix bug) =  97.30216
+Gumbel-Softmax

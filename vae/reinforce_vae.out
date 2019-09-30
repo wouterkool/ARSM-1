@@ -1,0 +1,2006 @@
+Extracting /home/wouter/dev/ARSM-1/vae/MNIST/train-images-idx3-ubyte.gz
+Extracting /home/wouter/dev/ARSM-1/vae/MNIST/train-labels-idx1-ubyte.gz
+Extracting /home/wouter/dev/ARSM-1/vae/MNIST/t10k-images-idx3-ubyte.gz
+Extracting /home/wouter/dev/ARSM-1/vae/MNIST/t10k-labels-idx1-ubyte.gz
+Training starts.... REINFORCE
+0 cost= 208.65802 with std= 50.56157
+valid cost =  184.56676
+1 cost= 166.00574 with std= 10.489984
+valid cost =  152.50716
+2 cost= 149.02048 with std= 4.005233
+valid cost =  144.1711
+3 cost= 142.3847 with std= 3.583611
+valid cost =  138.42462
+4 cost= 137.35783 with std= 2.8501832
+valid cost =  134.19681
+5 cost= 133.19624 with std= 3.1237307
+valid cost =  130.1709
+6 cost= 129.81349 with std= 3.0480206
+valid cost =  127.6446
+7 cost= 127.4597 with std= 2.6752677
+valid cost =  125.18921
+8 cost= 125.46529 with std= 2.6016576
+valid cost =  123.70859
+9 cost= 123.93145 with std= 2.755845
+valid cost =  122.67895
+10 cost= 122.51699 with std= 2.6193473
+valid cost =  121.14517
+11 cost= 121.127106 with std= 2.868304
+valid cost =  119.9388
+12 cost= 120.02494 with std= 2.6850078
+valid cost =  119.2105
+13 cost= 118.941 with std= 2.4824407
+valid cost =  118.57325
+14 cost= 118.43352 with std= 2.4386604
+valid cost =  117.18403
+15 cost= 117.32479 with std= 2.61777
+valid cost =  116.41355
+16 cost= 116.5874 with std= 2.2814372
+valid cost =  116.00479
+17 cost= 115.83551 with std= 2.2991714
+valid cost =  115.517876
+18 cost= 115.466736 with std= 2.4433753
+valid cost =  115.36955
+19 cost= 114.865456 with std= 2.8570292
+valid cost =  115.09647
+20 cost= 114.50015 with std= 2.4799862
+valid cost =  114.52835
+21 cost= 113.850464 with std= 2.4873931
+valid cost =  113.86652
+22 cost= 113.39639 with std= 2.5022964
+valid cost =  113.13428
+23 cost= 113.0416 with std= 2.2656734
+valid cost =  113.20148
+24 cost= 112.66652 with std= 2.2838407
+valid cost =  113.07368
+25 cost= 112.36232 with std= 2.4739108
+valid cost =  112.94578
+26 cost= 111.95769 with std= 2.4629533
+valid cost =  112.66657
+27 cost= 111.73939 with std= 2.4493613
+valid cost =  112.03571
+28 cost= 111.271996 with std= 2.233013
+valid cost =  111.95405
+29 cost= 111.122635 with std= 2.2733111
+valid cost =  111.88708
+30 cost= 110.71371 with std= 2.3258348
+valid cost =  111.799736
+31 cost= 110.43886 with std= 2.2325654
+valid cost =  111.1429
+32 cost= 110.187416 with std= 2.291756
+valid cost =  110.87565
+33 cost= 109.99726 with std= 2.5027668
+valid cost =  110.84992
+34 cost= 109.627304 with std= 2.2840533
+valid cost =  110.53579
+35 cost= 109.8215 with std= 2.2124856
+valid cost =  110.3706
+36 cost= 109.16906 with std= 2.3623443
+valid cost =  110.38835
+37 cost= 108.92133 with std= 2.5210285
+valid cost =  110.25835
+38 cost= 108.57743 with std= 2.3425272
+valid cost =  110.46534
+39 cost= 108.422356 with std= 2.357143
+valid cost =  109.92129
+40 cost= 108.32368 with std= 2.4055252
+valid cost =  109.80605
+41 cost= 108.136185 with std= 2.250252
+valid cost =  109.38708
+42 cost= 107.95274 with std= 2.4302683
+valid cost =  109.630325
+43 cost= 107.71962 with std= 2.3103576
+valid cost =  109.49248
+44 cost= 107.5862 with std= 2.3814518
+valid cost =  109.25932
+45 cost= 107.30845 with std= 2.089581
+valid cost =  108.57204
+46 cost= 107.491516 with std= 2.2372508
+valid cost =  109.38763
+47 cost= 107.11442 with std= 2.4041913
+valid cost =  108.56275
+48 cost= 106.82301 with std= 2.1176424
+valid cost =  108.6827
+49 cost= 107.013664 with std= 2.3144257
+valid cost =  109.00466
+50 cost= 106.76861 with std= 2.1324716
+valid cost =  108.246216
+51 cost= 106.41433 with std= 2.1781065
+valid cost =  108.228516
+52 cost= 106.32893 with std= 2.2937298
+valid cost =  108.215225
+53 cost= 106.45263 with std= 2.2444818
+valid cost =  108.11873
+54 cost= 105.85626 with std= 2.1808367
+valid cost =  107.61842
+55 cost= 105.93004 with std= 2.1132672
+valid cost =  107.86551
+56 cost= 105.677925 with std= 2.2838466
+valid cost =  107.31555
+57 cost= 105.69896 with std= 2.2590532
+valid cost =  107.86548
+58 cost= 105.51424 with std= 2.2664032
+valid cost =  107.43454
+59 cost= 105.49815 with std= 2.1439462
+valid cost =  107.776985
+60 cost= 105.51582 with std= 2.3191917
+valid cost =  107.61721
+61 cost= 105.30005 with std= 2.227598
+valid cost =  107.50966
+62 cost= 105.17949 with std= 2.400326
+valid cost =  107.866035
+63 cost= 105.06059 with std= 2.2466552
+valid cost =  107.52512
+64 cost= 104.995674 with std= 2.1870434
+valid cost =  107.36254
+65 cost= 104.7631 with std= 2.2967553
+valid cost =  106.956024
+66 cost= 104.581474 with std= 2.230064
+valid cost =  106.93662
+67 cost= 104.5932 with std= 2.1605148
+valid cost =  107.0482
+68 cost= 104.682945 with std= 2.218176
+valid cost =  106.73937
+69 cost= 104.23497 with std= 2.23168
+valid cost =  106.60023
+70 cost= 104.22686 with std= 2.2127328
+valid cost =  106.679016
+71 cost= 104.00395 with std= 2.1343827
+valid cost =  106.4477
+72 cost= 104.13847 with std= 2.139531
+valid cost =  106.722084
+73 cost= 103.92687 with std= 2.0208426
+valid cost =  106.67395
+74 cost= 103.9026 with std= 2.2434964
+valid cost =  106.604515
+75 cost= 103.63195 with std= 2.174604
+valid cost =  106.76582
+76 cost= 103.79643 with std= 2.2275684
+valid cost =  106.422714
+77 cost= 103.69408 with std= 2.2032099
+valid cost =  106.41185
+78 cost= 103.49153 with std= 2.0704968
+valid cost =  106.63068
+79 cost= 103.45018 with std= 2.1508133
+valid cost =  106.40012
+80 cost= 103.31706 with std= 2.1554167
+valid cost =  105.91025
+81 cost= 103.25553 with std= 2.1274555
+valid cost =  106.50638
+82 cost= 103.398705 with std= 2.1234965
+valid cost =  106.18124
+83 cost= 102.91845 with std= 2.1208727
+valid cost =  105.7213
+84 cost= 102.81953 with std= 2.185138
+valid cost =  106.11523
+85 cost= 102.96146 with std= 2.194086
+valid cost =  106.004326
+86 cost= 102.995865 with std= 2.3421347
+valid cost =  105.7222
+87 cost= 102.75246 with std= 2.164515
+valid cost =  106.34017
+88 cost= 102.58656 with std= 2.0912302
+valid cost =  106.21593
+89 cost= 102.63687 with std= 2.0412774
+valid cost =  106.4033
+90 cost= 102.78085 with std= 2.181174
+valid cost =  106.10158
+91 cost= 102.59942 with std= 2.0657318
+valid cost =  105.89335
+92 cost= 102.46413 with std= 2.0624359
+valid cost =  106.17905
+93 cost= 102.395454 with std= 2.1228857
+valid cost =  105.58717
+94 cost= 102.28205 with std= 2.1355643
+valid cost =  105.48145
+95 cost= 102.087685 with std= 2.0879219
+valid cost =  104.967575
+96 cost= 102.00085 with std= 1.9492464
+valid cost =  105.61895
+97 cost= 101.888245 with std= 1.987579
+valid cost =  105.40337
+98 cost= 101.915245 with std= 2.1677501
+valid cost =  105.888824
+99 cost= 102.17686 with std= 2.2585049
+valid cost =  105.40927
+100 cost= 101.96916 with std= 2.2828329
+valid cost =  105.45961
+101 cost= 101.88337 with std= 2.2410936
+valid cost =  105.28967
+102 cost= 101.71651 with std= 2.3757389
+valid cost =  105.4608
+103 cost= 101.73334 with std= 2.1151412
+valid cost =  105.22713
+104 cost= 101.47579 with std= 2.1155283
+valid cost =  104.94069
+105 cost= 101.38352 with std= 2.1384706
+valid cost =  105.063034
+106 cost= 101.29192 with std= 2.0295074
+valid cost =  104.84435
+107 cost= 101.33147 with std= 2.2135017
+valid cost =  105.08195
+108 cost= 101.38014 with std= 2.255891
+valid cost =  105.41512
+109 cost= 101.10681 with std= 1.9861097
+valid cost =  104.799385
+110 cost= 101.14368 with std= 2.1186664
+valid cost =  104.83799
+111 cost= 101.38642 with std= 2.2048283
+valid cost =  104.8853
+112 cost= 101.21229 with std= 1.9990716
+valid cost =  104.99681
+113 cost= 101.23733 with std= 1.9729035
+valid cost =  105.0917
+114 cost= 101.163086 with std= 2.240002
+valid cost =  104.694916
+115 cost= 100.95695 with std= 2.1862
+valid cost =  104.976425
+116 cost= 100.74799 with std= 2.0899024
+valid cost =  104.55293
+117 cost= 100.74897 with std= 2.0258193
+valid cost =  104.58575
+118 cost= 100.74666 with std= 2.2306404
+valid cost =  104.581314
+119 cost= 100.73325 with std= 2.0542433
+valid cost =  104.217125
+120 cost= 100.63679 with std= 2.1928704
+valid cost =  104.9376
+121 cost= 100.58373 with std= 2.2059364
+valid cost =  104.523735
+122 cost= 100.45824 with std= 2.0892987
+valid cost =  104.35765
+123 cost= 100.63122 with std= 2.1877458
+valid cost =  104.30565
+124 cost= 100.42636 with std= 2.2155526
+valid cost =  104.33396
+125 cost= 100.425156 with std= 1.9401659
+valid cost =  104.63392
+126 cost= 100.305374 with std= 2.0036511
+valid cost =  104.2844
+127 cost= 100.30851 with std= 2.0019236
+valid cost =  104.349655
+128 cost= 100.206474 with std= 2.065885
+valid cost =  104.24186
+129 cost= 100.09335 with std= 2.1662886
+valid cost =  104.168304
+130 cost= 100.084755 with std= 2.0680103
+valid cost =  104.322624
+131 cost= 99.86643 with std= 2.0637488
+valid cost =  104.16703
+132 cost= 100.04735 with std= 2.13287
+valid cost =  104.44542
+133 cost= 100.00946 with std= 2.0127308
+valid cost =  104.16159
+134 cost= 99.984535 with std= 2.0536644
+valid cost =  104.394066
+135 cost= 99.746605 with std= 2.0469809
+valid cost =  104.3074
+136 cost= 99.71633 with std= 1.8827503
+valid cost =  104.15358
+137 cost= 99.72649 with std= 1.9964391
+valid cost =  103.92705
+138 cost= 99.60789 with std= 2.1703353
+valid cost =  103.97863
+139 cost= 99.52676 with std= 2.1066527
+valid cost =  104.075836
+140 cost= 99.60287 with std= 2.0498435
+valid cost =  104.118515
+141 cost= 99.53275 with std= 2.0770264
+valid cost =  104.11997
+142 cost= 99.68115 with std= 2.102539
+valid cost =  104.04727
+143 cost= 99.501976 with std= 1.9379514
+valid cost =  103.93445
+144 cost= 99.528366 with std= 2.194647
+valid cost =  103.61544
+145 cost= 99.371376 with std= 2.1230686
+valid cost =  103.62555
+146 cost= 99.320694 with std= 1.9373381
+valid cost =  103.85732
+147 cost= 99.23958 with std= 1.9837823
+valid cost =  104.188416
+148 cost= 99.32108 with std= 1.9808464
+valid cost =  103.82086
+149 cost= 99.304855 with std= 1.979257
+valid cost =  103.52972
+150 cost= 99.157486 with std= 2.1757717
+valid cost =  103.63176
+151 cost= 98.95539 with std= 1.9563328
+valid cost =  103.6214
+152 cost= 99.249405 with std= 2.2117596
+valid cost =  103.453735
+153 cost= 99.08562 with std= 2.126911
+valid cost =  103.88985
+154 cost= 98.99504 with std= 2.164862
+valid cost =  103.88007
+155 cost= 99.046104 with std= 2.0530427
+valid cost =  103.58233
+156 cost= 98.986145 with std= 1.8905039
+valid cost =  103.846016
+157 cost= 98.85045 with std= 1.8986018
+valid cost =  103.428154
+158 cost= 98.68676 with std= 1.934767
+valid cost =  103.39626
+159 cost= 98.663895 with std= 2.16529
+valid cost =  103.24226
+160 cost= 98.630585 with std= 2.1108997
+valid cost =  103.434296
+161 cost= 98.79063 with std= 2.0116665
+valid cost =  103.2719
+162 cost= 98.608185 with std= 2.097341
+valid cost =  103.4285
+163 cost= 98.61645 with std= 2.1398509
+valid cost =  103.4921
+164 cost= 98.427734 with std= 1.9714684
+valid cost =  103.668335
+165 cost= 98.405106 with std= 2.084616
+valid cost =  102.86586
+166 cost= 98.32245 with std= 2.080245
+valid cost =  103.03344
+167 cost= 98.43851 with std= 2.1551068
+valid cost =  103.12124
+168 cost= 98.19744 with std= 2.052435
+valid cost =  102.978035
+169 cost= 98.010895 with std= 2.0215218
+valid cost =  103.05958
+170 cost= 98.19183 with std= 1.987097
+valid cost =  102.9634
+171 cost= 97.88975 with std= 1.9903876
+valid cost =  103.204254
+172 cost= 97.941536 with std= 1.9380955
+valid cost =  102.596985
+173 cost= 97.92868 with std= 2.0680842
+valid cost =  103.01229
+174 cost= 97.85181 with std= 2.0380104
+valid cost =  102.74328
+175 cost= 97.78067 with std= 1.9663026
+valid cost =  102.97323
+176 cost= 97.7452 with std= 1.9650793
+valid cost =  102.82338
+177 cost= 97.79312 with std= 2.1436596
+valid cost =  102.6759
+178 cost= 97.74575 with std= 2.1429913
+valid cost =  102.75056
+179 cost= 97.89523 with std= 1.9938456
+valid cost =  102.77533
+180 cost= 97.7691 with std= 1.9499565
+valid cost =  102.70045
+181 cost= 97.6017 with std= 2.0983012
+valid cost =  102.5742
+182 cost= 97.596565 with std= 1.8928869
+valid cost =  102.70232
+183 cost= 97.47871 with std= 1.9214374
+valid cost =  102.637665
+184 cost= 97.77246 with std= 2.128992
+valid cost =  102.66833
+185 cost= 97.522316 with std= 2.00203
+valid cost =  103.273384
+186 cost= 97.4576 with std= 1.973099
+valid cost =  102.53274
+187 cost= 97.3568 with std= 1.9537075
+valid cost =  102.50679
+188 cost= 97.28008 with std= 2.0619435
+valid cost =  102.556114
+189 cost= 97.377914 with std= 2.0120182
+valid cost =  102.70477
+190 cost= 97.396454 with std= 2.1093132
+valid cost =  102.71495
+191 cost= 97.15024 with std= 2.001618
+valid cost =  102.250145
+192 cost= 97.222404 with std= 1.9462476
+valid cost =  102.23468
+193 cost= 97.1534 with std= 1.9905754
+valid cost =  102.224655
+194 cost= 97.10357 with std= 1.9079186
+valid cost =  102.138115
+195 cost= 97.15592 with std= 2.0840561
+valid cost =  102.678154
+196 cost= 97.15528 with std= 1.7827953
+valid cost =  102.285324
+197 cost= 96.96913 with std= 2.0263972
+valid cost =  102.09985
+198 cost= 96.94948 with std= 2.0795808
+valid cost =  102.191086
+199 cost= 96.852554 with std= 1.9484642
+valid cost =  101.87963
+200 cost= 96.85896 with std= 1.9892511
+valid cost =  102.25119
+201 cost= 96.75537 with std= 1.9570355
+valid cost =  102.570915
+202 cost= 96.785805 with std= 1.90449
+valid cost =  102.0919
+203 cost= 96.62551 with std= 2.0424957
+valid cost =  102.0311
+204 cost= 96.725075 with std= 2.0892181
+valid cost =  102.02306
+205 cost= 96.526146 with std= 1.9573308
+valid cost =  102.136795
+206 cost= 96.54757 with std= 2.176026
+valid cost =  101.91145
+207 cost= 96.492836 with std= 2.0532331
+valid cost =  101.74113
+208 cost= 96.55162 with std= 1.8658074
+valid cost =  101.74179
+209 cost= 96.43418 with std= 1.922835
+valid cost =  101.75511
+210 cost= 96.298454 with std= 1.9628868
+valid cost =  101.9336
+211 cost= 96.34825 with std= 2.051463
+valid cost =  101.89541
+212 cost= 96.333 with std= 2.020033
+valid cost =  102.19308
+213 cost= 96.35759 with std= 2.0438256
+valid cost =  101.97378
+214 cost= 96.41172 with std= 2.0021753
+valid cost =  102.10061
+215 cost= 96.18194 with std= 1.9111221
+valid cost =  101.71991
+216 cost= 96.195145 with std= 1.9353173
+valid cost =  101.63169
+217 cost= 96.13333 with std= 1.9936117
+valid cost =  101.854836
+218 cost= 96.12111 with std= 1.945979
+valid cost =  101.52022
+219 cost= 96.01552 with std= 1.9753162
+valid cost =  102.02605
+220 cost= 96.11442 with std= 2.0719216
+valid cost =  101.69321
+221 cost= 96.192444 with std= 2.0085628
+valid cost =  101.778915
+222 cost= 96.19845 with std= 1.9970967
+valid cost =  101.80536
+223 cost= 95.96507 with std= 2.0671782
+valid cost =  101.82698
+224 cost= 95.792145 with std= 1.9041828
+valid cost =  101.41066
+225 cost= 96.01 with std= 2.0393848
+valid cost =  101.40585
+226 cost= 95.97623 with std= 2.086602
+valid cost =  101.6809
+227 cost= 95.72067 with std= 1.9537203
+valid cost =  101.27947
+228 cost= 95.72772 with std= 2.042928
+valid cost =  101.37203
+229 cost= 95.58147 with std= 1.8362818
+valid cost =  101.5099
+230 cost= 95.605965 with std= 1.98422
+valid cost =  101.3433
+231 cost= 95.66639 with std= 1.9978365
+valid cost =  101.72002
+232 cost= 95.574165 with std= 2.1297584
+valid cost =  101.594215
+233 cost= 95.61642 with std= 1.8707681
+valid cost =  101.04454
+234 cost= 95.607315 with std= 1.9301165
+valid cost =  101.34871
+235 cost= 95.50257 with std= 2.1545725
+valid cost =  101.10356
+236 cost= 95.52692 with std= 1.86467
+valid cost =  101.3494
+237 cost= 95.43213 with std= 1.9981259
+valid cost =  101.088585
+238 cost= 95.598526 with std= 1.9791762
+valid cost =  101.36984
+239 cost= 95.43417 with std= 1.9091411
+valid cost =  101.75656
+240 cost= 95.38791 with std= 1.9685141
+valid cost =  100.831726
+241 cost= 95.3404 with std= 1.9814702
+valid cost =  101.27724
+242 cost= 95.2945 with std= 1.961836
+valid cost =  101.34365
+243 cost= 95.352715 with std= 1.9237454
+valid cost =  101.4226
+244 cost= 95.05376 with std= 2.0101523
+valid cost =  101.153984
+245 cost= 95.196236 with std= 2.092734
+valid cost =  100.93942
+246 cost= 95.29264 with std= 1.8148872
+valid cost =  101.724266
+247 cost= 95.04909 with std= 1.9662294
+valid cost =  100.93401
+248 cost= 95.054214 with std= 2.0890813
+valid cost =  101.13172
+249 cost= 95.172844 with std= 2.0708616
+valid cost =  101.114105
+250 cost= 95.116104 with std= 1.8947768
+valid cost =  101.54976
+251 cost= 95.12027 with std= 2.0752668
+valid cost =  100.724174
+252 cost= 94.76227 with std= 1.9716789
+valid cost =  101.103165
+253 cost= 94.83301 with std= 2.0818675
+valid cost =  101.00446
+254 cost= 94.7333 with std= 1.8127561
+valid cost =  101.28019
+255 cost= 94.97798 with std= 1.9208562
+valid cost =  100.69156
+256 cost= 94.7059 with std= 1.9619586
+valid cost =  100.5743
+257 cost= 94.60061 with std= 1.8289298
+valid cost =  100.688805
+258 cost= 94.54081 with std= 2.015127
+valid cost =  101.050316
+259 cost= 94.47074 with std= 1.9802543
+valid cost =  100.61598
+260 cost= 94.501366 with std= 1.8044068
+valid cost =  100.71498
+261 cost= 94.38412 with std= 1.976185
+valid cost =  100.73778
+262 cost= 94.29818 with std= 2.0048034
+valid cost =  100.79684
+263 cost= 94.41635 with std= 2.0538218
+valid cost =  100.73497
+264 cost= 94.54502 with std= 2.0897012
+valid cost =  100.835175
+265 cost= 94.46355 with std= 1.9234135
+valid cost =  100.744194
+266 cost= 94.459404 with std= 1.9875383
+valid cost =  100.82064
+267 cost= 94.41215 with std= 1.8907862
+valid cost =  100.73678
+268 cost= 94.37739 with std= 1.8574889
+valid cost =  100.451996
+269 cost= 94.254265 with std= 1.7471364
+valid cost =  100.412636
+270 cost= 94.24883 with std= 1.8595283
+valid cost =  100.387764
+271 cost= 94.21156 with std= 1.9070177
+valid cost =  100.249115
+272 cost= 94.01595 with std= 1.8990592
+valid cost =  100.27688
+273 cost= 94.1386 with std= 1.9365343
+valid cost =  100.36644
+274 cost= 94.470406 with std= 1.8873135
+valid cost =  100.51578
+275 cost= 94.21373 with std= 1.9498008
+valid cost =  100.15475
+276 cost= 94.28321 with std= 1.9145933
+valid cost =  100.5762
+277 cost= 93.93902 with std= 1.7870538
+valid cost =  100.47356
+278 cost= 93.92825 with std= 1.8605747
+valid cost =  100.33335
+279 cost= 93.95538 with std= 1.816621
+valid cost =  100.21714
+280 cost= 93.86706 with std= 1.9114228
+valid cost =  99.98746
+281 cost= 93.81194 with std= 1.7999022
+valid cost =  100.12532
+282 cost= 93.73578 with std= 1.8707857
+valid cost =  100.18418
+283 cost= 93.771484 with std= 2.031819
+valid cost =  100.50657
+284 cost= 93.93209 with std= 1.8858665
+valid cost =  100.33346
+285 cost= 94.01736 with std= 1.845258
+valid cost =  100.082596
+286 cost= 93.9439 with std= 1.949174
+valid cost =  100.27154
+287 cost= 93.89542 with std= 1.9220474
+valid cost =  100.160034
+288 cost= 93.67398 with std= 1.7869811
+valid cost =  100.067474
+289 cost= 93.81329 with std= 1.9033769
+valid cost =  100.11402
+290 cost= 93.55869 with std= 2.0251002
+valid cost =  100.064186
+291 cost= 93.35791 with std= 1.9051224
+valid cost =  100.05933
+292 cost= 93.38023 with std= 1.9367764
+valid cost =  100.02684
+293 cost= 93.37972 with std= 1.7846448
+valid cost =  100.25767
+294 cost= 93.496864 with std= 1.8204014
+valid cost =  100.18319
+295 cost= 93.42319 with std= 1.9902802
+valid cost =  99.82828
+296 cost= 93.34502 with std= 1.9037439
+valid cost =  99.54106
+297 cost= 93.20821 with std= 1.9950652
+valid cost =  99.457726
+298 cost= 93.18107 with std= 1.9080114
+valid cost =  99.867615
+299 cost= 93.103775 with std= 2.0443635
+valid cost =  99.71258
+300 cost= 93.31041 with std= 1.8913901
+valid cost =  99.37693
+301 cost= 93.27049 with std= 1.9671129
+valid cost =  99.48008
+302 cost= 93.33648 with std= 1.9736267
+valid cost =  99.51407
+303 cost= 93.117775 with std= 1.9947437
+valid cost =  99.575195
+304 cost= 93.17398 with std= 1.9408499
+valid cost =  99.2243
+305 cost= 92.94156 with std= 1.9403148
+valid cost =  99.306885
+306 cost= 93.06408 with std= 1.8044833
+valid cost =  99.50421
+307 cost= 93.06219 with std= 1.9053848
+valid cost =  99.50389
+308 cost= 93.03857 with std= 1.8534945
+valid cost =  99.15403
+309 cost= 92.92027 with std= 1.9156355
+valid cost =  99.14474
+310 cost= 92.77942 with std= 1.9413179
+valid cost =  99.703804
+311 cost= 92.944176 with std= 1.9506271
+valid cost =  99.70795
+312 cost= 92.852295 with std= 1.7515842
+valid cost =  99.42037
+313 cost= 92.65168 with std= 1.8122823
+valid cost =  99.36538
+314 cost= 92.768814 with std= 1.8318493
+valid cost =  99.63759
+315 cost= 92.76966 with std= 2.0135994
+valid cost =  99.55506
+316 cost= 92.705154 with std= 1.9633886
+valid cost =  99.4774
+317 cost= 92.6547 with std= 1.8811349
+valid cost =  99.48013
+318 cost= 92.70092 with std= 1.7335987
+valid cost =  99.28279
+319 cost= 92.67937 with std= 1.9722096
+valid cost =  98.80382
+320 cost= 92.7942 with std= 1.9518287
+valid cost =  99.57161
+321 cost= 92.702415 with std= 1.9502988
+valid cost =  99.21444
+322 cost= 92.56759 with std= 1.8521736
+valid cost =  99.36129
+323 cost= 92.43023 with std= 1.990272
+valid cost =  99.083824
+324 cost= 92.31111 with std= 1.7535177
+valid cost =  98.85695
+325 cost= 92.32139 with std= 1.9426526
+valid cost =  99.12296
+326 cost= 92.457504 with std= 1.7639406
+valid cost =  99.32753
+327 cost= 92.37144 with std= 1.7693745
+valid cost =  99.267525
+328 cost= 92.25791 with std= 1.870943
+valid cost =  99.05839
+329 cost= 92.28716 with std= 1.7669499
+valid cost =  99.069786
+330 cost= 92.1969 with std= 2.0315864
+valid cost =  98.73474
+331 cost= 92.10305 with std= 1.9215733
+valid cost =  98.88228
+332 cost= 91.95805 with std= 1.996619
+valid cost =  98.99239
+333 cost= 91.91892 with std= 1.9001124
+valid cost =  98.9208
+334 cost= 92.11171 with std= 2.0416903
+valid cost =  99.05192
+335 cost= 92.12818 with std= 2.0041041
+valid cost =  98.53659
+336 cost= 92.03336 with std= 1.9538192
+valid cost =  98.75563
+337 cost= 91.878426 with std= 1.9006833
+valid cost =  98.50593
+338 cost= 91.9252 with std= 1.947475
+valid cost =  99.167465
+339 cost= 91.97785 with std= 1.7998755
+valid cost =  98.90283
+340 cost= 92.01683 with std= 1.9349108
+valid cost =  98.74664
+341 cost= 91.90697 with std= 1.8924186
+valid cost =  98.49886
+342 cost= 92.03871 with std= 1.8489456
+valid cost =  98.61862
+343 cost= 92.20461 with std= 2.0037575
+valid cost =  98.98584
+344 cost= 91.97218 with std= 1.8997948
+valid cost =  98.7196
+345 cost= 91.99283 with std= 1.8519596
+valid cost =  98.68396
+346 cost= 91.80494 with std= 1.925086
+valid cost =  98.62776
+347 cost= 91.793564 with std= 1.8716009
+valid cost =  98.79696
+348 cost= 91.68773 with std= 1.8238938
+valid cost =  98.51821
+349 cost= 91.678085 with std= 1.8941926
+valid cost =  98.45822
+350 cost= 91.43808 with std= 1.8195025
+valid cost =  98.21396
+351 cost= 91.48721 with std= 1.8950583
+valid cost =  98.64047
+352 cost= 91.574486 with std= 1.7872107
+valid cost =  98.345604
+353 cost= 91.43511 with std= 1.8475975
+valid cost =  98.358826
+354 cost= 91.676384 with std= 1.8671871
+valid cost =  98.33911
+355 cost= 91.55319 with std= 1.7755575
+valid cost =  98.28772
+356 cost= 91.56004 with std= 1.9214898
+valid cost =  98.528366
+357 cost= 91.49146 with std= 1.8285173
+valid cost =  98.34285
+358 cost= 91.50487 with std= 1.8937682
+valid cost =  98.07202
+359 cost= 91.49998 with std= 1.8473197
+valid cost =  98.6212
+360 cost= 91.47267 with std= 1.7736124
+valid cost =  98.32683
+361 cost= 91.363335 with std= 2.0229013
+valid cost =  98.568825
+362 cost= 91.19033 with std= 1.7192962
+valid cost =  97.72881
+363 cost= 91.33131 with std= 2.0210843
+valid cost =  98.55914
+364 cost= 91.43224 with std= 1.9780406
+valid cost =  98.33693
+365 cost= 91.137184 with std= 1.877098
+valid cost =  97.96918
+366 cost= 91.07593 with std= 1.8701125
+valid cost =  98.268005
+367 cost= 91.02054 with std= 2.010841
+valid cost =  98.26069
+368 cost= 91.07166 with std= 1.9557135
+valid cost =  97.97398
+369 cost= 91.03183 with std= 1.770986
+valid cost =  97.86282
+370 cost= 91.097115 with std= 1.822402
+valid cost =  98.20841
+371 cost= 91.10079 with std= 1.9149991
+valid cost =  97.81912
+372 cost= 90.978645 with std= 1.9138622
+valid cost =  97.913025
+373 cost= 90.966125 with std= 1.8233773
+valid cost =  98.23105
+374 cost= 90.92062 with std= 2.103848
+valid cost =  97.872734
+375 cost= 90.896194 with std= 1.9112118
+valid cost =  97.86903
+376 cost= 90.84443 with std= 1.7495635
+valid cost =  97.83931
+377 cost= 90.88355 with std= 1.8218762
+valid cost =  97.64697
+378 cost= 90.857544 with std= 1.8546165
+valid cost =  97.79043
+379 cost= 90.92922 with std= 1.7990797
+valid cost =  97.80749
+380 cost= 90.77317 with std= 1.7202667
+valid cost =  97.835884
+381 cost= 90.87009 with std= 2.022307
+valid cost =  97.69462
+382 cost= 90.668755 with std= 1.6933274
+valid cost =  98.086464
+383 cost= 90.731316 with std= 1.8466731
+valid cost =  97.87219
+384 cost= 90.75123 with std= 1.779556
+valid cost =  98.13639
+385 cost= 90.83666 with std= 1.8100567
+valid cost =  97.58384
+386 cost= 90.53109 with std= 1.7972219
+valid cost =  97.5993
+387 cost= 90.51449 with std= 1.8617245
+valid cost =  97.38614
+388 cost= 90.4652 with std= 1.8720335
+valid cost =  97.932724
+389 cost= 90.51665 with std= 1.8829209
+valid cost =  97.32971
+390 cost= 90.40151 with std= 1.8087156
+valid cost =  97.48484
+391 cost= 90.36016 with std= 1.8386902
+valid cost =  97.64075
+392 cost= 90.48794 with std= 1.850371
+valid cost =  97.43494
+393 cost= 90.31964 with std= 1.8469628
+valid cost =  97.35366
+394 cost= 90.17018 with std= 1.9307182
+valid cost =  97.68455
+395 cost= 90.129715 with std= 1.9059944
+valid cost =  97.385666
+396 cost= 90.176704 with std= 1.8981197
+valid cost =  97.24839
+397 cost= 90.315155 with std= 1.7972839
+valid cost =  97.35137
+398 cost= 90.35276 with std= 1.7380358
+valid cost =  97.475464
+399 cost= 90.091324 with std= 1.7672976
+valid cost =  97.550385
+400 cost= 90.278534 with std= 1.8684108
+valid cost =  97.43207
+401 cost= 90.18755 with std= 1.8294042
+valid cost =  97.03523
+402 cost= 90.13474 with std= 1.7803935
+valid cost =  97.056564
+403 cost= 90.17518 with std= 1.6759024
+valid cost =  97.24639
+404 cost= 90.10819 with std= 1.9186457
+valid cost =  97.30144
+405 cost= 90.09766 with std= 1.8777848
+valid cost =  97.26386
+406 cost= 90.0205 with std= 1.8212122
+valid cost =  97.3203
+407 cost= 90.0495 with std= 1.8024886
+valid cost =  96.97061
+408 cost= 89.97908 with std= 1.7380033
+valid cost =  97.16597
+409 cost= 90.07239 with std= 1.6675149
+valid cost =  97.478546
+410 cost= 89.97286 with std= 1.6875142
+valid cost =  97.18406
+411 cost= 89.84002 with std= 1.7963332
+valid cost =  97.28127
+412 cost= 89.952286 with std= 2.0076785
+valid cost =  97.21931
+413 cost= 89.865685 with std= 1.9524705
+valid cost =  97.016426
+414 cost= 89.9098 with std= 1.7271099
+valid cost =  97.36366
+415 cost= 89.76467 with std= 1.821192
+valid cost =  97.18225
+416 cost= 89.72147 with std= 1.8244165
+valid cost =  97.41547
+417 cost= 89.813835 with std= 1.8828475
+valid cost =  97.48427
+418 cost= 89.72524 with std= 1.8431315
+valid cost =  97.055534
+419 cost= 89.77664 with std= 1.7815897
+valid cost =  97.39199
+420 cost= 89.96956 with std= 1.6775386
+valid cost =  96.863686
+421 cost= 89.67501 with std= 1.9152707
+valid cost =  96.9586
+422 cost= 89.60057 with std= 1.8075155
+valid cost =  96.957924
+423 cost= 89.706154 with std= 1.7648225
+valid cost =  97.05545
+424 cost= 89.68621 with std= 1.6849909
+valid cost =  97.13843
+425 cost= 89.73397 with std= 1.8356962
+valid cost =  96.89561
+426 cost= 89.5921 with std= 1.8157021
+valid cost =  96.86482
+427 cost= 89.50082 with std= 2.0359406
+valid cost =  96.993416
+428 cost= 89.62423 with std= 2.0103624
+valid cost =  96.61339
+429 cost= 89.51331 with std= 1.8833236
+valid cost =  96.99856
+430 cost= 89.3614 with std= 1.7415434
+valid cost =  96.58212
+431 cost= 89.24382 with std= 1.9109243
+valid cost =  96.3991
+432 cost= 89.410164 with std= 2.0081823
+valid cost =  96.82346
+433 cost= 89.458176 with std= 1.9008652
+valid cost =  96.67497
+434 cost= 89.20078 with std= 1.8445901
+valid cost =  96.780975
+435 cost= 89.463905 with std= 1.7293409
+valid cost =  96.69218
+436 cost= 89.40956 with std= 1.7538372
+valid cost =  97.06248
+437 cost= 89.325584 with std= 1.7293258
+valid cost =  96.87128
+438 cost= 89.137955 with std= 1.7169708
+valid cost =  96.423485
+439 cost= 88.97358 with std= 1.7117867
+valid cost =  96.58396
+440 cost= 89.09488 with std= 1.8817197
+valid cost =  96.69974
+441 cost= 89.15136 with std= 1.7527947
+valid cost =  96.504265
+442 cost= 89.31194 with std= 1.7490064
+valid cost =  96.37787
+443 cost= 89.09759 with std= 1.693377
+valid cost =  96.50143
+444 cost= 89.088585 with std= 1.788873
+valid cost =  96.619316
+445 cost= 89.02133 with std= 1.8038236
+valid cost =  96.57857
+446 cost= 88.73612 with std= 1.7433492
+valid cost =  96.250626
+447 cost= 88.989914 with std= 1.9360889
+valid cost =  96.6322
+448 cost= 88.97173 with std= 1.6668985
+valid cost =  96.441086
+449 cost= 89.1004 with std= 1.674055
+valid cost =  96.14693
+450 cost= 88.97918 with std= 1.9126375
+valid cost =  96.2168
+451 cost= 88.930016 with std= 1.7809594
+valid cost =  96.5189
+452 cost= 88.91864 with std= 1.8478479
+valid cost =  96.2949
+453 cost= 88.80965 with std= 1.859256
+valid cost =  96.30089
+454 cost= 88.95222 with std= 1.7615329
+valid cost =  96.3799
+455 cost= 88.86663 with std= 1.8376942
+valid cost =  96.21266
+456 cost= 88.69946 with std= 1.8216003
+valid cost =  96.392426
+457 cost= 88.72992 with std= 1.6842971
+valid cost =  95.96773
+458 cost= 88.534775 with std= 1.8187091
+valid cost =  96.01165
+459 cost= 88.65355 with std= 1.7645482
+valid cost =  96.437935
+460 cost= 88.76484 with std= 1.7923212
+valid cost =  96.43787
+461 cost= 88.64687 with std= 1.8403645
+valid cost =  96.228
+462 cost= 88.74204 with std= 1.8449554
+valid cost =  96.702736
+463 cost= 88.6002 with std= 1.6031597
+valid cost =  96.33955
+464 cost= 88.54797 with std= 1.7297394
+valid cost =  95.96213
+465 cost= 88.6412 with std= 1.7927976
+valid cost =  96.1175
+466 cost= 88.44467 with std= 1.8021921
+valid cost =  95.9047
+467 cost= 88.49031 with std= 1.8378131
+valid cost =  96.153595
+468 cost= 88.48855 with std= 1.8220669
+valid cost =  96.29529
+469 cost= 88.34443 with std= 1.7267416
+valid cost =  96.15619
+470 cost= 88.34306 with std= 1.7587901
+valid cost =  96.022514
+471 cost= 88.4151 with std= 1.8195277
+valid cost =  96.30254
+472 cost= 88.281166 with std= 1.7727389
+valid cost =  96.21064
+473 cost= 88.336334 with std= 1.8619024
+valid cost =  95.74006
+474 cost= 88.47591 with std= 1.8385218
+valid cost =  96.205635
+475 cost= 88.42543 with std= 1.793577
+valid cost =  96.282715
+476 cost= 88.26128 with std= 1.710264
+valid cost =  96.12576
+477 cost= 88.29003 with std= 1.8859862
+valid cost =  96.03583
+478 cost= 88.31273 with std= 1.6584063
+valid cost =  96.09026
+479 cost= 88.124275 with std= 1.7881122
+valid cost =  95.41207
+480 cost= 88.2375 with std= 1.8676208
+valid cost =  95.554726
+481 cost= 88.37947 with std= 1.776245
+valid cost =  96.128204
+482 cost= 88.38932 with std= 1.8560125
+valid cost =  95.71998
+483 cost= 88.16185 with std= 1.7298214
+valid cost =  95.638626
+484 cost= 88.20726 with std= 1.6479943
+valid cost =  95.86146
+485 cost= 88.06941 with std= 1.730694
+valid cost =  96.12504
+486 cost= 88.03747 with std= 1.8170776
+valid cost =  95.71389
+487 cost= 87.98576 with std= 1.7110839
+valid cost =  95.59255
+488 cost= 88.16626 with std= 1.937922
+valid cost =  95.94384
+489 cost= 87.99499 with std= 1.7975246
+valid cost =  95.778175
+490 cost= 88.04113 with std= 1.7086288
+valid cost =  95.587715
+491 cost= 87.99537 with std= 1.8857845
+valid cost =  95.68669
+492 cost= 88.006424 with std= 1.7890913
+valid cost =  95.49453
+493 cost= 87.99367 with std= 1.7581033
+valid cost =  95.84596
+494 cost= 88.11203 with std= 1.8582362
+valid cost =  96.02902
+495 cost= 87.89878 with std= 1.7664889
+valid cost =  95.44116
+496 cost= 87.963554 with std= 1.8127621
+valid cost =  95.58233
+497 cost= 88.09676 with std= 1.8723
+valid cost =  95.59947
+498 cost= 87.98782 with std= 1.9118186
+valid cost =  95.5875
+499 cost= 87.8232 with std= 1.686925
+valid cost =  95.1894
+500 cost= 87.756294 with std= 1.8177025
+valid cost =  95.33191
+501 cost= 87.87515 with std= 1.7463619
+valid cost =  95.62992
+502 cost= 87.832275 with std= 1.8573004
+valid cost =  95.324486
+503 cost= 87.67733 with std= 1.6691653
+valid cost =  95.37553
+504 cost= 87.642044 with std= 1.7648678
+valid cost =  95.24007
+505 cost= 87.73171 with std= 1.901027
+valid cost =  95.46634
+506 cost= 87.78173 with std= 1.6409047
+valid cost =  95.32513
+507 cost= 87.82753 with std= 1.7791989
+valid cost =  95.333
+508 cost= 87.73274 with std= 1.5712546
+valid cost =  95.612915
+509 cost= 87.64959 with std= 1.804388
+valid cost =  95.325714
+510 cost= 87.43628 with std= 1.6614599
+valid cost =  95.16198
+511 cost= 87.30543 with std= 1.757547
+valid cost =  95.05415
+512 cost= 87.47732 with std= 1.8253751
+valid cost =  95.371925
+513 cost= 87.430664 with std= 1.9396093
+valid cost =  95.31276
+514 cost= 87.62663 with std= 1.8109353
+valid cost =  95.262566
+515 cost= 87.64091 with std= 1.7966993
+valid cost =  95.338326
+516 cost= 87.53528 with std= 1.7530496
+valid cost =  95.48684
+517 cost= 87.577194 with std= 1.665109
+valid cost =  95.00265
+518 cost= 87.62515 with std= 1.6994033
+valid cost =  95.22734
+519 cost= 87.537544 with std= 1.6908392
+valid cost =  95.39852
+520 cost= 87.58179 with std= 1.743451
+valid cost =  95.10787
+521 cost= 87.52986 with std= 1.7461578
+valid cost =  95.243576
+522 cost= 87.43521 with std= 1.7736006
+valid cost =  95.09108
+523 cost= 87.4374 with std= 1.60134
+valid cost =  95.25584
+524 cost= 87.46976 with std= 1.7341572
+valid cost =  95.29523
+525 cost= 87.535995 with std= 1.8127521
+valid cost =  95.043686
+526 cost= 87.26393 with std= 1.7254444
+valid cost =  95.19288
+527 cost= 87.373436 with std= 1.6654404
+valid cost =  95.26285
+528 cost= 87.454666 with std= 1.69381
+valid cost =  95.067955
+529 cost= 87.22305 with std= 1.8309463
+valid cost =  94.863464
+530 cost= 87.38019 with std= 1.7993503
+valid cost =  95.03863
+531 cost= 87.24233 with std= 1.8191264
+valid cost =  94.92402
+532 cost= 87.27903 with std= 1.618813
+valid cost =  95.1551
+533 cost= 87.14735 with std= 1.7173339
+valid cost =  94.8764
+534 cost= 87.038864 with std= 1.7768477
+valid cost =  94.91387
+535 cost= 87.22741 with std= 1.7224667
+valid cost =  94.8414
+536 cost= 87.09166 with std= 1.7776493
+valid cost =  94.79305
+537 cost= 87.01669 with std= 1.7724478
+valid cost =  94.84017
+538 cost= 86.95604 with std= 1.6794838
+valid cost =  94.575035
+539 cost= 87.18352 with std= 1.485682
+valid cost =  94.8688
+540 cost= 87.26959 with std= 1.8009158
+valid cost =  95.12436
+541 cost= 87.117775 with std= 1.7197901
+valid cost =  95.08746
+542 cost= 86.96552 with std= 1.6836641
+valid cost =  95.17922
+543 cost= 87.031296 with std= 1.7353253
+valid cost =  94.98821
+544 cost= 87.00925 with std= 1.7129147
+valid cost =  94.955414
+545 cost= 86.879166 with std= 1.7450325
+valid cost =  94.62709
+546 cost= 86.91648 with std= 1.7674994
+valid cost =  94.93129
+547 cost= 86.93317 with std= 1.6968601
+valid cost =  95.02205
+548 cost= 87.11709 with std= 1.6541498
+valid cost =  94.97488
+549 cost= 86.90461 with std= 1.8354893
+valid cost =  95.35614
+550 cost= 86.8211 with std= 1.8667988
+valid cost =  94.476456
+551 cost= 86.94695 with std= 1.7348301
+valid cost =  94.88805
+552 cost= 86.90098 with std= 1.6716993
+valid cost =  94.74457
+553 cost= 86.70075 with std= 1.7189763
+valid cost =  94.72386
+554 cost= 86.83816 with std= 1.8856422
+valid cost =  94.93111
+555 cost= 86.68467 with std= 1.8656385
+valid cost =  94.94832
+556 cost= 86.65754 with std= 1.6687964
+valid cost =  94.69495
+557 cost= 86.688324 with std= 1.7614969
+valid cost =  94.77506
+558 cost= 86.84148 with std= 1.813649
+valid cost =  94.871765
+559 cost= 86.750824 with std= 1.7512302
+valid cost =  94.85533
+560 cost= 86.713425 with std= 1.7590141
+valid cost =  94.87185
+561 cost= 86.40852 with std= 1.7173233
+valid cost =  94.706184
+562 cost= 86.78358 with std= 1.7364407
+valid cost =  94.93996
+563 cost= 86.789215 with std= 1.7099005
+valid cost =  94.461876
+564 cost= 86.567474 with std= 1.8468918
+valid cost =  94.60127
+565 cost= 86.55611 with std= 1.8244021
+valid cost =  94.729324
+566 cost= 86.43864 with std= 1.772521
+valid cost =  94.60486
+567 cost= 86.557175 with std= 1.8393108
+valid cost =  95.0166
+568 cost= 86.37947 with std= 1.7563275
+valid cost =  95.139046
+569 cost= 86.37862 with std= 1.6452129
+valid cost =  94.34736
+570 cost= 86.30666 with std= 1.7618364
+valid cost =  94.445526
+571 cost= 86.60108 with std= 1.6210525
+valid cost =  94.66112
+572 cost= 86.49578 with std= 1.6206099
+valid cost =  94.52095
+573 cost= 86.46048 with std= 1.710478
+valid cost =  94.832985
+574 cost= 86.53292 with std= 1.8460754
+valid cost =  94.94725
+575 cost= 86.46398 with std= 1.72444
+valid cost =  94.55035
+576 cost= 86.3351 with std= 1.7482522
+valid cost =  94.423325
+577 cost= 86.39631 with std= 1.6775312
+valid cost =  94.46445
+578 cost= 86.29382 with std= 1.725651
+valid cost =  94.763885
+579 cost= 86.43543 with std= 1.8246722
+valid cost =  94.59553
+580 cost= 86.42493 with std= 1.7337723
+valid cost =  94.61221
+581 cost= 86.21432 with std= 1.7804168
+valid cost =  94.44459
+582 cost= 86.26006 with std= 1.6528865
+valid cost =  94.54845
+583 cost= 86.25189 with std= 1.8887453
+valid cost =  94.6441
+584 cost= 86.42212 with std= 1.7672316
+valid cost =  94.65367
+585 cost= 86.42322 with std= 1.6412587
+valid cost =  94.522484
+586 cost= 86.25903 with std= 1.7975034
+valid cost =  94.224266
+587 cost= 86.03071 with std= 1.5991201
+valid cost =  94.25599
+588 cost= 86.370026 with std= 1.7762625
+valid cost =  94.82813
+589 cost= 86.282005 with std= 1.7058485
+valid cost =  94.29031
+590 cost= 86.16199 with std= 1.6439326
+valid cost =  93.9603
+591 cost= 86.07994 with std= 1.713585
+valid cost =  94.0877
+592 cost= 86.10819 with std= 1.6631402
+valid cost =  94.70551
+593 cost= 85.94863 with std= 1.6448978
+valid cost =  93.95829
+594 cost= 85.93531 with std= 1.8707044
+valid cost =  94.86461
+595 cost= 85.9912 with std= 1.7347851
+valid cost =  94.31788
+596 cost= 86.028015 with std= 1.6888754
+valid cost =  94.22121
+597 cost= 85.979294 with std= 1.8141601
+valid cost =  94.50245
+598 cost= 85.913765 with std= 1.6841588
+valid cost =  94.28239
+599 cost= 86.02913 with std= 1.6578273
+valid cost =  94.364075
+600 cost= 85.79446 with std= 1.7319436
+valid cost =  94.36694
+601 cost= 85.9432 with std= 1.6290724
+valid cost =  94.092575
+602 cost= 85.87218 with std= 1.6125324
+valid cost =  93.93196
+603 cost= 85.88909 with std= 1.7618722
+valid cost =  94.25297
+604 cost= 85.88185 with std= 1.7534865
+valid cost =  94.56308
+605 cost= 86.02728 with std= 1.7530631
+valid cost =  94.32724
+606 cost= 86.118576 with std= 1.7668177
+valid cost =  94.2588
+607 cost= 86.03595 with std= 1.7633584
+valid cost =  94.40681
+608 cost= 85.93959 with std= 1.6428233
+valid cost =  94.125496
+609 cost= 85.822014 with std= 1.7111183
+valid cost =  94.082634
+610 cost= 86.021225 with std= 1.8005852
+valid cost =  94.28325
+611 cost= 85.89494 with std= 1.9078308
+valid cost =  93.97814
+612 cost= 85.7843 with std= 1.7825179
+valid cost =  94.14846
+613 cost= 85.82554 with std= 1.7909234
+valid cost =  93.974464
+614 cost= 85.8879 with std= 1.7783836
+valid cost =  93.99083
+615 cost= 85.666466 with std= 1.6730939
+valid cost =  93.91424
+616 cost= 85.77507 with std= 1.8333384
+valid cost =  94.17886
+617 cost= 85.95789 with std= 1.696665
+valid cost =  93.947624
+618 cost= 85.61049 with std= 1.5875565
+valid cost =  93.926315
+619 cost= 85.56632 with std= 1.7929351
+valid cost =  94.04645
+620 cost= 85.70271 with std= 1.7079159
+valid cost =  94.12786
+621 cost= 85.66599 with std= 1.6407592
+valid cost =  94.031006
+622 cost= 85.54862 with std= 1.534545
+valid cost =  94.19335
+623 cost= 85.6554 with std= 1.6700894
+valid cost =  94.13353
+624 cost= 85.59963 with std= 1.6107874
+valid cost =  93.853584
+625 cost= 85.52637 with std= 1.6466569
+valid cost =  94.17859
+626 cost= 85.53726 with std= 1.7543175
+valid cost =  94.89951
+627 cost= 85.64555 with std= 1.7614422
+valid cost =  93.851906
+628 cost= 85.72925 with std= 1.6827084
+valid cost =  94.04382
+629 cost= 85.570755 with std= 1.6507887
+valid cost =  93.98592
+630 cost= 85.56406 with std= 1.6034293
+valid cost =  94.168884
+631 cost= 85.43115 with std= 1.802332
+valid cost =  93.89299
+632 cost= 85.38755 with std= 1.6577556
+valid cost =  93.753296
+633 cost= 85.43817 with std= 1.6036386
+valid cost =  93.89637
+634 cost= 85.55203 with std= 1.7463464
+valid cost =  93.968704
+635 cost= 85.22519 with std= 1.8374599
+valid cost =  93.847694
+636 cost= 85.510056 with std= 1.7898191
+valid cost =  94.01604
+637 cost= 85.51325 with std= 1.6760925
+valid cost =  94.221245
+638 cost= 85.32174 with std= 1.7309611
+valid cost =  94.13273
+639 cost= 85.37589 with std= 1.8012116
+valid cost =  94.019485
+640 cost= 85.562485 with std= 1.700296
+valid cost =  94.20038
+641 cost= 85.531265 with std= 1.6828142
+valid cost =  94.011894
+642 cost= 85.312386 with std= 1.6435522
+valid cost =  93.58026
+643 cost= 85.16974 with std= 1.6765921
+valid cost =  94.040764
+644 cost= 85.42795 with std= 1.7685724
+valid cost =  93.75662
+645 cost= 85.30516 with std= 1.6058052
+valid cost =  94.02425
+646 cost= 85.374466 with std= 1.7208704
+valid cost =  93.75508
+647 cost= 85.48608 with std= 1.7233608
+valid cost =  93.7991
+648 cost= 85.47244 with std= 1.7051126
+valid cost =  93.67426
+649 cost= 85.16729 with std= 1.672675
+valid cost =  93.742874
+650 cost= 85.30758 with std= 1.6681381
+valid cost =  93.73117
+651 cost= 85.13889 with std= 1.830687
+valid cost =  93.69233
+652 cost= 85.16292 with std= 1.7347732
+valid cost =  93.70559
+653 cost= 85.28969 with std= 1.5610995
+valid cost =  93.75597
+654 cost= 85.24944 with std= 1.691347
+valid cost =  94.02859
+655 cost= 85.31101 with std= 1.7055225
+valid cost =  93.812485
+656 cost= 85.17814 with std= 1.5725579
+valid cost =  94.013535
+657 cost= 85.38497 with std= 1.7125229
+valid cost =  93.83008
+658 cost= 85.03634 with std= 1.7682071
+valid cost =  93.4782
+659 cost= 85.25108 with std= 1.6906202
+valid cost =  93.73471
+660 cost= 85.27188 with std= 1.7708081
+valid cost =  93.78597
+661 cost= 85.26645 with std= 1.7011509
+valid cost =  93.82194
+662 cost= 85.18508 with std= 1.7534457
+valid cost =  93.72902
+663 cost= 85.143295 with std= 1.7152162
+valid cost =  93.66586
+664 cost= 84.93849 with std= 1.7890205
+valid cost =  94.02523
+665 cost= 85.04211 with std= 1.7020096
+valid cost =  93.75728
+666 cost= 85.17207 with std= 1.7606436
+valid cost =  93.729225
+667 cost= 85.01428 with std= 1.6418138
+valid cost =  93.65841
+668 cost= 85.0863 with std= 1.6996769
+valid cost =  93.7542
+669 cost= 85.02004 with std= 1.6046841
+valid cost =  93.786934
+670 cost= 84.98891 with std= 1.7671154
+valid cost =  93.41852
+671 cost= 84.81158 with std= 1.7485499
+valid cost =  93.51848
+672 cost= 84.94353 with std= 1.7144437
+valid cost =  93.49691
+673 cost= 84.90281 with std= 1.7070138
+valid cost =  93.56628
+674 cost= 84.97653 with std= 1.5777953
+valid cost =  93.56082
+675 cost= 84.950935 with std= 1.8057861
+valid cost =  93.68007
+676 cost= 85.04752 with std= 1.777327
+valid cost =  93.75922
+677 cost= 84.64726 with std= 1.5699708
+valid cost =  93.48021
+678 cost= 84.837944 with std= 1.6647065
+valid cost =  93.64485
+679 cost= 84.838776 with std= 1.5836306
+valid cost =  93.159355
+680 cost= 84.90618 with std= 1.6426028
+valid cost =  93.63668
+681 cost= 84.79323 with std= 1.7258005
+valid cost =  93.63851
+682 cost= 84.83361 with std= 1.650902
+valid cost =  93.802444
+683 cost= 84.81209 with std= 1.9350184
+valid cost =  93.61767
+684 cost= 84.97321 with std= 1.7040651
+valid cost =  93.4363
+685 cost= 84.7103 with std= 1.7371117
+valid cost =  93.21156
+686 cost= 84.709274 with std= 1.7169185
+valid cost =  93.61709
+687 cost= 84.50891 with std= 1.6620154
+valid cost =  93.48341
+688 cost= 84.562225 with std= 1.6570567
+valid cost =  93.2327
+689 cost= 84.61032 with std= 1.7115653
+valid cost =  93.37625
+690 cost= 84.70985 with std= 1.5462164
+valid cost =  93.48205
+691 cost= 84.58773 with std= 1.53653
+valid cost =  93.45112
+692 cost= 84.81048 with std= 1.7436777
+valid cost =  93.471725
+693 cost= 84.61869 with std= 1.9532579
+valid cost =  93.670166
+694 cost= 84.431404 with std= 1.6657786
+valid cost =  93.293434
+695 cost= 84.6874 with std= 1.6686963
+valid cost =  93.59285
+696 cost= 84.59162 with std= 1.6274354
+valid cost =  93.45738
+697 cost= 84.75493 with std= 1.5519869
+valid cost =  93.79219
+698 cost= 84.76656 with std= 1.7493508
+valid cost =  93.6426
+699 cost= 84.73981 with std= 1.6672997
+valid cost =  93.41295
+700 cost= 84.74861 with std= 1.6850929
+valid cost =  93.63795
+701 cost= 84.615654 with std= 1.7615068
+valid cost =  93.31492
+702 cost= 84.52004 with std= 1.6495534
+valid cost =  93.15721
+703 cost= 84.45449 with std= 1.7919497
+valid cost =  93.51153
+704 cost= 84.50982 with std= 1.768023
+valid cost =  93.067474
+705 cost= 84.58392 with std= 1.7370652
+valid cost =  93.27699
+706 cost= 84.45717 with std= 1.7589177
+valid cost =  93.34223
+707 cost= 84.38308 with std= 1.6591895
+valid cost =  93.6647
+708 cost= 84.508896 with std= 1.7894692
+valid cost =  93.56435
+709 cost= 84.58652 with std= 1.6566765
+valid cost =  93.47512
+710 cost= 84.58188 with std= 1.5711511
+valid cost =  93.55602
+711 cost= 84.37683 with std= 1.6430622
+valid cost =  93.23706
+712 cost= 84.539 with std= 1.6892561
+valid cost =  93.315834
+713 cost= 84.38007 with std= 1.7134962
+valid cost =  93.15637
+714 cost= 84.38298 with std= 1.7590435
+valid cost =  93.04915
+715 cost= 84.202354 with std= 1.5885279
+valid cost =  93.21296
+716 cost= 84.18143 with std= 1.706102
+valid cost =  93.19151
+717 cost= 84.22575 with std= 1.7259762
+valid cost =  93.30093
+718 cost= 84.44732 with std= 1.6752406
+valid cost =  93.51744
+719 cost= 84.377075 with std= 1.7438283
+valid cost =  93.5322
+720 cost= 84.32927 with std= 1.6849756
+valid cost =  93.504234
+721 cost= 84.12726 with std= 1.7375867
+valid cost =  93.22387
+722 cost= 84.085205 with std= 1.6991307
+valid cost =  93.09257
+723 cost= 84.099686 with std= 1.5742304
+valid cost =  93.491165
+724 cost= 84.32039 with std= 1.7860719
+valid cost =  93.07504
+725 cost= 84.06061 with std= 1.5877434
+valid cost =  93.15773
+726 cost= 84.18513 with std= 1.750675
+valid cost =  93.28585
+727 cost= 84.28321 with std= 1.6306518
+valid cost =  93.47171
+728 cost= 84.3327 with std= 1.5548638
+valid cost =  93.095535
+729 cost= 84.262276 with std= 1.7634122
+valid cost =  93.27924
+730 cost= 84.31622 with std= 1.7514867
+valid cost =  93.31685
+731 cost= 84.37236 with std= 1.547826
+valid cost =  93.6433
+732 cost= 84.26116 with std= 1.667419
+valid cost =  93.30811
+733 cost= 84.31763 with std= 1.7948925
+valid cost =  93.317474
+734 cost= 84.2112 with std= 1.5634061
+valid cost =  93.02338
+735 cost= 84.05546 with std= 1.5830623
+valid cost =  93.16761
+736 cost= 84.1623 with std= 1.6561408
+valid cost =  93.11325
+737 cost= 84.116135 with std= 1.6922451
+valid cost =  93.31255
+738 cost= 84.27407 with std= 1.8912399
+valid cost =  93.47549
+739 cost= 83.9982 with std= 1.5695052
+valid cost =  93.142944
+740 cost= 84.14016 with std= 1.6745648
+valid cost =  93.12775
+741 cost= 84.062325 with std= 1.6177583
+valid cost =  93.195885
+742 cost= 84.02496 with std= 1.6912398
+valid cost =  92.78566
+743 cost= 84.076775 with std= 1.5558922
+valid cost =  93.031624
+744 cost= 83.98898 with std= 1.6277901
+valid cost =  92.65511
+745 cost= 83.81148 with std= 1.6549269
+valid cost =  93.093796
+746 cost= 83.99666 with std= 1.7990848
+valid cost =  93.37171
+747 cost= 83.85037 with std= 1.6121523
+valid cost =  93.05565
+748 cost= 84.023 with std= 1.6102749
+valid cost =  93.03279
+749 cost= 84.05141 with std= 1.5829265
+valid cost =  93.36821
+750 cost= 83.93226 with std= 1.6081264
+valid cost =  93.03368
+751 cost= 83.79353 with std= 1.7096133
+valid cost =  93.45188
+752 cost= 84.161545 with std= 1.559741
+valid cost =  93.09805
+753 cost= 83.98926 with std= 1.6217879
+valid cost =  93.50897
+754 cost= 84.10146 with std= 1.630742
+valid cost =  93.247795
+755 cost= 84.025116 with std= 1.653556
+valid cost =  93.25777
+756 cost= 84.061615 with std= 1.623188
+valid cost =  93.20416
+757 cost= 83.99465 with std= 1.7391112
+valid cost =  93.00904
+758 cost= 84.0699 with std= 1.7153962
+valid cost =  93.48349
+759 cost= 83.88537 with std= 1.553981
+valid cost =  93.01551
+760 cost= 83.91853 with std= 1.6415012
+valid cost =  93.30621
+761 cost= 83.878006 with std= 1.624338
+valid cost =  93.40911
+762 cost= 83.83274 with std= 1.5876638
+valid cost =  92.81228
+763 cost= 83.96148 with std= 1.742624
+valid cost =  93.21866
+764 cost= 83.86875 with std= 1.6984304
+valid cost =  92.98451
+765 cost= 83.78863 with std= 1.6665308
+valid cost =  93.25619
+766 cost= 83.679924 with std= 1.685621
+valid cost =  93.16215
+767 cost= 83.86164 with std= 1.5282719
+valid cost =  93.09972
+768 cost= 83.83094 with std= 1.5826095
+valid cost =  92.95745
+769 cost= 83.592155 with std= 1.7366354
+valid cost =  93.207085
+770 cost= 83.65297 with std= 1.5337477
+valid cost =  92.94753
+771 cost= 83.78417 with std= 1.733378
+valid cost =  92.64479
+772 cost= 83.81812 with std= 1.6809273
+valid cost =  92.58962
+773 cost= 83.76144 with std= 1.7530782
+valid cost =  93.18683
+774 cost= 83.69401 with std= 1.6365778
+valid cost =  93.29175
+775 cost= 83.657875 with std= 1.7594697
+valid cost =  92.77281
+776 cost= 83.591545 with std= 1.6546795
+valid cost =  92.85068
+777 cost= 83.82737 with std= 1.6705697
+valid cost =  92.94344
+778 cost= 83.7756 with std= 1.5606141
+valid cost =  93.0963
+779 cost= 83.64784 with std= 1.8005512
+valid cost =  92.84969
+780 cost= 83.79467 with std= 1.7289482
+valid cost =  93.212036
+781 cost= 83.52817 with std= 1.6083423
+valid cost =  93.273926
+782 cost= 83.41397 with std= 1.5371976
+valid cost =  92.921616
+783 cost= 83.473656 with std= 1.7045013
+valid cost =  92.74297
+784 cost= 83.67799 with std= 1.629088
+valid cost =  93.13483
+785 cost= 83.727554 with std= 1.6258061
+valid cost =  93.07227
+786 cost= 83.5975 with std= 1.7643094
+valid cost =  93.07606
+787 cost= 83.48166 with std= 1.6818211
+valid cost =  92.841385
+788 cost= 83.41026 with std= 1.6250647
+valid cost =  92.84716
+789 cost= 83.47575 with std= 1.7548708
+valid cost =  93.175415
+790 cost= 83.4595 with std= 1.6274004
+valid cost =  92.94004
+791 cost= 83.74354 with std= 1.6926444
+valid cost =  93.2426
+792 cost= 83.53535 with std= 1.5790411
+valid cost =  92.8903
+793 cost= 83.57619 with std= 1.6040792
+valid cost =  92.77836
+794 cost= 83.40984 with std= 1.6076869
+valid cost =  92.61991
+795 cost= 83.41684 with std= 1.5716451
+valid cost =  92.82586
+796 cost= 83.45369 with std= 1.6746565
+valid cost =  93.057785
+797 cost= 83.33459 with std= 1.6519707
+valid cost =  93.24489
+798 cost= 83.52863 with std= 1.6745951
+valid cost =  93.01549
+799 cost= 83.43551 with std= 1.5003779
+valid cost =  92.850235
+800 cost= 83.273476 with std= 1.6558158
+valid cost =  92.57437
+801 cost= 83.24357 with std= 1.6645246
+valid cost =  92.59095
+802 cost= 83.482475 with std= 1.580959
+valid cost =  92.93266
+803 cost= 83.59658 with std= 1.7808218
+valid cost =  92.90854
+804 cost= 83.65037 with std= 1.6258605
+valid cost =  93.09211
+805 cost= 83.66966 with std= 1.677256
+valid cost =  93.04319
+806 cost= 83.52513 with std= 1.7237091
+valid cost =  92.96185
+807 cost= 83.44032 with std= 1.6389928
+valid cost =  92.87362
+808 cost= 83.40987 with std= 1.6839831
+valid cost =  93.56217
+809 cost= 83.37966 with std= 1.709253
+valid cost =  93.31389
+810 cost= 83.38219 with std= 1.6474313
+valid cost =  92.89318
+811 cost= 83.313255 with std= 1.683733
+valid cost =  92.99098
+812 cost= 83.238846 with std= 1.6052352
+valid cost =  92.53877
+813 cost= 83.26665 with std= 1.5812215
+valid cost =  92.81452
+814 cost= 83.16685 with std= 1.5989927
+valid cost =  92.79284
+815 cost= 83.11503 with std= 1.7750912
+valid cost =  92.53268
+816 cost= 83.243645 with std= 1.5831329
+valid cost =  92.8501
+817 cost= 83.43431 with std= 1.6291618
+valid cost =  93.0554
+818 cost= 83.19536 with std= 1.6243683
+valid cost =  93.05757
+819 cost= 83.15668 with std= 1.6228116
+valid cost =  92.86406
+820 cost= 83.28906 with std= 1.6463828
+valid cost =  93.04522
+821 cost= 83.22057 with std= 1.6159589
+valid cost =  92.75126
+822 cost= 83.27766 with std= 1.5703197
+valid cost =  93.12311
+823 cost= 83.446144 with std= 1.6052471
+valid cost =  93.167305
+824 cost= 83.38206 with std= 1.5675989
+valid cost =  93.099174
+825 cost= 83.46037 with std= 1.6614512
+valid cost =  92.50504
+826 cost= 83.10737 with std= 1.701955
+valid cost =  92.79701
+827 cost= 83.34405 with std= 1.6613238
+valid cost =  93.17513
+828 cost= 83.125656 with std= 1.6268846
+valid cost =  92.70061
+829 cost= 83.11145 with std= 1.5390266
+valid cost =  92.776726
+830 cost= 83.16238 with std= 1.6627756
+valid cost =  92.86054
+831 cost= 83.29894 with std= 1.610741
+valid cost =  93.24211
+832 cost= 83.150475 with std= 1.7247139
+valid cost =  92.87562
+833 cost= 83.171265 with std= 1.7286148
+valid cost =  92.69681
+834 cost= 83.11197 with std= 1.6179725
+valid cost =  92.73902
+835 cost= 82.968605 with std= 1.6208527
+valid cost =  92.64656
+836 cost= 82.96124 with std= 1.6715931
+valid cost =  92.89688
+837 cost= 83.20166 with std= 1.5155947
+valid cost =  92.9456
+838 cost= 83.13943 with std= 1.751245
+valid cost =  92.8624
+839 cost= 83.11155 with std= 1.599487
+valid cost =  92.72241
+840 cost= 83.00837 with std= 1.6322407
+valid cost =  92.67464
+841 cost= 83.08387 with std= 1.6525238
+valid cost =  93.01722
+842 cost= 83.177444 with std= 1.664569
+valid cost =  92.63215
+843 cost= 83.02133 with std= 1.4862196
+valid cost =  92.76666
+844 cost= 82.8695 with std= 1.7093027
+valid cost =  93.005844
+845 cost= 83.002975 with std= 1.7341096
+valid cost =  92.75415
+846 cost= 83.09806 with std= 1.7459344
+valid cost =  92.72347
+847 cost= 83.16145 with std= 1.7258499
+valid cost =  92.647224
+848 cost= 83.01587 with std= 1.6576706
+valid cost =  92.95653
+849 cost= 83.13019 with std= 1.720035
+valid cost =  92.60725
+850 cost= 83.02581 with std= 1.6673423
+valid cost =  92.829994
+851 cost= 82.94636 with std= 1.5571862
+valid cost =  92.61212
+852 cost= 82.94693 with std= 1.6890069
+valid cost =  92.72106
+853 cost= 82.96952 with std= 1.6633424
+valid cost =  92.707886
+854 cost= 82.95512 with std= 1.5382365
+valid cost =  92.92355
+855 cost= 83.11331 with std= 1.6794859
+valid cost =  93.07789
+856 cost= 83.02727 with std= 1.6177195
+valid cost =  92.649025
+857 cost= 82.86168 with std= 1.5195744
+valid cost =  92.65028
+858 cost= 82.80683 with std= 1.6081228
+valid cost =  92.41635
+859 cost= 82.93019 with std= 1.6710879
+valid cost =  92.7749
+860 cost= 82.92385 with std= 1.5934478
+valid cost =  92.32579
+861 cost= 83.00114 with std= 1.6133649
+valid cost =  92.40286
+862 cost= 82.909294 with std= 1.7248642
+valid cost =  92.608345
+863 cost= 82.87444 with std= 1.547077
+valid cost =  92.44948
+864 cost= 82.71382 with std= 1.5233655
+valid cost =  92.42971
+865 cost= 82.73186 with std= 1.6476247
+valid cost =  92.54355
+866 cost= 82.6781 with std= 1.6150292
+valid cost =  92.50185
+867 cost= 82.91116 with std= 1.7436434
+valid cost =  92.49194
+868 cost= 82.899574 with std= 1.5720966
+valid cost =  92.687065
+869 cost= 82.79465 with std= 1.5785161
+valid cost =  92.603226
+870 cost= 82.774345 with std= 1.6795186
+valid cost =  92.472015
+871 cost= 82.67151 with std= 1.6673793
+valid cost =  92.419174
+872 cost= 82.699455 with std= 1.6168735
+valid cost =  92.76395
+873 cost= 82.566475 with std= 1.5778773
+valid cost =  92.533165
+874 cost= 82.845894 with std= 1.6652727
+valid cost =  92.75755
+875 cost= 82.984825 with std= 1.5546683
+valid cost =  92.61183
+876 cost= 82.90336 with std= 1.6553278
+valid cost =  92.56769
+877 cost= 82.730125 with std= 1.6164889
+valid cost =  92.798935
+878 cost= 82.771866 with std= 1.6271749
+valid cost =  92.52218
+879 cost= 82.671005 with std= 1.6519909
+valid cost =  92.75164
+880 cost= 82.81188 with std= 1.6134031
+valid cost =  92.53808
+881 cost= 82.93947 with std= 1.5967312
+valid cost =  92.54161
+882 cost= 82.71287 with std= 1.5663637
+valid cost =  92.51544
+883 cost= 82.85812 with std= 1.4894214
+valid cost =  92.663
+884 cost= 82.59055 with std= 1.6180354
+valid cost =  92.62433
+885 cost= 82.691635 with std= 1.662487
+valid cost =  92.56836
+886 cost= 82.66969 with std= 1.6591341
+valid cost =  92.801834
+887 cost= 82.76479 with std= 1.6549847
+valid cost =  93.08004
+888 cost= 82.70038 with std= 1.5325171
+valid cost =  92.53438
+889 cost= 82.58722 with std= 1.7248619
+valid cost =  92.77812
+890 cost= 82.52133 with std= 1.5455843
+valid cost =  92.44799
+891 cost= 82.702126 with std= 1.5594143
+valid cost =  92.66352
+892 cost= 82.76748 with std= 1.7676215
+valid cost =  92.29726
+893 cost= 82.77932 with std= 1.6076859
+valid cost =  92.705734
+894 cost= 82.589035 with std= 1.7218958
+valid cost =  92.80819
+895 cost= 82.82236 with std= 1.6526695
+valid cost =  92.8864
+896 cost= 82.53312 with std= 1.650202
+valid cost =  92.7198
+897 cost= 82.7916 with std= 1.6830399
+valid cost =  92.80977
+898 cost= 82.79519 with std= 1.6867558
+valid cost =  93.0593
+899 cost= 82.76261 with std= 1.7288382
+valid cost =  92.3542
+900 cost= 82.45804 with std= 1.5128423
+valid cost =  92.624245
+901 cost= 82.5635 with std= 1.6324077
+valid cost =  92.597824
+902 cost= 82.504135 with std= 1.5808122
+valid cost =  92.69382
+903 cost= 82.45357 with std= 1.5900116
+valid cost =  92.56435
+904 cost= 82.59147 with std= 1.5484762
+valid cost =  92.51735
+905 cost= 82.48431 with std= 1.5765686
+valid cost =  92.37496
+906 cost= 82.517525 with std= 1.6260035
+valid cost =  92.60192
+907 cost= 82.50651 with std= 1.659227
+valid cost =  92.620735
+908 cost= 82.6915 with std= 1.5203165
+valid cost =  92.78374
+909 cost= 82.54834 with std= 1.6827601
+valid cost =  92.598854
+910 cost= 82.54102 with std= 1.6814282
+valid cost =  92.44672
+911 cost= 82.442375 with std= 1.6919276
+valid cost =  92.101135
+912 cost= 82.2426 with std= 1.5793029
+valid cost =  92.52559
+913 cost= 82.34216 with std= 1.6698446
+valid cost =  92.275536
+914 cost= 82.51608 with std= 1.6458464
+valid cost =  92.39082
+915 cost= 82.38769 with std= 1.6947818
+valid cost =  92.66167
+916 cost= 82.25252 with std= 1.6522743
+valid cost =  92.35998
+917 cost= 82.351395 with std= 1.5915786
+valid cost =  92.45972
+918 cost= 82.2155 with std= 1.5660837
+valid cost =  92.19063
+919 cost= 82.326256 with std= 1.6337286
+valid cost =  92.4269
+920 cost= 82.27452 with std= 1.6290901
+valid cost =  92.54239
+921 cost= 82.354416 with std= 1.6996659
+valid cost =  92.24707
+922 cost= 82.39951 with std= 1.6879475
+valid cost =  92.473274
+923 cost= 82.39255 with std= 1.6340778
+valid cost =  92.32209
+924 cost= 82.2356 with std= 1.5824714
+valid cost =  92.46082
+925 cost= 82.2503 with std= 1.626169
+valid cost =  92.516884
+926 cost= 82.24909 with std= 1.6926852
+valid cost =  92.32845
+927 cost= 82.16232 with std= 1.7349607
+valid cost =  92.28974
+928 cost= 82.54882 with std= 1.6310807
+valid cost =  92.76098
+929 cost= 82.37365 with std= 1.5358803
+valid cost =  92.439835
+930 cost= 82.17432 with std= 1.7086111
+valid cost =  92.08983
+931 cost= 82.225586 with std= 1.6846312
+valid cost =  92.392044
+932 cost= 82.26045 with std= 1.5936275
+valid cost =  92.211
+933 cost= 82.3086 with std= 1.5044197
+valid cost =  92.29043
+934 cost= 82.30711 with std= 1.6259427
+valid cost =  92.30909
+935 cost= 82.19295 with std= 1.6229532
+valid cost =  92.44453
+936 cost= 82.116806 with std= 1.5376261
+valid cost =  92.4972
+937 cost= 82.09202 with std= 1.5133826
+valid cost =  92.37401
+938 cost= 82.158 with std= 1.5327995
+valid cost =  92.39102
+939 cost= 82.283394 with std= 1.7456075
+valid cost =  92.47545
+940 cost= 82.20949 with std= 1.7199236
+valid cost =  92.006134
+941 cost= 82.18897 with std= 1.5863348
+valid cost =  92.50266
+942 cost= 82.2302 with std= 1.7518543
+valid cost =  92.05727
+943 cost= 82.11975 with std= 1.568958
+valid cost =  92.50503
+944 cost= 82.23645 with std= 1.5815557
+valid cost =  92.029884
+945 cost= 82.20626 with std= 1.7005304
+valid cost =  92.094475
+946 cost= 82.06415 with std= 1.6659034
+valid cost =  92.42732
+947 cost= 82.09873 with std= 1.5172259
+valid cost =  92.484665
+948 cost= 82.1931 with std= 1.613146
+valid cost =  92.22214
+949 cost= 82.12731 with std= 1.6507388
+valid cost =  92.091545
+950 cost= 82.05803 with std= 1.6117187
+valid cost =  92.1162
+951 cost= 82.17042 with std= 1.5886792
+valid cost =  92.26584
+952 cost= 82.30441 with std= 1.59282
+valid cost =  92.58985
+953 cost= 82.18785 with std= 1.635598
+valid cost =  92.27728
+954 cost= 82.15574 with std= 1.7092746
+valid cost =  92.596634
+955 cost= 82.11864 with std= 1.606804
+valid cost =  92.69664
+956 cost= 82.07683 with std= 1.4702826
+valid cost =  92.52399
+957 cost= 81.85989 with std= 1.5606115
+valid cost =  92.665375
+958 cost= 82.05545 with std= 1.7287441
+valid cost =  92.360634
+959 cost= 81.93283 with std= 1.7135767
+valid cost =  92.38379
+960 cost= 82.236374 with std= 1.6396232
+valid cost =  92.414185
+961 cost= 81.797646 with std= 1.5030917
+valid cost =  92.140884
+962 cost= 81.99803 with std= 1.5634596
+valid cost =  92.550865
+963 cost= 82.03977 with std= 1.5779194
+valid cost =  93.17704
+964 cost= 82.07168 with std= 1.3835073
+valid cost =  92.50026
+965 cost= 81.881134 with std= 1.7056636
+valid cost =  92.661766
+966 cost= 81.89182 with std= 1.6102408
+valid cost =  92.413414
+967 cost= 81.94449 with std= 1.5920181
+valid cost =  92.47441
+968 cost= 81.80713 with std= 1.7505608
+valid cost =  92.30545
+969 cost= 81.763695 with std= 1.6694546
+valid cost =  92.20998
+970 cost= 81.90353 with std= 1.595746
+valid cost =  92.33224
+971 cost= 82.03857 with std= 1.5845523
+valid cost =  92.78219
+972 cost= 81.942444 with std= 1.7943285
+valid cost =  92.45101
+973 cost= 82.00977 with std= 1.5636166
+valid cost =  92.568825
+974 cost= 81.99611 with std= 1.606266
+valid cost =  92.23353
+975 cost= 81.809006 with std= 1.6164702
+valid cost =  92.50626
+976 cost= 81.61504 with std= 1.7003123
+valid cost =  91.94697
+977 cost= 81.72978 with std= 1.6404995
+valid cost =  92.36817
+978 cost= 81.850174 with std= 1.5987593
+valid cost =  92.688614
+979 cost= 82.054276 with std= 1.655877
+valid cost =  92.65772
+980 cost= 81.8441 with std= 1.6359836
+valid cost =  92.53908
+981 cost= 81.87716 with std= 1.5105873
+valid cost =  91.88759
+982 cost= 81.65612 with std= 1.6117191
+valid cost =  92.4539
+983 cost= 81.82647 with std= 1.6023029
+valid cost =  92.29473
+984 cost= 81.932755 with std= 1.6112466
+valid cost =  92.436775
+985 cost= 81.8928 with std= 1.6155342
+valid cost =  92.3788
+986 cost= 81.69978 with std= 1.6903229
+valid cost =  92.334435
+987 cost= 81.70773 with std= 1.530983
+valid cost =  92.461716
+988 cost= 81.960014 with std= 1.6954829
+valid cost =  92.13994
+989 cost= 82.03392 with std= 1.4926119
+valid cost =  92.33789
+990 cost= 81.71247 with std= 1.6003184
+valid cost =  92.43322
+991 cost= 81.578995 with std= 1.5632682
+valid cost =  92.358
+992 cost= 81.56771 with std= 1.5793748
+valid cost =  92.18286
+993 cost= 81.88429 with std= 1.5714592
+valid cost =  92.236206
+994 cost= 81.81724 with std= 1.5710826
+valid cost =  92.33226
+995 cost= 81.98904 with std= 1.6820258
+valid cost =  92.36656
+996 cost= 81.77685 with std= 1.5060757
+valid cost =  91.807884
+997 cost= 81.70064 with std= 1.5551947
+valid cost =  92.61664
+998 cost= 81.63446 with std= 1.5163487
+valid cost =  92.17189
+999 cost= 81.81136 with std= 1.643501
+valid cost =  92.94106
+REINFORCE
