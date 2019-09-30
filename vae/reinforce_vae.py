@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow.examples.tutorials.mnist import input_data
 import os
-import cPickle
+import pickle
 
 slim=tf.contrib.slim
 Bernoulli = tf.contrib.distributions.Bernoulli
@@ -23,7 +23,7 @@ Categorical = tf.contrib.distributions.Categorical
 directory = os.getcwd()+'/discrete_out/'
 if not os.path.exists(directory):
     os.makedirs(directory)
-np_lr = 0.0001        
+np_lr = 0.001  # With baseline we can use a higher learnrate
 EXPERIMENT = 'REINFORCE'
 
 batch_size = 200
@@ -107,7 +107,7 @@ tf.reset_default_graph()
 
 eps = 1e-6
 
-lr=tf.constant(0.0001)
+lr=tf.constant(np_lr)  # Note this is overriden in feed_dict
 
 
 x0 = tf.placeholder(tf.float32, shape=(batch_size,784), name='x')
@@ -141,13 +141,16 @@ theta = tf.nn.softmax(logits_y, dim=-1) #bs*N*K
 
 logq = tf.reduce_sum(tf.log(tf.reduce_sum(y_sample*theta,-1)+eps),-1)
 
-#bs
-F = fun(x,y_flat,logits_y,reuse_decoder=True) #to minimize
+# F = fun(x,y_flat,logits_y,reuse_decoder=True) #to minimize
+F = neg_elbo  # no need to re-evaluate
 
+# Sample baseline
+y_flat_bl = slim.flatten(tf.cast(tf.one_hot(q_y.sample(), depth=K), tf.float32))
+baseline = fun(x, y_flat_bl, logits_y, reuse_decoder=True)
 
 inf_vars = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope='encoder')
 
-relax_loss = tf.reduce_mean(tf.stop_gradient(F)*logq)
+relax_loss = tf.reduce_mean(tf.stop_gradient(F - baseline)*logq + F)  # Add baseline and pathwise gradient
 inf_grads = tf.gradients(relax_loss, inf_vars)
 
 inf_opt = tf.train.AdamOptimizer(lr)
@@ -184,7 +187,7 @@ def get_loss(sess,data,total_batch):
     cost_eval = []                  
     for j in range(total_batch):
         xs, _ = data.next_batch(batch_size)  
-        cost_eval.append(sess.run(neg_elbo,{x:xs}))
+        cost_eval.append(sess.run(neg_elbo,{x0:xs}))
     return np.mean(cost_eval)
 
 
@@ -207,7 +210,7 @@ if __name__ == "__main__":
         
         for i in range(total_batch):
             train_xs,_ = train_data.next_batch(batch_size)   
-            _,cost = sess.run([train_op,loss],{x:train_xs,lr:np_lr})
+            _,cost = sess.run([train_op,loss],{x0:train_xs,lr:np_lr})
             record.append(cost)
             step += 1
         
@@ -215,12 +218,15 @@ if __name__ == "__main__":
         
         if epoch%1 == 0:
             COUNT.append(step); COST.append(np.mean(record)); TIME.append(time.time()-start)
-            COST_VALID.append(get_loss(sess,valid_data,total_valid_batch))
+            valid_cost = get_loss(sess,valid_data,total_valid_batch)
+            COST_VALID.append(valid_cost)
+            print('valid cost = ', valid_cost)
         if epoch%5 == 0:
             epoch_list.append(epoch)
             time_list.append(time.time()-start)
             all_ = [COUNT,COST,TIME,COST_TEST,COST_VALID,epoch_list,time_list,evidence_r]
-            cPickle.dump(all_, open(directory+EXPERIMENT, 'wb'))
+            with open(directory + EXPERIMENT, 'wb') as f:
+                pickle.dump(all_, f)
                 
     
     print(EXPERIMENT)
